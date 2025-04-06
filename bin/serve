@@ -1,0 +1,75 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash -p bash git inotify-tools rsync nodejs yarn sass
+
+set -e
+
+DEV_DIR="/tmp/chobble-combined"
+CLIENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
+TEMPLATE_DIR="$DEV_DIR/template"
+COMBINED_DIR="$DEV_DIR/dev"
+
+mkdir -p "$DEV_DIR"
+
+if [ ! -d "$TEMPLATE_DIR" ]; then
+  git clone "$TEMPLATE_REPO" "$TEMPLATE_DIR"
+else
+  cd "$TEMPLATE_DIR"
+  git fetch origin
+  git reset --hard origin/main
+  cd - > /dev/null
+fi
+
+rm -rf "$COMBINED_DIR"
+mkdir -p "$COMBINED_DIR"
+
+rsync --recursive --exclude=".git" --exclude="node_modules" --exclude="*.md" \
+  "$TEMPLATE_DIR/" "$COMBINED_DIR/"
+
+rsync --recursive --exclude=".git" --exclude="*.nix" --exclude="README.md" \
+  "$CLIENT_DIR/" "$COMBINED_DIR/src/"
+
+watch_and_sync() {
+  inotifywait -m -r -e modify,create,delete,move -q "$CLIENT_DIR" | while read -r directory event filename; do
+    rsync --recursive --exclude=".git" --exclude="*.nix" --exclude="README.md" \
+      "$CLIENT_DIR/" "$COMBINED_DIR/src/"
+  done
+}
+
+watch_and_sync &
+WATCH_PID=$!
+
+cd "$COMBINED_DIR"
+
+if [ ! -d "node_modules" ]; then
+  yarn install
+fi
+
+SCSS_PATH="_scss"
+if [ -d "_scss" ]; then
+  SCSS_PATH="_scss"
+elif [ -d "src/_scss" ]; then
+  SCSS_PATH="src/_scss"
+fi
+
+rm -rf _site
+yarn eleventy --serve --incremental --quiet &
+ELEVENTY_PID=$!
+
+sass --watch "$SCSS_PATH:_site/css" --style compressed &
+SASS_PID=$!
+
+cleanup_serve() {
+  pkill -P $$ || true
+  kill $ELEVENTY_PID $SASS_PID $WATCH_PID 2>/dev/null || true
+  pkill -f "inotifywait.*$CLIENT_DIR" || true
+}
+
+trap cleanup_serve EXIT INT TERM
+
+echo "Development server running at http://localhost:8080"
+echo "Press Ctrl+C to stop"
+
+wait -n
+cleanup_serve
+trap - EXIT INT TERM
