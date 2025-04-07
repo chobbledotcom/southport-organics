@@ -60,7 +60,6 @@ fi
 rm -rf _site
 yarn eleventy \
   --serve \
-  --incremental \
   --quiet &
 ELEVENTY_PID=$!
 

@@ -23,3 +23,11 @@ article {
 header,
 footer {
 }
+
+body.left-nav main {
+  @media (min-width: 769px) {
+    grid-template-columns: 10rem 1fr !important;
+    grid-template-rows: 1fr min-content !important;
+    grid-template-areas: "nav content" !important;
+  }
+}
