@@ -1,0 +1,42 @@
+---
+title: Spa-Inspired Self Care Box for the Ultimate Pamper Session with Natural
+short_description: What better a way to feel relaxed, renewed, pampered and smelling gorgeous from head to toe than ...
+price: £30
+featured_image: 809dbfc3d8a12ba6.jpg
+categories:
+  - spa-and-relaxation
+  - pamper-hamper
+  - bride-to-be-gift-box
+gallery:
+  Image 1: 809dbfc3d8a12ba6.jpg
+  Image 2: cc1a48d3d56d64b5.jpg
+  Image 3: ce69cca8b14bfa50.jpg
+  Image 4: 8994f16bcf344e49.jpg
+  Image 5: bb19c06e95e4cc9c.jpg
+  Image 6: d5aa6e80569045ff.jpg
+  Image 7: 9fe868944e81cc9f.jpg
+  Image 8: eb4acc70b10f899e.jpg
+  Image 9: b48b462bd7461d56.jpg
+  Image 10: 975de8cada889e30.jpg
+specs:
+  - name: Price
+    value: £30
+  - name: Vegan
+    value: Yes
+  - name: Cruelty Free
+    value: Yes
+---
+
+What better a way to feel relaxed, renewed, pampered and smelling gorgeous from head to toe than with a luxurious Organic Salt Soak, a revitalising Clay Facial Mask and beautifully fragrant Organic Hand Cream. This gorgeously wrapped gift box contains: 
+Citrus & Rose Organic Bath Salts 300g
+Antioxidant Boosting Matcha Green Tea Facial Mask 20g
+Orange & Bergamot Rich Organic Hand Cream 50ml
+Bamboo spoon, mixing bowl and organic muslin facial cloth to compliment the face mask for a truly luxurious home spa experience.
+With elegant natural scents of Sweet Orange, Rose Geranium, Bergamot & Green Tea, and pampering natural extracts of Aloe Vera, Shea Butter, Cocoa Butter, Himalayan Pink Salt, Epsom Salts, Essential Oils & Cornish White Clay this luxurious combination is sure to brighten anyone’s day!
+Treat yourself or let someone know you care with this thoughtfully curated set from Southport Organics. Embrace the soothing power of nature and let worries drift away with every aromatic bath and facial session.
+🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+✍🏼 Gift messages are free with every order!
+🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+📮Fast despatch + Royal Mail 24hr Tracked
+🐰 Vegan, Cruelty Free & Palm Free
+🐾 With your support, Southport Organics donates £50 to a different animal charity each month
