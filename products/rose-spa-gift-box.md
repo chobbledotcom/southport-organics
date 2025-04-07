@@ -30,27 +30,39 @@ features:
   - 20g Pink Clay & Organic Rosehip Facial Mask. A brightening mask that gently exfoliates and nourishes skin, enough for 4 applications.
   - Facial Spa Accessories
   - 50ml Lavender & Rose Organic Hand Cream. This luxurious cream, enriched with Organic Shea & Cocoa Butters and Aloe Vera, deeply moisturises and soothes while pure essential oils ease a busy mind.
-  - 100ml ‘Everything’s Rosy’ Multi-purpose Face & Body Balm. Made with Organic Shea Butter, Almond Oil, and Vitamin E, this versatile balm nourishes and revitalizes both face and body, leaving skin feeling super soft and pampered.
+  - 100ml 'Everything's Rosy' Multi-purpose Face & Body Balm. Made with Organic Shea Butter, Almond Oil, and Vitamin E, this versatile balm nourishes and revitalizes both face and body, leaving skin feeling super soft and pampered.
 ---
 
 🌸 Relax. Unwind. Renew
 Treat yourself or a loved one to a soothing Rose Spa Gift Box, a beautiful Rose Geranium, Pink Clay & Rosehip botanical collection curated to provide a luxurious and relaxing bath & body experience. 
-Available in Three Sizes:
-**Best Seller Box:**
+
+## Available in Three Sizes
+
+### Best Seller Box
+
 - 300g Jar of Organic Wild Rose Bath Salts
-Freshly hand crafted with a calming triple blend of salts & Rose Geranium essential oil - transform an ordinary bath into a sanctuary of relaxation.
+- Freshly hand crafted with a calming triple blend of salts & Rose Geranium essential oil - transform an ordinary bath into a sanctuary of relaxation.
 - 20g Pink Clay & Organic Rosehip Facial Mask. A brightening mask that gently exfoliates and nourishes skin, enough for 4 applications.
 - Facial Spa Accessories
-Includes a natural mixing bowl, spoon, and muslin cloth for the complete spa-inspired experience.
-**Deluxe Box:**
+- Includes a natural mixing bowl, spoon, and muslin cloth for the complete spa-inspired experience.
+
+### Deluxe Box
+
 Includes everything in the Best Seller Box plus:
+
 - 50ml Lavender & Rose Organic Hand Cream. This luxurious cream, enriched with Organic Shea & Cocoa Butters and Aloe Vera, deeply moisturises and soothes while pure essential oils ease a busy mind. 
-**Super Deluxe Box:**
+
+### Super Deluxe Box
+
 Includes everything in the Deluxe Box plus:
-- 100ml ‘Everything’s Rosy’ Multi-purpose Face & Body Balm. Made with Organic Shea Butter, Almond Oil, and Vitamin E, this versatile balm nourishes and revitalizes both face and body, leaving skin feeling super soft and pampered.
-🌺 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+- 100ml 'Everything's Rosy' Multi-purpose Face & Body Balm. Made with Organic Shea Butter, Almond Oil, and Vitamin E, this versatile balm nourishes and revitalizes both face and body, leaving skin feeling super soft and pampered.
+
+## Product details
+
+- 🌺 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

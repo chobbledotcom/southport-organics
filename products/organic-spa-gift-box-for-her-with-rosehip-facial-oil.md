@@ -28,19 +28,27 @@ specs:
 ---
 
 Beautiful scents of Rose, Sweet Orange & Mandarin soothe & uplift.
+
 Pamper from head to toe and glow with a luxurious Organic Salt Soak, revitalising Clay Facial Mask with Accessories, a nourishing Rosy Glow Facial Oil and a luscious Cocoa Butter & Mandarin Lip Balm 🍊
+
 The perfect treat for skin and senses, this gorgeous organic spa experience comes beautifully gift-wrapped.
-Contents:
-300g Glass Jar of Citrus & Rose Bath Salts
-20g Rosehip Clay Facial Mask (four applications)
-Bamboo spoon & palm leaf mixing bowl
-100% Muslin Cotton Facial Cloth
-14g Juicy Mandarin Organic Lip Balm
-30ml Rosy Glow Organic Facial Oil
+
+## Contents
+
+- 300g Glass Jar of Citrus & Rose Bath Salts
+- 20g Rosehip Clay Facial Mask (four applications)
+- Bamboo spoon & palm leaf mixing bowl
+- 100% Muslin Cotton Facial Cloth
+- 14g Juicy Mandarin Organic Lip Balm
+- 30ml Rosy Glow Organic Facial Oil
+
 Treat yourself or let someone know you care. Embrace the soothing power of nature and feel deeply pampered with every aromatic bath and facial session.
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast dispatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast dispatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

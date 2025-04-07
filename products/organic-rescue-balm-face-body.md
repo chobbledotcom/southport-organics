@@ -1,6 +1,6 @@
 ---
 title: Organic Rescue Balm Face & Body
-short_description: Proudly introducing ‘Rosy Balm’! An all-in-one hero product for nourished, radiant, smoothed & pr...
+short_description: Proudly introducing 'Rosy Balm'! An all-in-one hero product for nourished, radiant, smoothed & pr...
 price: £15
 featured_image: db0160e8aea62ef6.jpg
 categories:
@@ -44,14 +44,25 @@ features:
   - Earthy, rosy, sensual, calming scent.
 ---
 
-Proudly introducing ‘Rosy Balm’! An all-in-one hero product for nourished, radiant, smoothed & protected skin from top to toe! Hand crafted with care using a blend of high quality ingredients, this rosy scented balm is light, easily absorbed, and has a velvety finish - no greasy residue!
-Key Ingredients:
-Benefits & Uses:
+Proudly introducing 'Rosy Balm'! An all-in-one hero product for nourished, radiant, smoothed & protected skin from top to toe! Hand crafted with care using a blend of high quality ingredients, this rosy scented balm is light, easily absorbed, and has a velvety finish - no greasy residue!
+
+## Key Ingredients
+
+MISSING
+
+## Benefits & Uses
+
+MISSING
+
 Suitable for use during pregnancy.
+
 100ml Glass jar with aluminium lid
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
