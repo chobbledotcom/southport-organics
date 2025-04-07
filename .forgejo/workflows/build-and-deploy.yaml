@@ -33,7 +33,7 @@ jobs:
         with:
           access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
           directory-to-upload: "./dist"
-          storage-endpoint: "https://storage.bunnycdn.com"
+          storage-endpoint: "https://uk.storage.bunnycdn.com"
           storage-zone-name: "southport-organics"
           storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
           concurrency: "5"
