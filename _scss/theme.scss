@@ -1,2 +1,25 @@
 @charset "utf-8";
 @use "sass:color";
+
+:root {
+  --color-bg: #000;
+  --color-bg-secondary: #222;
+  --color-bg-main: #000;
+  --color-link: #fff;
+  --color-secondary: #fff;
+  --color-secondary-accent: #fff;
+  --color-text: #eee;
+  --outer-border-radius: 0;
+  --border: 2px solid rgba(255, 255, 255, 0.2);
+  --width-content: 1300px;
+  --line-height: 1.8;
+}
+
+nav,
+article {
+  background: var(--color-bg-secondary);
+}
+
+header,
+footer {
+}
