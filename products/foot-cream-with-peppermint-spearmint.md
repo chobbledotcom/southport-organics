@@ -28,20 +28,27 @@ specs:
 
 Bring the twinkle back to your toes with an intensively comforting blend of vitamin E rich Almond, nourishing Avocado, deeply moisturising Shea Butter, fatty acid packed Macadamia Nut Oil and vitamin rich Rosehip to leave feet smoothed, softened and restored. Organic Spearmint & Peppermint essential oils cool and refresh leaving feet feeling like new again!  
  
-Ingredients: Aqua, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Glyceryl Stearate SE, Shea Butter Ethyl Esters, Sorbitan Olivate, Cetearyl Olivate, Macadamia Ternifolia Seed Oil, Benzyl Alcohol, Persea Gratissima (Avocado) Oil, Rosa Canina Fruit Oil, Cetyl Palmitate*, Sorbitan Palmitate*, Xantham Gum, Tocopherol, Rosa Canina Fruit Oil (Rosehip Oil), Dehydroacetic Acid, Calendula Officinalis Flower Extract, Chamomilla Recutita (Matricaria) Flower Extract, Organic Mentha Piperita Oil, Organic Mentha Spicata Oil, Citric Acid, Potassium Sorbate, Sodium Benzoate, **menthol, **limonene, **linalool
+## Ingredients
+
+Aqua, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Glyceryl Stearate SE, Shea Butter Ethyl Esters, Sorbitan Olivate, Cetearyl Olivate, Macadamia Ternifolia Seed Oil, Benzyl Alcohol, Persea Gratissima (Avocado) Oil, Rosa Canina Fruit Oil, Cetyl Palmitate*, Sorbitan Palmitate*, Xantham Gum, Tocopherol, Rosa Canina Fruit Oil (Rosehip Oil), Dehydroacetic Acid, Calendula Officinalis Flower Extract, Chamomilla Recutita (Matricaria) Flower Extract, Organic Mentha Piperita Oil, Organic Mentha Spicata Oil, Citric Acid, Potassium Sorbate, Sodium Benzoate, **menthol, **limonene, **linalool
 *Derived from Olive oil, not Palm oil
 ** Naturally occurring in essential oils
  
-Volume
+## Volume
+
 50ml
  
-Packaging
+## Packaging
+
 Aluminium tin
  
 Contains Almond & Macadamia Nut Oils.
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+* ✍🏼 Gift messages are free with every order!
+* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+* 📮 Fast despatch + Royal Mail 24hr Tracked
+* 🐰 Vegan, Cruelty Free & Palm Free
+* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

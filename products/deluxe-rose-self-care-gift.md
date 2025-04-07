@@ -33,12 +33,16 @@ features:
 ---
 
 🌸 Relax. Unwind. Renew
+
 Treat yourself or a loved one to a soothing Rose, Lavender & Rosehip botanical collection curated to provide a luxurious and relaxing experience. Perfect for those times when life calls for a bit of extra care and pampering with the dreamy calming scent of Rose Geranium 🌸
-Inside this beautifully wrapped gift box you’ll find:
+
 The perfect gift to yourself or a loved one in need of some luxurious self care and a well deserved time out 🌹
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

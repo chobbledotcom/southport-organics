@@ -28,24 +28,38 @@ specs:
 ---
 
 What better a way to feel relaxed and pampered than with two big jars of luxurious Organic Handmade Bath Salts and Rich Organic Hand or Foot Creams bursting with nourishing plant based ingredients and scented with beautiful natural essential oils! 🛁
-This gorgeously wrapped gift box contains: 
-Two 300g Glass Jars of Organic Bath Salts
-Two 50ml Rich Organic Hand Creams
+
+## This gorgeously wrapped gift box contains
+
+- Two 300g Glass Jars of Organic Bath Salts
+- Two 50ml Rich Organic Hand Creams
+
 Treat yourself or a loved one with a thoughtful selection of your choosing.
-Southport Organics Bath Salts are made with a mineral rich fusion of Sea Salts, Himalayan Pink Salts, Epsom Salts and organic Essential Oils to nourish and soothe body and mind. 
-😴Deep Calm
-🌊Refresh
-🍊Citrus & Rose
-🌱Muscle Ease
-🌺Wild Rose
-❄️Cooling Peppermint Foot Soak 
-To complete your pampering experience choose from four luxurious Hand Cream’s, enriched with Organic Shea Butter, Cocoa Butter, Aloe Vera, Sunflower, and natural essential oils.
-😴Lavender & Rose Geranium Hand Cream
-🍊Sweet Orange & Bergamot Hand Cream
-❄️Spearmint & Peppermint Foot Cream
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+Southport Organics Bath Salts are made with a mineral rich fusion of Sea Salts, Himalayan Pink Salts, Epsom Salts and organic Essential Oils to nourish and soothe body and mind.
+
+## Bath Salt Options
+
+- 😴 Deep Calm
+- 🌊 Refresh
+- 🍊 Citrus & Rose
+- 🌱 Muscle Ease
+- 🌺 Wild Rose
+- ❄️ Cooling Peppermint Foot Soak
+
+## Hand Cream Options
+
+To complete your pampering experience choose from four luxurious Hand Cream's, enriched with Organic Shea Butter, Cocoa Butter, Aloe Vera, Sunflower, and natural essential oils.
+
+- 😴 Lavender & Rose Geranium Hand Cream
+- 🍊 Sweet Orange & Bergamot Hand Cream
+- ❄️ Spearmint & Peppermint Foot Cream
+
+## Product details
+
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

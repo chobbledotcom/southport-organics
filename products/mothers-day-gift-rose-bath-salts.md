@@ -28,14 +28,28 @@ specs:
 ---
 
 Step into a rosy bliss with this beautifully gift wrapped spa hamper, crafted for a luxurious journey of self-care with pure Rose Geranium, organic Rosehip, French Pink Clay, Himalayan Pink Salt, organic Cocoa Butter, Aloe Vera and more!
-🌹 Wild Rose Bath Salts (300g) - Dive into a fragrant bath experience that soothes senses and leaves skin feeling silky soft.
-👐 Rose Geranium & Lavender Rich Organic Hand Cream (50ml) - Treat hands to a velvety rich hand cream infused with pure essential oils.
-🌷 Rosy Glow French Pink Clay & Organic Rosehip Facial Mask (20g, 4 applications) - Unveil a luminous complexion with a decadent face mask formulated to nourish, purify, and rejuvenate skin.
-🧖🏼‍♀️ Facial spa accessories which includes a natural bamboo spoon, mixing bowl & muslin cloth.
+
+## Contents
+
+- Wild Rose Bath Salts (300g)
+- Rose Geranium & Lavender Rich Organic Hand Cream (50ml)
+- Rosy Glow French Pink Clay & Organic Rosehip Facial Mask (20g, 4 applications)
+- Facial spa accessories including a natural bamboo spoon, mixing bowl & muslin cloth
+
+## Product benefits
+
+- 🌹 Wild Rose Bath Salts - Dive into a fragrant bath experience that soothes senses and leaves skin feeling silky soft.
+- 👋 Rose Geranium & Lavender Rich Organic Hand Cream - Treat hands to a velvety rich hand cream infused with pure essential oils.
+- 🌷 Rosy Glow French Pink Clay & Organic Rosehip Facial Mask - Unveil a luminous complexion with a decadent face mask formulated to nourish, purify, and rejuvenate skin.
+- 🧖‍♀️ Facial spa accessories which includes a natural bamboo spoon, mixing bowl & muslin cloth.
+
 Treat yourself or someone special to freshly handcrafted spa inspired products, beautifully gift wrapped with care ❤️
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

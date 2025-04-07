@@ -28,26 +28,42 @@ specs:
 ---
 
 What better way to feel relaxed, renewed and pampered from head to toe this Autumn than with a cosy luxurious Organic Salt Soak and a revitalising Clay Facial Mask! The perfect treat for skin and senses, this beautiful set comes beautifully packaged with fragrant botanicals in Autumnal colours making it a unique and gorgeous gift or self-care treat! 
-Contents:
-300g Glass Jar of Organic Bath Salts
-20g Organic Clay Facial Mask (four applications)
-Bamboo spoon, mixing bowl and 100% muslin cotton facial cloth
+
+## Contents
+
+- 300g Glass Jar of Organic Bath Salts
+- 20g Organic Clay Facial Mask (four applications)
+- Bamboo spoon, mixing bowl and 100% muslin cotton facial cloth
+
 Customise your box from a range of carefully handmade bath salts & facial masks, as below:
-Indulge in a blissful soak handmade with a blend of Sea Salt, Himalayan Pink Salt, Epsom Salt and Organic Essential Oils, bursting with over 80 minerals to soothe and nourish body & mind:
-😴Deep Calm (Lavender)
-🌹Wild Rose (Rose Geranium)
-🌿Refresh (Pink Grapefruit & Mint)
-🍊Citrus & Rose (Sweet Orange & Rose)
-🧊Peppermint Foot Soak 
-Complete your spa-inspired experience with a luxurious Clay Facial Mask (Contains atleast four applications) Each thoughtfully crafted to deeply pamper and revitalise skin:
-🌹Exfoliating Organic Rosehip & French Pink Clay
-🌿Antioxidant Rich Organic Matcha Green Tea
-🌾Soothing Lava Clay & Organic Oatmeal
-What makes these masks unique is that you get to mix them freshly at home using the bowl & spoon provided, either with water or other skin-safe ingredients such as coconut water, aloe vera juice,  cooled herbal teas or oat milk. This not only ensures they're incredibly fresh but also creates a spa-inspired ambiance through the ritual of blending elements of earth and water.
+
+## Indulge in a blissful soak
+
+Handmade with a blend of Sea Salt, Himalayan Pink Salt, Epsom Salt and Organic Essential Oils, bursting with over 80 minerals to soothe and nourish body & mind:
+
+* 😴 Deep Calm (Lavender)
+* 🌹 Wild Rose (Rose Geranium)
+* 🌿 Refresh (Pink Grapefruit & Mint)
+* 🍊 Citrus & Rose (Sweet Orange & Rose)
+* 🧊 Peppermint Foot Soak 
+
+## Complete your spa-inspired experience
+
+With a luxurious Clay Facial Mask (Contains atleast four applications) Each thoughtfully crafted to deeply pamper and revitalise skin:
+
+* 🌹 Exfoliating Organic Rosehip & French Pink Clay
+* 🌿 Antioxidant Rich Organic Matcha Green Tea
+* 🌾 Soothing Lava Clay & Organic Oatmeal
+
+What makes these masks unique is that you get to mix them freshly at home using the bowl & spoon provided, either with water or other skin-safe ingredients such as coconut water, aloe vera juice, cooled herbal teas or oat milk. This not only ensures they're incredibly fresh but also creates a spa-inspired ambiance through the ritual of blending elements of earth and water.
+
 Treat yourself or let someone know you care with a Southport Organics Home Spa Box! Embrace the soothing power of nature and deeply pamper with every aromatic bath and facial session 🛁
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order ❤️
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+* ✍🏼 Gift messages are free with every order ❤️
+* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+* 📮 Fast despatch + Royal Mail 24hr Tracked
+* 🐰 Vegan, Cruelty Free & Palm Free
+* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

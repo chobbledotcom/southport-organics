@@ -28,15 +28,20 @@ specs:
 ---
 
 What better a way to feel relaxed and renewed than with a luxurious top to toe pamper with 100% Natural, Organic, Eco Friendly, Handmade Home Spa products. Create a fragrant and relaxing spa day at home with Southport Organics, made with care 🛁
-This beautifully wrapped box contains:
-Mineral Rich Bath Salt Soak 300g
-Rich Organic Hand Cream 50ml
-Mandarin Lip Balm 14g
-Spearmint & Peppermint Rich Foot Cream 50ml
-100% Natural Loofah Exfoliating Sponge
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast dispatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Contents
+
+- Mineral Rich Bath Salt Soak 300g
+- Rich Organic Hand Cream 50ml
+- Mandarin Lip Balm 14g
+- Spearmint & Peppermint Rich Foot Cream 50ml
+- 100% Natural Loofah Exfoliating Sponge
+
+## Product details
+
+* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+* ✍🏼 Gift messages are free with every order!
+* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+* 📮 Fast dispatch + Royal Mail 24hr Tracked
+* 🐰 Vegan, Cruelty Free & Palm Free
+* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

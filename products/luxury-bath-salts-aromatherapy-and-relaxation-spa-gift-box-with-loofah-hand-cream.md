@@ -28,23 +28,37 @@ specs:
 ---
 
 What better way to feel relaxed and pampered from head to toe than with a luxurious Organic Salt Soak complete with natural exfoliating loofah sponge, floating orange slices and a deliciously scented organic hand or foot cream! The perfect treat for skin and senses, this beautiful set comes beautifully packaged making it a gorgeous gift or self-care treat! 
-Contents:
-300g Glass Jar of Organic Bath Salts
-Natural Plant Derived Loofah Sponge
-5 Dried Orange Slices
-A choice of 50ml Body or Foot Cream
-Indulge in a blissful soak with a deeply therapeutic blend of Sea Salt, Himalayan Pink Salt, Epsom Salt and Organic Essential Oils, bursting with over 80 minerals to soothe and nourish body & mind. Customise your box from a range of carefully handmade bath salts as below:
-😴Deep Calm (Lavender)
-🌹Wild Rose (Rose Geranium)
-🌿Refresh (Pink Grapefruit & Mint)
-🍊Citrus & Rose (Sweet Orange & Rose)
-🧊Cooling Peppermint Foot Soak 
-Complete your pamper session with a beautifully scented Rich Organic Hand Cream made with Organic Shea Butter, Cocoa Butter, Aloe Vera & Sunflower or a deeply moisturising Foot Cream made with tingly fresh Spearmint & Peppermint.
+
+## Contents
+
+- 300g Glass Jar of Organic Bath Salts
+- Natural Plant Derived Loofah Sponge
+- 5 Dried Orange Slices
+- A choice of 50ml Body or Foot Cream
+
+## Indulge in a blissful soak
+
+With a deeply therapeutic blend of Sea Salt, Himalayan Pink Salt, Epsom Salt and Organic Essential Oils, bursting with over 80 minerals to soothe and nourish body & mind. Customise your box from a range of carefully handmade bath salts as below:
+
+* 😴 Deep Calm (Lavender)
+* 🌹 Wild Rose (Rose Geranium)
+* 🌿 Refresh (Pink Grapefruit & Mint)
+* 🍊 Citrus & Rose (Sweet Orange & Rose)
+* 🧊 Cooling Peppermint Foot Soak 
+
+## Complete your pamper session
+
+With a beautifully scented Rich Organic Hand Cream made with Organic Shea Butter, Cocoa Butter, Aloe Vera & Sunflower or a deeply moisturising Foot Cream made with tingly fresh Spearmint & Peppermint.
+
 Please note: Spearmint Foot Cream contains Almond & Macadamia Nut Oils. 
+
 Treat yourself or let someone know you care with a Southport Organics Home Spa Box! Embrace the soothing power of nature and deeply pamper with every aromatic bath 🛁
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order ❤️
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+* ✍🏼 Gift messages are free with every order ❤️
+* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+* 📮 Fast despatch + Royal Mail 24hr Tracked
+* 🐰 Vegan, Cruelty Free & Palm Free
+* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

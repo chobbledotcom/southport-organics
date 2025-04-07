@@ -1,6 +1,6 @@
 ---
 title: Organic Vegan Lip Balm with Cocoa Butter
-short_description: Southport Organic’s luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oi...
+short_description: Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oi...
 price: £5
 featured_image: 95fc28371d903e9c.jpg
 categories:
@@ -27,15 +27,35 @@ specs:
     value: Yes
 ---
 
-Southport Organic’s luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oil and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Beautifully balmy, long lasting and deeply conditioning you’ll want to take these everywhere with you!
-🌱 Peppermint 14g 
-Organic Raw Cocoa Butter, Organic Jojoba Oil, Organic Castor Oil, Candelilla Wax (Plant-based), Peppermint Essential oil
-🍊 Mandarin 14g
-Organic Raw Cocoa Butter, Organic Jojoba Oil, Organic Castor Oil, Candelilla Wax (Plant-based), Mandarin Essential oil
-🌎 Eco friendly aluminium tin.
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan & Cruelty Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oil and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Beautifully balmy, long lasting and deeply conditioning you'll want to take these everywhere with you!
+
+## Lip Balm Options
+
+* 🌱 Peppermint 14g 
+* 🍊 Mandarin 14g
+
+## Ingredients
+
+### Peppermint
+- Organic Raw Cocoa Butter
+- Organic Jojoba Oil
+- Organic Castor Oil
+- Candelilla Wax (Plant-based)
+- Peppermint Essential oil
+
+### Mandarin
+- Organic Raw Cocoa Butter
+- Organic Jojoba Oil
+- Organic Castor Oil
+- Candelilla Wax (Plant-based)
+- Mandarin Essential oil
+
+## Product details
+
+* 🌎 Eco friendly aluminium tin.
+* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+* ✍🏼 Gift messages are free with every order!
+* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+* 📮 Fast despatch + Royal Mail 24hr Tracked
+* 🐰 Vegan & Cruelty Free
+* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

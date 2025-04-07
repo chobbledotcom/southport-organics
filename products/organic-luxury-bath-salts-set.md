@@ -28,21 +28,32 @@ specs:
 ---
 
 What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious fragrant Salt Soak! The perfect treat for skin and senses 🛁 
-Contents:
-300g Glass Jar of Bath Salts
-Loofah exfoliating sponge
-Dried orange slices 
+
+## Contents
+
+- 300g Glass Jar of Bath Salts
+- Loofah exfoliating sponge
+- Dried orange slices 
+
 Indulge in a blissful bathing experience with a blend of Sea Salt, Himalayan Pink Salt, and Epsom Salts, boasting over 80 essential minerals to soothe and nourish skin.
-Choose from a variety of beautiful fragrances, each thoughtfully handcrafted with organically grown essential oils. 
-😴Deep Calm (Lavender)
-🌹Wild Rose (Rose Geranium)
-🌿Refresh (Pink Grapefruit & Mint)
-🍊Citrus & Rose (Sweet Orange & Rose)
-🧊Cooling Peppermint Foot Soak 
+
+## Indulge in a blissful soak
+
+Choose from a variety of beautiful fragrances, each thoughtfully handcrafted with organically grown essential oils:
+
+* 😴 Deep Calm (Lavender)
+* 🌹 Wild Rose (Rose Geranium)
+* 🌿 Refresh (Pink Grapefruit & Mint)
+* 🍊 Citrus & Rose (Sweet Orange & Rose)
+* 🧊 Cooling Peppermint Foot Soak 
+
 Treat yourself or let someone know you care with this thoughtfully curated set from Southport Organics. Embrace the soothing power of nature and let your worries drift away with every aromatic bath.
-🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-✍🏼 Gift messages are free with every order!
-🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-📮Fast despatch + Royal Mail 24hr Tracked
-🐰 Vegan, Cruelty Free & Palm Free
-🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+
+## Product details
+
+* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+* ✍🏼 Gift messages are free with every order!
+* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+* 📮 Fast despatch + Royal Mail 24hr Tracked
+* 🐰 Vegan, Cruelty Free & Palm Free
+* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
