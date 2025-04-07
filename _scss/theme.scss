@@ -1,6 +1,27 @@
 @charset "utf-8";
 @use "sass:color";
 
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  src:
+    url(/assets/fonts/playfair-display-latin-500-normal.woff2) format("woff2"),
+    url(/assets/fonts/playfair-display-latin-500-normal.woff) format("woff");
+}
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", system;
+  font-weight: 500;
+}
+
 :root {
   --color-bg: #000;
   --color-bg-secondary: #222;
@@ -24,10 +45,32 @@ header,
 footer {
 }
 
+nav {
+  ul li ul {
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    transition: text-shadow 0.3s ease-in;
+    &.active,
+    &:active,
+    &:hover {
+      text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+    }
+  }
+}
+
 body.left-nav main {
   @media (min-width: 769px) {
     grid-template-columns: 10rem 1fr !important;
     grid-template-rows: 1fr min-content !important;
     grid-template-areas: "nav content" !important;
+  }
+}
+
+header {
+  h1 {
+    color: white;
   }
 }

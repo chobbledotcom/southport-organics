@@ -21,6 +21,8 @@ fi
 
 mkdir -p "$COMBINED_DIR"
 
+find "$COMBINED_DIR" -type f -name "*.md" -delete
+
 rsync \
   --recursive \
   --update \
