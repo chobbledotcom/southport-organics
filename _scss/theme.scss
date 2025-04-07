@@ -11,6 +11,16 @@
     url(/assets/fonts/playfair-display-latin-500-normal.woff) format("woff");
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  src:
+    url(/assets/fonts/playfair-display-latin-800-normal.woff2) format("woff2"),
+    url(/assets/fonts/playfair-display-latin-800-normal.woff) format("woff");
+}
+
 nav,
 h1,
 h2,
@@ -20,6 +30,9 @@ h5,
 h6 {
   font-family: "Playfair Display", system;
   font-weight: 500;
+  strong {
+    font-weight: 800;
+  }
 }
 
 :root {
@@ -51,12 +64,16 @@ nav {
   }
   a {
     text-decoration: none;
-    transition: text-shadow 0.3s ease-in;
-    &.active,
+    transition: text-shadow 0.5s linear;
     &:active,
     &:hover {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+    }
+    &.active {
       text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
       text-decoration: none;
+      font-weight: 800;
     }
   }
 }
@@ -72,5 +89,15 @@ body.left-nav main {
 header {
   h1 {
     color: white;
+  }
+}
+
+form.contact-form {
+  background: #000;
+  box-shadow: none;
+  color: var(--color-link);
+  label,
+  button {
+    color: var(--color-link);
   }
 }

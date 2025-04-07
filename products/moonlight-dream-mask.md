@@ -10,7 +10,7 @@ gallery:
   Gift Wrapping: beautiful-gift-wrapping-included.jpg
   Packaging: earth-friendly-packaging.jpg
   Natural, Organic & Vegan: natural-organic-vegan.jpg
-  Donating £50 to Animal Charities Each Month: 50-pounds-to-animal-charities.jpg
+  Donating to Animal Charities Each Month: 50-pounds-to-animal-charities.jpg
 ---
 
 This ultra-nourishing mask comforts, repairs, and deeply moisturises, leaving skin soft, smooth, and replenished by morning.

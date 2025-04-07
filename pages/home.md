@@ -11,6 +11,8 @@ eleventyNavigation:
   order: 1
 ---
 
+![Southport Organics: Luxury, Organic, Vegan, Cruelty Free](/images/banner.jpg)
+
 ## 💫 Luxury, Organic, Handmade Cosmetics
 
 📮 All orders are dispatched within 1-3 weekdays via Royal Mail 24hr Tracked.

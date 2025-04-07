@@ -12,7 +12,7 @@ gallery:
   Reviews: reviews.jpg
   Packaging: earth-friendly-packaging.jpg
   Natural, Organic & Vegan: natural-organic-vegan.jpg
-  Donating £50 to Animal Charities Each Month: 50-pounds-to-animal-charities.jpg
+  Donating to Animal Charities Each Month: 50-pounds-to-animal-charities.jpg
 ---
 
 Southport Organic’s luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oil and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Beautifully balmy, long lasting and deeply conditioning you’ll want to take these everywhere with you!

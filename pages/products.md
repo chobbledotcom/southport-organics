@@ -6,7 +6,7 @@ meta_title: Our Products
 layout: products.html
 eleventyNavigation:
   key: Products
-  order: 3
+  order: 2
 ---
 
 # Products

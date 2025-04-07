@@ -12,7 +12,7 @@ gallery:
   Reviews: reviews.jpg
   Packaging: earth-friendly-packaging.jpg
   Natural, Organic & Vegan: natural-organic-vegan.jpg
-  Donating £50 to Animal Charities Each Month: 50-pounds-to-animal-charities.jpg
+  Donating to Animal Charities Each Month: 50-pounds-to-animal-charities.jpg
 ---
 
 What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious fragrant Salt Soak! The perfect treat for skin and senses 🛁 Indulge in a blissful bathing experience with a blend of Sea Salt, Himalayan Pink Salt, and Epsom Salts, boasting over 80 essential minerals to soothe and nourish skin.
