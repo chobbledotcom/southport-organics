@@ -3,8 +3,9 @@
 
 set -e
 
-DEV_DIR="/tmp/chobble-combined"
 CLIENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CURRENT_DIR_NAME="$(basename "$CLIENT_DIR")"
+DEV_DIR="/tmp/chobble-client/$CURRENT_DIR_NAME"
 TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
 TEMPLATE_DIR="$DEV_DIR/template"
 COMBINED_DIR="$DEV_DIR/dev"

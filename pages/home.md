@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 1
 ---
 
-💫 Welcome to Southport Organics. Home of Luxury, Organic, Handmade Cosmetics.
+## 💫 Luxury, Organic, Handmade Cosmetics
 
 📮 All orders are dispatched within 1-3 weekdays via Royal Mail 24hr Tracked.
 
