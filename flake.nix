@@ -28,6 +28,7 @@
               --delete \
               --recursive \
               --exclude="/test" \
+              --exclude="/scripts" \
               --exclude="*.md" \
               "${chobble-template}/" $out/
 
