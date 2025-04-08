@@ -53,6 +53,7 @@ jobs:
           # Overlay our repo files into the src subdirectory
           rsync \
             --recursive \
+            --no-perms \
             --exclude=".git" \
             --exclude="*.nix" \
             --exclude="README.md" \
