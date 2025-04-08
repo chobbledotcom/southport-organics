@@ -18,6 +18,7 @@
     "product_thumb_widths": "240,480",
     "category_thumb_widths": "1300,900",
     "gallery_thumb_widths": "240,480",
-    "gallery_image_widths": "1300,900"
+    "gallery_image_widths": "1300,900",
+    "header_image_widths": "1300, 900"
   }
 }

@@ -1,0 +1,67 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash -p bash git inotify-tools rsync nodejs yarn sass
+
+set -e
+
+CLIENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CURRENT_DIR_NAME="$(basename "$CLIENT_DIR")"
+DEV_DIR="/tmp/chobble-client/$CURRENT_DIR_NAME"
+TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
+TEMPLATE_DIR="$DEV_DIR/template"
+COMBINED_DIR="$DEV_DIR/dev"
+
+mkdir -p "$DEV_DIR"
+
+if [ ! -d "$TEMPLATE_DIR" ]; then
+  git clone "$TEMPLATE_REPO" "$TEMPLATE_DIR"
+else
+  cd "$TEMPLATE_DIR"
+  git fetch origin
+  git reset --hard origin/main
+fi
+
+mkdir -p "$COMBINED_DIR"
+
+find "$COMBINED_DIR" -type f -name "*.md" -delete
+
+rsync \
+  --recursive \
+  --delete \
+  --exclude=".git" \
+  --exclude="node_modules" \
+  --exclude="*.md" \
+  --exclude=".cache" \
+  "$TEMPLATE_DIR/" "$COMBINED_DIR/"
+
+mkdir -p "$COMBINED_DIR/.cache"
+
+sync_client_files() {
+  rsync \
+    --recursive \
+    --exclude=".git" \
+    --exclude="*.nix" \
+    --exclude="README.md" \
+    "$CLIENT_DIR/" "$COMBINED_DIR/src/"
+}
+
+sync_client_files
+
+watch_and_sync() {
+  inotifywait -m -r -e modify,create,delete,move -q "$CLIENT_DIR" | while read -r directory event filename; do
+    sync_client_files
+  done
+}
+
+watch_and_sync &
+WATCH_PID=$!
+
+cd "$COMBINED_DIR"
+
+if [ ! -d "node_modules" ]; then
+  yarn install
+fi
+
+rm -rf _site
+sass --update src/_scss:_site/css --style expanded
+yarn --offline eleventy
+pwd
