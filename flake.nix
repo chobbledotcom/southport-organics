@@ -28,13 +28,13 @@
               --delete \
               --recursive \
               --exclude="/test" \
-              --exclude="/scripts" \
               --exclude="*.md" \
               "${chobble-template}/" $out/
 
             ${pkgs.rsync}/bin/rsync \
               --recursive \
               --exclude="*.nix" \
+              --exclude="/scripts" \
               --exclude="README.md" \
               "${self}/" $out/src/
           '';
