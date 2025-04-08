@@ -26,7 +26,6 @@ find "$COMBINED_DIR" -type f -name "*.md" -delete
 
 rsync \
   --recursive \
-  --update \
   --delete \
   --exclude=".git" \
   --exclude="node_modules" \
@@ -36,7 +35,6 @@ rsync \
 sync_client_files() {
   rsync \
     --recursive \
-    --update \
     --exclude=".git" \
     --exclude="*.nix" \
     --exclude="README.md" \
