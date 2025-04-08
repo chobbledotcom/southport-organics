@@ -16,20 +16,22 @@ jobs:
 
       - name: Clone template and merge repos
         run: |
-          # Setup directories
+          # Setup directories (match bin/serve structure)
           TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
-          TEMPLATE_DIR="${{ github.workspace }}/template"
-          BUILD_DIR="${{ github.workspace }}/build"
+          DEV_DIR="${{ github.workspace }}/tmp"
+          TEMPLATE_DIR="$DEV_DIR/template"
+          COMBINED_DIR="$DEV_DIR/dev"
           DEPLOY_PATH="${{ github.workspace }}/dist"
+          
+          # Create directories
+          mkdir -p "$DEV_DIR"
+          mkdir -p "$COMBINED_DIR"
+          mkdir -p "$DEPLOY_PATH"
           
           # Clone the template repo
           git clone "$TEMPLATE_REPO" "$TEMPLATE_DIR"
           
-          # Create build directory
-          mkdir -p "$BUILD_DIR"
-          mkdir -p "$DEPLOY_PATH"
-          
-          # Copy template files first
+          # Copy template files to combined dir first (exactly like bin/serve)
           rsync \
             --recursive \
             --update \
@@ -37,9 +39,9 @@ jobs:
             --exclude=".git" \
             --exclude="node_modules" \
             --exclude="*.md" \
-            "$TEMPLATE_DIR/" "$BUILD_DIR/"
+            "$TEMPLATE_DIR/" "$COMBINED_DIR/"
           
-          # Overlay our repo files on top
+          # Overlay our repo files into the src subdirectory (exactly like bin/serve)
           rsync \
             --recursive \
             --update \
@@ -47,20 +49,22 @@ jobs:
             --exclude="*.nix" \
             --exclude="README.md" \
             --exclude=".forgejo" \
-            "${{ github.workspace }}/" "$BUILD_DIR/src/"
+            "${{ github.workspace }}/" "$COMBINED_DIR/src/"
           
           # Save paths for next steps
-          echo "BUILD_DIR=$BUILD_DIR" >> $GITHUB_ENV
+          echo "COMBINED_DIR=$COMBINED_DIR" >> $GITHUB_ENV
           echo "DEPLOY_PATH=$DEPLOY_PATH" >> $GITHUB_ENV
 
       - name: Update site.json with secrets
         run: |
-          sed -i 's/"formspark_id": "[^"]*"/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$BUILD_DIR/src/_data/site.json"
-          sed -i 's/"botpoison_public_key": "[^"]*"/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$BUILD_DIR/src/_data/site.json"
+          if [ -f "$COMBINED_DIR/src/_data/site.json" ]; then
+            sed -i 's/"formspark_id": "[^"]*"/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$COMBINED_DIR/src/_data/site.json"
+            sed -i 's/"botpoison_public_key": "[^"]*"/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$COMBINED_DIR/src/_data/site.json"
+          fi
 
       - name: Build site
         run: |
-          cd $BUILD_DIR
+          cd $COMBINED_DIR
           
           # Install dependencies
           yarn install
