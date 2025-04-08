@@ -4,11 +4,11 @@
   "botpoison_public_key": null,
   "url": "",
   "socials": {
-    "Facebook": "",
-    "Instagram": "",
-    "TikTok": "",
-    "Google": "",
-    "WhatsApp": "",
+    "Facebook": null,
+    "Instagram": null,
+    "TikTok": null,
+    "Google": null,
+    "WhatsApp": null,
     "RSS": "/feed.xml"
   },
   "sticky_mobile_nav": true,

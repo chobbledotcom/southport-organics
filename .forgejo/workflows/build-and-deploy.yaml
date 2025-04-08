@@ -35,7 +35,6 @@ jobs:
           # Copy template files to combined dir first
           rsync \
             --recursive \
-            --update \
             --delete \
             --exclude=".git" \
             --exclude="node_modules" \
@@ -45,7 +44,6 @@ jobs:
           # Overlay our repo files into the src subdirectory
           rsync \
             --recursive \
-            --update \
             --exclude=".git" \
             --exclude="*.nix" \
             --exclude="README.md" \
