@@ -13,25 +13,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          path: source
 
       - name: Clone template and merge repos
         run: |
-          # Setup directories (match bin/serve structure)
+          # Setup directories
           TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
-          DEV_DIR="${{ github.workspace }}/tmp"
-          TEMPLATE_DIR="$DEV_DIR/template"
-          COMBINED_DIR="$DEV_DIR/dev"
+          TEMPLATE_DIR="${{ github.workspace }}/template"
+          COMBINED_DIR="${{ github.workspace }}/combined"
           DEPLOY_PATH="${{ github.workspace }}/dist"
           
           # Create directories
-          mkdir -p "$DEV_DIR"
           mkdir -p "$COMBINED_DIR"
           mkdir -p "$DEPLOY_PATH"
           
-          # Clone the template repo
+          # Clone the template repo into a separate directory
           git clone "$TEMPLATE_REPO" "$TEMPLATE_DIR"
           
-          # Copy template files to combined dir first (exactly like bin/serve)
+          # Copy template files to combined dir first
           rsync \
             --recursive \
             --update \
@@ -41,7 +41,7 @@ jobs:
             --exclude="*.md" \
             "$TEMPLATE_DIR/" "$COMBINED_DIR/"
           
-          # Overlay our repo files into the src subdirectory (exactly like bin/serve)
+          # Overlay our repo files into the src subdirectory
           rsync \
             --recursive \
             --update \
@@ -49,7 +49,7 @@ jobs:
             --exclude="*.nix" \
             --exclude="README.md" \
             --exclude=".forgejo" \
-            "${{ github.workspace }}/" "$COMBINED_DIR/src/"
+            "${{ github.workspace }}/source/" "$COMBINED_DIR/src/"
           
           # Save paths for next steps
           echo "COMBINED_DIR=$COMBINED_DIR" >> $GITHUB_ENV
