@@ -32,6 +32,8 @@ rsync \
   --exclude="*.md" \
   "$TEMPLATE_DIR/" "$COMBINED_DIR/"
 
+mkdir -p "$COMBINED_DIR/.cache"
+
 sync_client_files() {
   rsync \
     --recursive \
@@ -76,9 +78,6 @@ cleanup_serve() {
 }
 
 trap cleanup_serve EXIT INT TERM
-
-echo "Development server running at http://localhost:8080"
-echo "Press Ctrl+C to stop"
 
 wait -n
 cleanup_serve
