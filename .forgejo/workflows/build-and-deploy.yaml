@@ -84,9 +84,7 @@ jobs:
         run: |
           BUILT_SITE_PATH="${{ github.workspace }}/built-site"
           mkdir -p "$BUILT_SITE_PATH"
-          # Use rsync to move all files except .cache to the built-site folder
-          rsync -av --exclude=".cache" --remove-source-files "$DEPLOY_PATH/" "$BUILT_SITE_PATH/"
-          # Only .cache should remain in $DEPLOY_PATH now
+          rsync -av --exclude=".cache" "$DEPLOY_PATH/" "$BUILT_SITE_PATH/"
           echo "BUILT_SITE_PATH=$BUILT_SITE_PATH" >> $GITHUB_ENV
 
       - name: Deploy to Bunny
