@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 
 env:
+  NIX_PATH: nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
 
 jobs:
@@ -13,67 +14,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          path: source
-
-      - name: Clone template and merge repos
-        run: |
-          # Setup directories
-          TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
-          TEMPLATE_DIR="${{ github.workspace }}/template"
-          COMBINED_DIR="${{ github.workspace }}/combined"
-          DEPLOY_PATH="${{ github.workspace }}/dist"
-          
-          # Create directories
-          mkdir -p "$COMBINED_DIR"
-          mkdir -p "$DEPLOY_PATH"
-          
-          # Clone the template repo into a separate directory
-          git clone "$TEMPLATE_REPO" "$TEMPLATE_DIR"
-          
-          # Copy template files to combined dir first
-          rsync \
-            --recursive \
-            --update \
-            --delete \
-            --exclude=".git" \
-            --exclude="node_modules" \
-            --exclude="*.md" \
-            "$TEMPLATE_DIR/" "$COMBINED_DIR/"
-          
-          # Overlay our repo files into the src subdirectory
-          rsync \
-            --recursive \
-            --update \
-            --exclude=".git" \
-            --exclude="*.nix" \
-            --exclude="README.md" \
-            --exclude=".forgejo" \
-            "${{ github.workspace }}/source/" "$COMBINED_DIR/src/"
-          
-          # Save paths for next steps
-          echo "COMBINED_DIR=$COMBINED_DIR" >> $GITHUB_ENV
-          echo "DEPLOY_PATH=$DEPLOY_PATH" >> $GITHUB_ENV
 
       - name: Update site.json with secrets
         run: |
-          if [ -f "$COMBINED_DIR/src/_data/site.json" ]; then
-            sed -i 's/"formspark_id": "[^"]*"/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$COMBINED_DIR/src/_data/site.json"
-            sed -i 's/"botpoison_public_key": "[^"]*"/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$COMBINED_DIR/src/_data/site.json"
+          if [ -f "$GITHUB_WORKSPACE/_data/site.json" ]; then
+            sed -i 's/"formspark_id": "[^"]*"/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$GITHUB_WORKSPACE/_data/site.json"
+            sed -i 's/"botpoison_public_key": "[^"]*"/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$GITHUB_WORKSPACE/_data/site.json"
           fi
 
-      - name: Build site
+      - name: Build
+        id: build
         run: |
-          cd $COMBINED_DIR
-          
-          # Install dependencies
-          yarn install
-          
-          # Build the site
-          yarn eleventy
-          
-          # Copy built site to deploy directory
-          cp -r _site/* $DEPLOY_PATH/
+          DEPLOY_PATH="$GITHUB_WORKSPACE/dist"
+          mkdir -p "$DEPLOY_PATH"
+          nix-fast-build --skip-cached --flake ".#packages.x86_64-linux.site" --no-nom
+          cp -r result-/* "$DEPLOY_PATH"/
 
       - name: Deploy to Bunny
         uses: R-J-dev/bunny-deploy@v2.0.6
