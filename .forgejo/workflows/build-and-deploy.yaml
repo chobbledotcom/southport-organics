@@ -1,4 +1,4 @@
-name: Build and Deploy to Neocities
+name: Build and Deploy to Bunny
 
 on:
   push:
@@ -6,39 +6,44 @@ on:
 
 env:
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+  TEMPLATE_REPO: "https://git.chobble.com/chobble/chobble-template.git"
+  TEMPLATE_PATH: ${{ github.workspace }}/template
+  COMBINED_PATH: ${{ github.workspace }}/combined
+  RESULT_PATH: ${{ github.workspace }}/combined/result-/
+  BUILT_SITE_PATH: ${{ github.workspace }}/built-site
+  CACHE_PATH: ${{ github.workspace }}/.cache
 
 jobs:
   build:
     runs-on: native
     steps:
-      - name: Checkout
+      - name: Checkout this repo
         uses: actions/checkout@v4
         with:
           path: source
 
+      - name: Checkout Chobble Template
+        uses: actions/checkout@v4
+        with:
+          repository: chobble/chobble-template
+          ref: main
+          path: template
+
       - name: Persist Eleventy .cache
         uses: actions/cache@v4
         with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
+          path: ${{ github.workspace }}/.cache
+          key: eleventy-img-cache
+          restore-keys: eleventy-img-cache
 
-      - name: Clone template and merge repos
+      - name: Make combined dir
+        run: mkdir -p "${{ env.COMBINED_PATH }}"
+
+      - name: Make cache dir
+        run: mkdir -p "${{ env.CACHE_PATH }}"
+
+      - name: Copy template files to combined dir
         run: |
-          TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
-          TEMPLATE_PATH="${{ github.workspace }}/template"
-          COMBINED_PATH="${{ github.workspace }}/combined"
-          DEPLOY_PATH="${{ github.workspace }}/dist"
-          CACHE_PATH="${{ github.workspace }}/.cache"
-
-          # Create directories
-          mkdir -p "$COMBINED_PATH"
-          mkdir -p "$DEPLOY_PATH"
-          mkdir -p "$CACHE_PATH"
-
-          # Clone the template repo
-          git clone "$TEMPLATE_REPO" "$TEMPLATE_PATH"
-
-          # Copy template files to combined dir
           rsync \
             --recursive \
             --no-perms \
@@ -46,9 +51,10 @@ jobs:
             --exclude=".git" \
             --exclude="node_modules" \
             --exclude="*.md" \
-            "$TEMPLATE_PATH/" "$COMBINED_PATH/"
+            "${{ env.TEMPLATE_PATH }}/" "${{ env.COMBINED_PATH }}/"
 
-          # Overlay our repo files into combined dir
+      - name: Overlay our repo files into combined dir
+        run: |
           rsync \
             --recursive \
             --no-perms \
@@ -56,38 +62,75 @@ jobs:
             --exclude="*.nix" \
             --exclude="README.md" \
             --exclude=".forgejo" \
-            "${{ github.workspace }}/source/" "$COMBINED_PATH/src/"
+            "${{ github.workspace }}/source/" "${{ env.COMBINED_PATH }}/src/"
 
+      - name: Copy cache into combined dir
+        run: |
           rsync \
             --recursive \
-            "$CACHE_PATH" "$COMBINED_PATH/"
-
-          # Save paths for next steps
-          echo "COMBINED_PATH=$COMBINED_PATH" >> $GITHUB_ENV
-          echo "DEPLOY_PATH=$DEPLOY_PATH" >> $GITHUB_ENV
+            "${{ env.CACHE_PATH }}" "${{ env.COMBINED_PATH }}/"
 
       - name: Update site.json with secrets
         run: |
-          sed -i 's/"formspark_id": null/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$COMBINED_PATH/src/_data/site.json"
-          sed -i 's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$COMBINED_PATH/src/_data/site.json"
+          sed -i \
+            's/"formspark_id": null/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' \
+            "${{ env.COMBINED_PATH }}/src/_data/site.json"
+          sed -i \
+            's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' \
+            "${{ env.COMBINED_PATH }}/src/_data/site.json"
 
-      - name: Build
+      - name: Build with Nix
         id: build
         run: |
-          cd $COMBINED_PATH
-          nix-fast-build --skip-cached --flake ".#packages.x86_64-linux.site" --no-nom
-          cp -r result-/* $DEPLOY_PATH/
+          cd ${{ env.COMBINED_PATH }}
+          nix-fast-build \
+            --skip-cached \
+            --flake ".#packages.x86_64-linux.site" \
+            --no-nom
 
       - name: Copy .cache out of result
         run: |
-          rsync -a "$DEPLOY_PATH/.cache/" "$CACHE_PATH"
+          CACHE_SRC="${{ env.RESULT_PATH }}/.cache"
+
+          # Check that source exists and is not empty
+          if [ ! -d "$CACHE_SRC" ] || [ -z "$(ls -A "$CACHE_SRC")" ]; then
+            echo "Error: .cache directory does not exist or is empty"
+            echo "Path: $CACHE_SRC"
+            exit 1
+          fi
+
+          rsync -a \
+            "$CACHE_SRC/" \
+            "${{ env.CACHE_PATH }}"
+
+      - name: Save cache
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ github.workspace }}/.cache
+          key: eleventy-img-cache
 
       - name: Copy built site out of result
         run: |
-          BUILT_SITE_PATH="${{ github.workspace }}/built-site"
-          mkdir -p "$BUILT_SITE_PATH"
-          rsync -a --exclude=".cache" "$DEPLOY_PATH/" "$BUILT_SITE_PATH/"
-          echo "BUILT_SITE_PATH=$BUILT_SITE_PATH" >> $GITHUB_ENV
+          RESULT_SRC="${{ env.RESULT_PATH }}"
+
+          # Check that source exists and has content (excluding .cache)
+          if [ ! -d "$RESULT_SRC" ]; then
+            echo "Error: Result directory does not exist"
+            echo "Path: $RESULT_SRC"
+            exit 1
+          fi
+
+          if [ -z "$(ls -A "$RESULT_SRC" | grep -v '.cache')" ]; then
+            echo "Error: Result directory is empty (excluding .cache)"
+            echo "Path: $RESULT_SRC"
+            exit 1
+          fi
+
+          mkdir -p "${{ env.BUILT_SITE_PATH }}"
+          rsync -a \
+            --exclude=".cache" \
+            "$RESULT_SRC" \
+            "${{ env.BUILT_SITE_PATH }}/"
 
       - name: Deploy to Bunny
         uses: R-J-dev/bunny-deploy@v2.0.6
