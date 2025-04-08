@@ -47,7 +47,7 @@ jobs:
           # Copy template files to combined dir first
           rsync \
             --recursive \
-            --perms=off \
+            --no-perms \
             --delete \
             --exclude=".git" \
             --exclude="node_modules" \
