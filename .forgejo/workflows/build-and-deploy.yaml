@@ -24,7 +24,6 @@ jobs:
 
       - name: Clone template and merge repos
         run: |
-          # Setup directories
           TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
           TEMPLATE_PATH="${{ github.workspace }}/template"
           COMBINED_PATH="${{ github.workspace }}/combined"
@@ -36,10 +35,10 @@ jobs:
           mkdir -p "$DEPLOY_PATH"
           mkdir -p "$CACHE_PATH"
 
-          # Clone the template repo into a separate directory
+          # Clone the template repo
           git clone "$TEMPLATE_REPO" "$TEMPLATE_PATH"
 
-          # Copy template files to combined dir first
+          # Copy template files to combined dir
           rsync \
             --recursive \
             --no-perms \
@@ -49,7 +48,7 @@ jobs:
             --exclude="*.md" \
             "$TEMPLATE_PATH/" "$COMBINED_PATH/"
 
-          # Overlay our repo files into the src subdirectory
+          # Overlay our repo files into combined dir
           rsync \
             --recursive \
             --no-perms \
@@ -79,11 +78,15 @@ jobs:
           nix-fast-build --skip-cached --flake ".#packages.x86_64-linux.site" --no-nom
           cp -r result-/* $DEPLOY_PATH/
 
-      - name: Create built-site folder without .cache
+      - name: Copy .cache out of result
+        run: |
+          rsync -a "$DEPLOY_PATH/.cache/" "$CACHE_PATH"
+
+      - name: Copy built site out of result
         run: |
           BUILT_SITE_PATH="${{ github.workspace }}/built-site"
           mkdir -p "$BUILT_SITE_PATH"
-          rsync -av --exclude=".cache" "$DEPLOY_PATH/" "$BUILT_SITE_PATH/"
+          rsync -a --exclude=".cache" "$DEPLOY_PATH/" "$BUILT_SITE_PATH/"
           echo "BUILT_SITE_PATH=$BUILT_SITE_PATH" >> $GITHUB_ENV
 
       - name: Deploy to Bunny
