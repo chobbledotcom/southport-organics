@@ -27,16 +27,18 @@ jobs:
         run: |
           # Setup directories
           TEMPLATE_REPO="https://git.chobble.com/chobble/chobble-template.git"
-          TEMPLATE_DIR="${{ github.workspace }}/template"
-          COMBINED_DIR="${{ github.workspace }}/combined"
+          TEMPLATE_PATH="${{ github.workspace }}/template"
+          COMBINED_PATH="${{ github.workspace }}/combined"
           DEPLOY_PATH="${{ github.workspace }}/dist"
+          CACHE_PATH="${{ github.workspace }}/.cache"
 
           # Create directories
-          mkdir -p "$COMBINED_DIR"
+          mkdir -p "$COMBINED_PATH"
           mkdir -p "$DEPLOY_PATH"
+          mkdir -p "$CACHE_PATH"
 
           # Clone the template repo into a separate directory
-          git clone "$TEMPLATE_REPO" "$TEMPLATE_DIR"
+          git clone "$TEMPLATE_REPO" "$TEMPLATE_PATH"
 
           # Copy template files to combined dir first
           rsync \
@@ -46,7 +48,7 @@ jobs:
             --exclude=".git" \
             --exclude="node_modules" \
             --exclude="*.md" \
-            "$TEMPLATE_DIR/" "$COMBINED_DIR/"
+            "$TEMPLATE_PATH/" "$COMBINED_PATH/"
 
           # Overlay our repo files into the src subdirectory
           rsync \
@@ -55,21 +57,25 @@ jobs:
             --exclude="*.nix" \
             --exclude="README.md" \
             --exclude=".forgejo" \
-            "${{ github.workspace }}/source/" "$COMBINED_DIR/src/"
+            "${{ github.workspace }}/source/" "$COMBINED_PATH/src/"
+
+          rsync \
+            --recursive \
+            "$CACHE_PATH/" "$COMBINED_PATH/"
 
           # Save paths for next steps
-          echo "COMBINED_DIR=$COMBINED_DIR" >> $GITHUB_ENV
+          echo "COMBINED_PATH=$COMBINED_PATH" >> $GITHUB_ENV
           echo "DEPLOY_PATH=$DEPLOY_PATH" >> $GITHUB_ENV
 
       - name: Update site.json with secrets
         run: |
-          sed -i 's/"formspark_id": null/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$COMBINED_DIR/src/_data/site.json"
-          sed -i 's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$COMBINED_DIR/src/_data/site.json"
+          sed -i 's/"formspark_id": null/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' "$COMBINED_PATH/src/_data/site.json"
+          sed -i 's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' "$COMBINED_PATH/src/_data/site.json"
 
       - name: Build
         id: build
         run: |
-          cd $COMBINED_DIR
+          cd $COMBINED_PATH
           nix-fast-build --skip-cached --flake ".#packages.x86_64-linux.site" --no-nom
           cp -r result-/* $DEPLOY_PATH/
 
