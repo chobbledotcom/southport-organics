@@ -17,18 +17,6 @@ jobs:
         with:
           path: source
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-
-      - uses: nix-community/cache-nix-action@v6
-        id: yarn-cache
-        with:
-          primary-key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-prefixes-first-match: |
-            ${{ runner.os }}-yarn-
-          paths: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-
       - name: Clone template and merge repos
         run: |
           # Setup directories
