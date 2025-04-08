@@ -17,6 +17,11 @@ jobs:
         with:
           path: source
 
+      - name: Cache .cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+
       - name: Clone template and merge repos
         run: |
           # Setup directories
