@@ -13,5 +13,8 @@
   },
   "sticky_mobile_nav": true,
   "horizontal_nav": false,
-  "template_repo_url": "https://git.chobble.com/chobble/chobble-client"
+  "template_repo_url": "https://git.chobble.com/chobble/chobble-client",
+  "products": {
+    "gallery_image_widths": "120,240,480"
+  }
 }
