@@ -61,7 +61,7 @@ jobs:
 
           rsync \
             --recursive \
-            "$CACHE_PATH/" "$COMBINED_PATH/"
+            "$CACHE_PATH" "$COMBINED_PATH/"
 
           # Save paths for next steps
           echo "COMBINED_PATH=$COMBINED_PATH" >> $GITHUB_ENV
