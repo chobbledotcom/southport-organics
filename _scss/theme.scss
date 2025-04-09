@@ -113,3 +113,12 @@ ul.items {
     }
   }
 }
+
+a {
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
+}
