@@ -1,6 +1,5 @@
 ---
 title: Luxury Beauty Spa Box with Organic Bath Salts
-short_description: What better a way to feel relaxed and renewed than with a luxurious top to toe pamper with high q...
 price: £50
 featured_image: b097d5e093a91d72.jpg
 categories:
@@ -65,7 +64,7 @@ Curate your box with a wide range of natural scents and botanical benefits for a
 ### Bath Salts
 
 - 🌸 Wild Rose
-- 😌 Deep Calm 
+- 😌 Deep Calm
 - 🌱 Refresh
 - 🌹 Citrus & Rose
 - 🧊 Peppermint Foot Soak
@@ -79,9 +78,9 @@ Your set will also contain a luxurious Rosy Glow Facial Oil made with a blend of
 
 ## Product details
 
-* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order!
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast dispatch + Royal Mail 24hr Tracked
-* 🐰 Vegan, Cruelty Free & Palm Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast dispatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

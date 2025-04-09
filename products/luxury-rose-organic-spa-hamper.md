@@ -1,6 +1,5 @@
 ---
 title: Luxury Rose Organic Spa Hamper
-short_description: 🌸 Relax. Unwind. Renew
 price: £45
 featured_image: c0819b7b1e65f2ca.jpg
 categories:

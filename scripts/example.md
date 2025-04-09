@@ -1,6 +1,5 @@
 ---
 title: Kitchen Installation
-short_description: Complete kitchen design and fitting service
 price: From £15,000
 featured_image: placeholder-wide-4.jpg
 categories:

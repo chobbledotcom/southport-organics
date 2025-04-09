@@ -1,6 +1,5 @@
 ---
 title: Deluxe Spa Gift Box
-short_description: What better a way to feel relaxed and renewed than with a luxurious top to toe pamper with high q...
 price: £50
 featured_image: d3b6e98529186cce.jpg
 categories:

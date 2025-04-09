@@ -1,6 +1,5 @@
 ---
 title: Organic Spa Gift Box for Her with Rosehip Facial Oil
-short_description: Beautiful scents of Rose, Sweet Orange & Mandarin soothe & uplift.
 price: £45
 featured_image: bfe875929082c7c6.jpg
 categories:

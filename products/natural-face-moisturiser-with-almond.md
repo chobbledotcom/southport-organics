@@ -1,6 +1,5 @@
 ---
 title: Natural Face Moisturiser with Almond
-short_description: Introducing Calm Cream 😌 A deeply nourishing and calming facial cream particularly suitable for d...
 price: £12
 featured_image: aed1b19697294a71.jpg
 categories:

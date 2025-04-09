@@ -1,6 +1,5 @@
 ---
 title: Birthday Luxury Spa Gift with Organic Bath Salts
-short_description: What better a way to feel relaxed and renewed than with a luxurious top to toe pamper with 100% N...
 price: £35
 featured_image: 82f49cafc23d4a69.jpg
 categories:

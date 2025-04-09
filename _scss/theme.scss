@@ -101,3 +101,15 @@ form.contact-form {
     color: var(--color-link);
   }
 }
+
+ul.items {
+  & > * {
+    width: 100%;
+    @media (min-width: 798px) {
+      width: calc((100% - 2rem) / 3);
+    }
+    @media (min-width: 900px) {
+      width: calc((100% - 3rem) / 4);
+    }
+  }
+}

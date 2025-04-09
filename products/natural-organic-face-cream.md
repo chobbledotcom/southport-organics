@@ -1,6 +1,5 @@
 ---
 title: Natural Organic Face Cream
-short_description: Introducing Calm Cream 😌 A deeply nourishing and calming facial cream particularly suitable for d...
 price: £12
 featured_image: aed1b19697294a71.jpg
 categories:
@@ -50,17 +49,17 @@ Calm Cream is rich yet non-greasy and very fast absorbing. Skin is left feeling 
 Packaged in eco-friendly glass, Calm Cream is the perfect natural face cream that's gentle on skin and on the planet! 🌎
 
 Vegan, Cruelty Free & Palm Oil Free 🦧
- 
+
 ## How to use
 
-Gently massage into clean skin as often as required.                       
-  
+Gently massage into clean skin as often as required.
+
 ## Product information
 
 Volume: 50ml or 100ml
- 
+
 Packaging: Earth friendly Glass
- 
+
 Contains Nut Oils (Almond & Macadamia)
 
 Southport Organics products are made using only the purest, highest quality, fresh, organic and natural ingredients.
@@ -76,4 +75,4 @@ Southport Organics products are made using only the purest, highest quality, fre
 ## Ingredients
 
 Aqua, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Butter, Cetearyl Alcohol, Glyceryl Stearate SE, Shea Butter Ethyl Esters, Sorbitan Olivate, Cetearyl Olivate, Macadamia Ternifolia Seed Oil, Benzyl Alcohol, Persea Gratissima (Avocado) Oil, Rosa Canina Fruit Oil, Cetyl Palmitate*, Sorbitan Palmitate*, Xantham Gum, Tocopherol, Cannabis Sativa Oil (Organic Hemp Seed Oil), Rosa Canina Fruit Oil (Organic Rosehip Oil), Dehydroacetic Acid, Calendula Officinalis Flower Extract, Chamomilla Recutita (Matricaria) Flower Extract, Citric Acid, Potassium Sorbate, Sodium Benzoate.
-*Derived from Olive oil, not Palm.
+\*Derived from Olive oil, not Palm.

@@ -1,6 +1,5 @@
 ---
 title: Self Care Hamper with Organic
-short_description: What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Orga...
 price: £20
 featured_image: de856bc3c4c4d89c.jpg
 categories:
@@ -27,19 +26,19 @@ specs:
     value: Yes
 ---
 
-What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Hand & Body Cream bursting with therapeutic essential oils and a revitalising Clay Facial Mask! The perfect treat for skin and senses, this beautiful set comes gift-wrapped making it a delightful gift or indulgent self-care treat! 
+What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Hand & Body Cream bursting with therapeutic essential oils and a revitalising Clay Facial Mask! The perfect treat for skin and senses, this beautiful set comes gift-wrapped making it a delightful gift or indulgent self-care treat!
 
 ## Contents
 
 - 50g Rich Organic Hand & Body Cream
 - 20g Clay Facial Mask (four applications)
-- Bamboo spoon, mixing bowl and soft muslin facial cloth 
+- Bamboo spoon, mixing bowl and soft muslin facial cloth
 
 Southport Organics Hand Creams are light yet deeply moisturising, packed with Organic Shea Butter, Cocoa Butter, Aloe Vera & Sunflower they leave hands super soft, hydrated and smelling delicious! Choose from uplifting Sweet Orange & Bergamot or calming Lavender & Rose.
 
 ## Complete your spa-inspired experience
 
-With a luxurious Clay Facial Mask of your choice. Each mask thoughtfully crafted with natural and organic ingredients, designed to deeply pamper and revitalise skin. 
+With a luxurious Clay Facial Mask of your choice. Each mask thoughtfully crafted with natural and organic ingredients, designed to deeply pamper and revitalise skin.
 
 Each 20g sachet provides at least four separate applications, making this set a long-lasting gift or investment in your skincare routine. Eco Friendly sachets are made from biodegradable glassine 🌿
 

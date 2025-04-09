@@ -1,6 +1,5 @@
 ---
 title: Foot Spa Gift Peppermint & Spearmint Luxury Foot Soak Salts and Foot Cream
-short_description: Indulge yourself or someone you love to a beautifully pampering experience with a Southport Organ...
 price: £20
 featured_image: df8339c6ce929a84.jpg
 categories:

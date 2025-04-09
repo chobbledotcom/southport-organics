@@ -1,6 +1,5 @@
 ---
 title: Mothers Day Gift Rose Bath Salts
-short_description: Step into a rosy bliss with this beautifully gift wrapped spa hamper, crafted for a luxurious jou...
 price: £30
 featured_image: 8385ae4e4e61f36c.jpg
 categories:

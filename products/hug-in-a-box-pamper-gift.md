@@ -1,6 +1,5 @@
 ---
 title: Hug in a Box Pamper Gift
-short_description: 🌿 Relax. Unwind. Renew
 price: £30
 featured_image: 8387b86c1ec75a6c.jpg
 categories:

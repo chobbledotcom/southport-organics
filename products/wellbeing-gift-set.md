@@ -1,6 +1,5 @@
 ---
 title: Wellbeing Gift Set
-short_description: A thoughtful and luxurious gift box carefully curated for those in need of a pick me up ☔️ Give y...
 price: £30
 featured_image: 858bbca4e2795d83.jpg
 categories:
@@ -32,7 +31,7 @@ features:
   - Spa facial accessories including a bamboo spoon, mixing bowl & organic muslin cloth to add an extra touch of spa inspired luxury
 ---
 
-A thoughtful and luxurious gift box carefully curated for those in need of a pick me up ☔️ Give yourself or a loved one a well-being boost with natural, organic, vegan, handmade products perfect for pampering and self-care ☀️ 
+A thoughtful and luxurious gift box carefully curated for those in need of a pick me up ☔️ Give yourself or a loved one a well-being boost with natural, organic, vegan, handmade products perfect for pampering and self-care ☀️
 
 Southport Organics products are gentle enough for all skin types including dry and sensitive, they are free from artificial fragrance, alcohol, SLS, parabens or petroleum derivatives.
 
@@ -51,15 +50,15 @@ A freshly handmade blend of mineral rich salts and organic essential oils chosen
 
 Made with Organic Shea Butter, Cocoa Butter and Aloe Vera this deeply moisturising yet fast absorbing cream pampers hands while boosting your mood.
 
-### Matcha Green Tea Clay Facial Mask 
+### Matcha Green Tea Clay Facial Mask
 
 Gently exfoliating, moisturising and soothing botanicals and mineral rich clay smooths and revives facial skin leaving it looking and feeling boosted and renewed. Contains at least 4 applications.
 
 ## Product details
 
-* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order!
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast despatch + Royal Mail 24hr Tracked
-* 🐰 Vegan, Cruelty Free & Palm Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

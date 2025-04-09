@@ -1,6 +1,5 @@
 ---
 title: Organic Bath Salts Gift Set
-short_description: Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts 🛁 
 price: £30
 featured_image: 85b8bae7cc598139.jpg
 categories:
@@ -26,16 +25,16 @@ specs:
     value: Yes
 ---
 
-Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts 🛁 
+Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts 🛁
 
-Each 300g glass jar is filled with a revitalising combination of Sea Salt, Himalayan Pink Salt, and Epsom Salts, bursting with over 80 essential minerals to nourish body & mind! 
+Each 300g glass jar is filled with a revitalising combination of Sea Salt, Himalayan Pink Salt, and Epsom Salts, bursting with over 80 essential minerals to nourish body & mind!
 
 This beautifully gift wrapped set contains three beautiful fragrances, each thoughtfully handcrafted with organically grown essential oils 🌿
 
 ## Indulge in a blissful soak
 
 - 😴 Deep Calm - Organic Lavender
-- 🌺 Wild Rose - Rose Geranium 
+- 🌺 Wild Rose - Rose Geranium
 - 🌊 Refresh - Organic Peppermint & Pink Grapefruit
 
 Southport Organics Bath Salts are hand blended in small batches using only the finest ingredients.

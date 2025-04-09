@@ -1,6 +1,5 @@
 ---
 title: Organic Vegan Lip Balm with Cocoa Butter
-short_description: Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oi...
 price: £5
 featured_image: 95fc28371d903e9c.jpg
 categories:
@@ -31,12 +30,13 @@ Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojo
 
 ## Lip Balm Options
 
-* 🌱 Peppermint 14g 
-* 🍊 Mandarin 14g
+- 🌱 Peppermint 14g
+- 🍊 Mandarin 14g
 
 ## Ingredients
 
 ### Peppermint
+
 - Organic Raw Cocoa Butter
 - Organic Jojoba Oil
 - Organic Castor Oil
@@ -44,6 +44,7 @@ Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojo
 - Peppermint Essential oil
 
 ### Mandarin
+
 - Organic Raw Cocoa Butter
 - Organic Jojoba Oil
 - Organic Castor Oil
@@ -52,10 +53,10 @@ Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojo
 
 ## Product details
 
-* 🌎 Eco friendly aluminium tin.
-* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order!
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast despatch + Royal Mail 24hr Tracked
-* 🐰 Vegan & Cruelty Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🌎 Eco friendly aluminium tin.
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan & Cruelty Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

@@ -1,6 +1,5 @@
 ---
 title: Organic Rescue Balm Face & Body
-short_description: Proudly introducing 'Rosy Balm'! An all-in-one hero product for nourished, radiant, smoothed & pr...
 price: £15
 featured_image: db0160e8aea62ef6.jpg
 categories:

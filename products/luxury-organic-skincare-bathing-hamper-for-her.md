@@ -1,6 +1,5 @@
 ---
 title: Luxury Organic Skincare & Bathing Hamper for Her
-short_description: Give the gift of a luxurious top to toe pamper with high quality, natural, organic home spa produ...
 price: £50
 featured_image: d3b6e98529186cce.jpg
 categories:

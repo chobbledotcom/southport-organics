@@ -1,6 +1,5 @@
 ---
 title: Organic Facial Oil Rosy Glow with Evening Primrose
-short_description: 🌹✨ Rosy Glow is a luxurious blend of nutrient-rich oils that deeply nourish and rejuvenate your s...
 price: £15
 featured_image: a66e5d1982a2197f.jpg
 categories:
@@ -29,7 +28,7 @@ specs:
 
 Crafted with Organic Evening Primrose Oil, known for its high gamma-linolenic acid content, it helps to calm skin and restore moisture. Organic Rosehip Oil offers a powerful dose of vitamins A and C, promoting skin regeneration and brightening. Organic Thistle Oil is rich in fatty acids that help balance oily skin and improve texture, while Organic Jojoba Oil mimics skin's natural oils to lock in moisture without clogging pores. Organic Grapeseed Oil, packed with antioxidants, protects against environmental damage and supports skin repair.
 
-Infused with pure Vitamin E, a potent antioxidant, this blend works to combat free radicals and keep skin smooth and supple. The addition of Rosemary Antioxidant further boosts protection, ensuring long-lasting skin vitality! 
+Infused with pure Vitamin E, a potent antioxidant, this blend works to combat free radicals and keep skin smooth and supple. The addition of Rosemary Antioxidant further boosts protection, ensuring long-lasting skin vitality!
 
 Known for its toning, balancing, and brightening properties, Rose Geranium promotes a clear, radiant complexion while bringing a relaxing and luxurious aromatherapy experience to your skincare routine! ✨🌹
 

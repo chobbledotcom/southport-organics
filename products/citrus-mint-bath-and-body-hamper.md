@@ -1,6 +1,5 @@
 ---
 title: Citrus & Mint Bath and Body Hamper
-short_description: Feel clean and refreshed with fruity sweet orange, zesty pink grapefruit, matcha green tea and up...
 price: £35
 featured_image: 8389bcf6e358156a.jpg
 categories:

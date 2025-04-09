@@ -1,6 +1,5 @@
 ---
 title: Organic Facial Oil & Lip Balm Duo
-short_description: Treat yourself or someone you love to a beautifully gift boxed Rosy Glow Organic Facial Oil and a...
 price: £20
 featured_image: a563e2999137a599.jpg
 categories:
@@ -33,7 +32,7 @@ Treat yourself or someone you love to a beautifully gift boxed Rosy Glow Organic
 
 Crafted with Organic Evening Primrose Oil, known for its high gamma-linolenic acid content, it helps to calm skin and restore moisture. Organic Rosehip Oil offers a powerful dose of vitamins A and C, promoting skin regeneration and brightening. Organic Thistle Oil is rich in fatty acids that help balance oily skin and improve texture, while Organic Jojoba Oil mimics your skin's natural oils to lock in moisture without clogging pores. Organic Grapeseed Oil, packed with antioxidants, protects against environmental damage and supports skin repair.
 
-Infused with pure Vitamin E, a potent antioxidant, this blend works to combat free radicals and keep skin smooth and supple. The addition of Rosemary Antioxidant further boosts protection, ensuring long-lasting skin vitality! 
+Infused with pure Vitamin E, a potent antioxidant, this blend works to combat free radicals and keep skin smooth and supple. The addition of Rosemary Antioxidant further boosts protection, ensuring long-lasting skin vitality!
 
 Known for its toning, balancing, and brightening properties, Rose Geranium promotes a clear, radiant complexion while bringing a relaxing and luxurious aromatherapy experience to your skincare routine! ✨🌹
 

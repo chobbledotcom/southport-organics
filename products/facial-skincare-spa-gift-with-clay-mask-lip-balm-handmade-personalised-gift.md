@@ -1,6 +1,5 @@
 ---
 title: Facial Skincare Spa Gift with Clay Mask & Lip Balm. Handmade Personalised Gift
-short_description: Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set containing a Clay Fa...
 price: £15
 featured_image: 9085cb2e3c78d8fc.jpg
 categories:

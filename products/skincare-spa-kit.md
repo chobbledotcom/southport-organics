@@ -1,6 +1,5 @@
 ---
 title: Skincare Spa Kit
-short_description: Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set containing a Clay Fa...
 price: £15
 featured_image: c44c4b3b3f351f0a.jpg
 categories:
@@ -29,7 +28,7 @@ specs:
 
 Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set containing a Clay Facial Mask of your choice complete with facial spa accessories, and an indulgent creamy Lip Balm of your choice made with organic Cocoa Butter, Jojoba Oil & natural Essential Oils! 🧖‍♀️
 
-Each individual mask sachet contains at least four applications meaning this long lasting set contains at least four facials! 
+Each individual mask sachet contains at least four applications meaning this long lasting set contains at least four facials!
 
 Bursting with vitamins and minerals, these diy powder masks are fully customisable for an interactive spa-like experience 🧖‍♀️ Mix with cooling and de-puffing cold water, or use with warm water to open pores and relax. Other skin safe liquids may be used too, such as Aloe Vera Juice, Oat Milk, Coconut Water or cooled herbal teas such as Chamomile or Green Tea.
 
@@ -43,16 +42,16 @@ Bursting with vitamins and minerals, these diy powder masks are fully customisab
 
 Choose from:
 
-* 🌺 Rosy Glow French Pink Clay & Organic Rosehip: Exfoliate and renew with revitalising French Pink Clay and vitamin rich Rosehip.
-* 🌿 Antioxidant Boosting White Cornish Clay & Organic Matcha Green Tea: Rejuvenate with deeply cleansing White Clay and antioxidant rich Green Tea.
-* 🌋 Calming Lava Clay & Organic Oatmeal: Nurture skin with soothing Lava Clay and calming Organic Oatmeal, the perfect relaxation ritual.
+- 🌺 Rosy Glow French Pink Clay & Organic Rosehip: Exfoliate and renew with revitalising French Pink Clay and vitamin rich Rosehip.
+- 🌿 Antioxidant Boosting White Cornish Clay & Organic Matcha Green Tea: Rejuvenate with deeply cleansing White Clay and antioxidant rich Green Tea.
+- 🌋 Calming Lava Clay & Organic Oatmeal: Nurture skin with soothing Lava Clay and calming Organic Oatmeal, the perfect relaxation ritual.
 
 ## Lip Balm Options
 
 Choose from:
 
-* 🍊 Juicy Mandarin
-* 🌱 Peppermint
+- 🍊 Juicy Mandarin
+- 🌱 Peppermint
 
 You'll want to take this luscious deeply moisturising balm everywhere with you! 💋
 
@@ -60,11 +59,11 @@ Treat yourself or someone you love today!
 
 ## Product details
 
-* 🥣 This adorable self care set includes a bamboo spoon, mixing bowl and muslin cotton facial cloth.
-* 🌎 The sachets are made from Earth friendly, biodegradable glassine, and all other accessories and materials including gift wrapping and outer postal packaging are plastic free making this a beautiful eco friendly and zero waste gift.
-* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order!
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast despatch + Royal Mail 24hr Tracked
-* 🐰 Vegan, Cruelty Free & Palm Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🥣 This adorable self care set includes a bamboo spoon, mixing bowl and muslin cotton facial cloth.
+- 🌎 The sachets are made from Earth friendly, biodegradable glassine, and all other accessories and materials including gift wrapping and outer postal packaging are plastic free making this a beautiful eco friendly and zero waste gift.
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

@@ -1,6 +1,5 @@
 ---
 title: Natural Beauty Pamper Hamper
-short_description: What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Orga...
 price: £25
 featured_image: 8799f8a663195c87.jpg
 categories:
@@ -27,7 +26,7 @@ specs:
     value: Yes
 ---
 
-What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Salt Soak, a revitalising Clay Facial Mask and luscious Cocoa Butter Lip Balm! The perfect treat for skin and senses, this beautiful set comes beautifully packaged making it a gorgeous gift or self-care treat! 
+What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Salt Soak, a revitalising Clay Facial Mask and luscious Cocoa Butter Lip Balm! The perfect treat for skin and senses, this beautiful set comes beautifully packaged making it a gorgeous gift or self-care treat!
 
 ## Contents
 
@@ -46,7 +45,7 @@ With a deeply therapeutic blend of Sea Salt, Himalayan Pink Salt, Epsom Salt and
 - 🌹 Wild Rose (Rose Geranium)
 - 🌿 Refresh (Pink Grapefruit & Mint)
 - 🍊 Citrus & Rose (Sweet Orange & Rose)
-- 🧊 Cooling Peppermint Foot Soak 
+- 🧊 Cooling Peppermint Foot Soak
 
 ## Deeply condition and nourish lips
 
@@ -63,7 +62,7 @@ With a luxurious Clay Facial Mask (Contains atleast four applications) Each thou
 - 🌿 Antioxidant Rich Organic Matcha Green Tea
 - 🌾 Soothing Lava Clay & Organic Oatmeal
 
-What makes these masks unique is that you get to mix them freshly at home using the bowl & spoon provided, either with water or other skin-safe ingredients such as coconut water, aloe vera juice,  cooled herbal teas or oat milk. This not only ensures they're incredibly fresh but also creates a spa-inspired ambiance through the ritual of blending elements of earth and water.
+What makes these masks unique is that you get to mix them freshly at home using the bowl & spoon provided, either with water or other skin-safe ingredients such as coconut water, aloe vera juice, cooled herbal teas or oat milk. This not only ensures they're incredibly fresh but also creates a spa-inspired ambiance through the ritual of blending elements of earth and water.
 
 Treat yourself or let someone know you care with a Southport Organics Home Spa Box! Embrace the soothing power of nature and deeply pamper with every aromatic bath and facial session 🛁
 

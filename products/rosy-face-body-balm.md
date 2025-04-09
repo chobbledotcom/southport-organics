@@ -1,6 +1,5 @@
 ---
 title: Rosy Face & Body Balm
-short_description: Proudly introducing 'Rosy Balm' 🌸 An all-in-one hero product for nourished, radiant, smoothed & p...
 price: £15
 featured_image: 9c0ed0f96accc873.jpg
 categories:

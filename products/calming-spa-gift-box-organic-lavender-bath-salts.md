@@ -1,6 +1,5 @@
 ---
 title: Calming Spa Gift Box Organic Lavender Bath Salts
-short_description: 🌿 Relax. Unwind. Renew
 price: £20
 featured_image: 83b1ac1e1e724bea.jpg
 categories:
@@ -69,9 +68,9 @@ Made with Organic Shea Butter, Almond Oil, and Vitamin E, this versatile balm no
 
 ## Product details
 
-* 🌺 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order!
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast despatch + Royal Mail 24hr Tracked
-* 🐰 Vegan, Cruelty Free & Palm Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🌺 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

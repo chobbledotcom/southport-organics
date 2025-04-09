@@ -1,6 +1,5 @@
 ---
 title: Bath Time Bliss Spa Box for Birthday
-short_description: What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Orga...
 price: £12
 featured_image: aedb15c6869392c6.jpg
 categories:
@@ -27,7 +26,7 @@ specs:
     value: Yes
 ---
 
-What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Salt Soak complete with natural exfoliating loofah sponge & floating orange slices! The perfect treat for skin and senses, this beautiful set comes beautifully packaged making it a gorgeous gift or self-care treat! 
+What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Salt Soak complete with natural exfoliating loofah sponge & floating orange slices! The perfect treat for skin and senses, this beautiful set comes beautifully packaged making it a gorgeous gift or self-care treat!
 
 ## Contents
 
@@ -43,15 +42,15 @@ With a deeply therapeutic blend of Sea Salt, Himalayan Pink Salt, Epsom Salt and
 - 🌹 Wild Rose (Rose Geranium)
 - 🌿 Refresh (Pink Grapefruit & Mint)
 - 🍊 Citrus & Rose (Sweet Orange & Rose)
-- 🧊 Cooling Peppermint Foot Soak 
+- 🧊 Cooling Peppermint Foot Soak
 
 Treat yourself or let someone know you care with a Southport Organics Home Spa Box! Embrace the soothing power of nature and deeply pamper with every aromatic bath 🛁
 
 ## Product details
 
-* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order ❤️
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast dispatch + Royal Mail 24hr Tracked
-* 🐰 Vegan, Cruelty Free & Palm Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order ❤️
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast dispatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

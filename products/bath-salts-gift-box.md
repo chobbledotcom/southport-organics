@@ -1,6 +1,5 @@
 ---
 title: Bath Salts Gift Box
-short_description: Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts 🛁 
 price: £30
 featured_image: 859bbee6955834c1.jpg
 categories:
@@ -26,9 +25,9 @@ specs:
     value: Yes
 ---
 
-Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts 🛁 
+Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts 🛁
 
-Each 300g glass jar is filled with a revitalising combination of Sea Salt, Himalayan Pink Salt, and Epsom Salts, bursting with over 80 essential minerals to nourish body & mind! 
+Each 300g glass jar is filled with a revitalising combination of Sea Salt, Himalayan Pink Salt, and Epsom Salts, bursting with over 80 essential minerals to nourish body & mind!
 
 This beautifully gift wrapped set contains three beautiful fragrances, each thoughtfully handcrafted with organically grown essential oils 🌿
 
@@ -39,16 +38,16 @@ This beautifully gift wrapped set contains three beautiful fragrances, each thou
 ## Bath Salt Options
 
 - 😴 Deep Calm - Organic Lavender
-- 🌺 Wild Rose - Rose Geranium 
+- 🌺 Wild Rose - Rose Geranium
 - 🌊 Refresh - Organic Peppermint & Pink Grapefruit
 
 Southport Organics Bath Salts are hand blended in small batches using only the finest ingredients.
 
 ## Product details
 
-* 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-* ✍🏼 Gift messages are free with every order!
-* 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-* 📮 Fast despatch + Royal Mail 24hr Tracked
-* 🐰 Vegan, Cruelty Free & Palm Free
-* 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- ✍🏼 Gift messages are free with every order!
+- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
+- 📮 Fast despatch + Royal Mail 24hr Tracked
+- 🐰 Vegan, Cruelty Free & Palm Free
+- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month

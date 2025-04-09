@@ -1,6 +1,5 @@
 ---
 title: Rose Spa Gift Box
-short_description: 🌸 Relax. Unwind. Renew
 price: £20
 featured_image: 8082b52de7e3789d.jpg
 categories:
@@ -34,7 +33,7 @@ features:
 ---
 
 🌸 Relax. Unwind. Renew
-Treat yourself or a loved one to a soothing Rose Spa Gift Box, a beautiful Rose Geranium, Pink Clay & Rosehip botanical collection curated to provide a luxurious and relaxing bath & body experience. 
+Treat yourself or a loved one to a soothing Rose Spa Gift Box, a beautiful Rose Geranium, Pink Clay & Rosehip botanical collection curated to provide a luxurious and relaxing bath & body experience.
 
 ## Available in Three Sizes
 
@@ -50,7 +49,7 @@ Treat yourself or a loved one to a soothing Rose Spa Gift Box, a beautiful Rose 
 
 Includes everything in the Best Seller Box plus:
 
-- 50ml Lavender & Rose Organic Hand Cream. This luxurious cream, enriched with Organic Shea & Cocoa Butters and Aloe Vera, deeply moisturises and soothes while pure essential oils ease a busy mind. 
+- 50ml Lavender & Rose Organic Hand Cream. This luxurious cream, enriched with Organic Shea & Cocoa Butters and Aloe Vera, deeply moisturises and soothes while pure essential oils ease a busy mind.
 
 ### Super Deluxe Box
 

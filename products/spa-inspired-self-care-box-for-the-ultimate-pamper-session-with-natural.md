@@ -1,6 +1,5 @@
 ---
 title: Spa-Inspired Self Care Box for the Ultimate Pamper Session with Natural
-short_description: What better a way to feel relaxed, renewed, pampered and smelling gorgeous from head to toe than ...
 price: £30
 featured_image: 809dbfc3d8a12ba6.jpg
 categories:
@@ -27,7 +26,7 @@ specs:
     value: Yes
 ---
 
-What better a way to feel relaxed, renewed, pampered and smelling gorgeous from head to toe than with a luxurious Organic Salt Soak, a revitalising Clay Facial Mask and beautifully fragrant Organic Hand Cream. This gorgeously wrapped gift box contains: 
+What better a way to feel relaxed, renewed, pampered and smelling gorgeous from head to toe than with a luxurious Organic Salt Soak, a revitalising Clay Facial Mask and beautifully fragrant Organic Hand Cream. This gorgeously wrapped gift box contains:
 
 ## Contents
 

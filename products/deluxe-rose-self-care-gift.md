@@ -1,6 +1,5 @@
 ---
 title: Deluxe Rose Self Care Gift
-short_description: 🌸 Relax. Unwind. Renew
 price: £30
 featured_image: 8385ae4e4e61f36c.jpg
 categories:
