@@ -135,6 +135,8 @@ jobs:
           rsync \
             --recursive \
             --verbose \
+            --no-perms \
+            --chmod=ugo=rwX \
             --exclude=".image-cache" \
             result/_site/ \
             built-site/
