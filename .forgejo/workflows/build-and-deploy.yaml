@@ -1,4 +1,4 @@
-name: Build and Deploy to Neocities
+name: Build and Deploy
 
 on:
   push:
@@ -22,33 +22,32 @@ jobs:
           repository: chobble/chobble-template
           ref: main
           path: template
+          sparse-checkout-cone-mode: false
           sparse-checkout: |
+            .eleventy.js
+            package.json
+            yarn.lock
             flake.nix
             flake.lock
             bin
             src
 
-      - name: Get Eleventy .cache
-        uses: actions/cache/restore@v4
-        with:
-          path: .image-cache
-          key: eleventy-img-cache
-          fail-on-cache-miss: false
-
-      - name: Make combined dir
-        run: mkdir combined
+      # - name: Set Eleventy .cache
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: ${{ github.workspace }}/.image-cache
+      #     key: eleventy-img-cache
 
       - name: Copy template files to combined dir
         run: |
+          mkdir combined
           rsync \
             --recursive \
             --verbose \
-            --no-perms \
-            --chmod=ugo=rwX \
             --delete \
             --exclude=".git" \
-            --exclude="node_modules" \
             --exclude="*.md" \
+            --exclude="images" \
             template/ \
             combined/
 
@@ -58,39 +57,31 @@ jobs:
             --recursive \
             --verbose \
             --exclude=".git" \
-            --exclude="*.nix" \
-            --exclude="README.md" \
-            --exclude=".forgejo" \
             --exclude=".image-cache" \
+            --exclude="bin/build" \
+            --exclude="README.md" \
             source/ \
             combined/src/
 
       - name: Copy .image-cache folder in separately
         run: |
+          mkdir combined/.image-cache
           rsync \
             --recursive \
             --verbose \
-            --no-perms \
-            --chmod=ugo=rwX \
-            --include="*.jpeg" \
-            --include="*.webp" \
-            source/.image-cache \
-            combined/
-
-      - name: Make Forgejo cache dir
-        run: mkdir -p .image-cache
-
-      - name: Copy Forgejo cache into combined dir
-        run: |
-          rsync \
-            --recursive \
-            --verbose \
-            --no-perms \
-            --chmod=ugo=rwX \
-            --include="*.jpeg" \
-            --include="*.webp" \
-            .image-cache/ \
+            source/.image-cache/ \
             combined/.image-cache/
+
+      # - name: Copy Forgejo cache into combined dir
+      #   run: |
+      #     mkdir -p .image-cache
+      #     rsync \
+      #       --recursive \
+      #       --verbose \
+      #       --no-perms \
+      #       --chmod=ugo=rwX \
+      #       .image-cache/ \
+      #       combined/.image-cache/
 
       - name: Update site.json with secrets
         run: |
@@ -108,20 +99,15 @@ jobs:
             --skip-cached \
             --flake ".#packages.x86_64-linux.site" \
             --no-nom
+          mv result- ../result
 
-      - name: Delete all but result
-        run: |
-          mv combined/result- result
-          rm -rf combined source template
-
-      - name: Copy .image-cache out of result
-        run: |
-          rsync -a \
-            --delete \
-            --include="*.jpeg" \
-            --include="*.webp" \
-            result/.image-cache/ \
-            .image-cache/
+      # - name: Copy .image-cache out of result
+      #   run: |
+      #     rsync \
+      #       --recursive \
+      #       --delete \
+      #       result/.image-cache/ \
+      #       .image-cache/
 
       # - name: Save .image-cache to Forgejo cache
       #   uses: actions/cache/save@v4
@@ -129,23 +115,11 @@ jobs:
       #     path: ${{ github.workspace }}/.image-cache
       #     key: eleventy-img-cache
 
-      - name: Copy built site out of result
-        run: |
-          mkdir built-site
-          rsync \
-            --recursive \
-            --verbose \
-            --no-perms \
-            --chmod=ugo=rwX \
-            --exclude=".image-cache" \
-            result/_site/ \
-            built-site/
-
       - name: Deploy to Bunny
         uses: R-J-dev/bunny-deploy@v2.0.6
         with:
           access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
-          directory-to-upload: "built-site"
+          directory-to-upload: "result/_site"
           storage-endpoint: "https://uk.storage.bunnycdn.com"
           storage-zone-name: "southport-organics"
           storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
@@ -159,4 +133,4 @@ jobs:
         run: |
           find . -type d -exec chmod 755 {} \;
           find . -type f -exec chmod 644 {} \;
-          rm -rf result .image-cache built-site
+          rm -rf combined source template result .image-cache
