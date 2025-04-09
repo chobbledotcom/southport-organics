@@ -123,11 +123,11 @@ jobs:
             result/.image-cache/ \
             .image-cache/
 
-      - name: Save .image-cache to Forgejo cache
-        uses: actions/cache/save@v4
-        with:
-          path: ${{ github.workspace }}/.image-cache
-          key: eleventy-img-cache
+      # - name: Save .image-cache to Forgejo cache
+      #   uses: actions/cache/save@v4
+      #   with:
+      #     path: ${{ github.workspace }}/.image-cache
+      #     key: eleventy-img-cache
 
       - name: Copy built site out of result
         run: |
