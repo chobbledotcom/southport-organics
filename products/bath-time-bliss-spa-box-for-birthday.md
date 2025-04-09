@@ -3,9 +3,9 @@ title: Bath Time Bliss Spa Box for Birthday
 price: £12
 featured_image: aedb15c6869392c6.jpg
 categories:
-  - spa-and-relaxation
-  - bath-salts-gift
-  - care-package
+  - bath-and-body
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: aedb15c6869392c6.jpg
   Image 2: cc1a48d3d56d64b5.jpg

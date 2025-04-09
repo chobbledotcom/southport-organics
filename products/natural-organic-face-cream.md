@@ -3,9 +3,7 @@ title: Natural Organic Face Cream
 price: £12
 featured_image: aed1b19697294a71.jpg
 categories:
-  - natural-skincare
-  - vegan-moisturiser
-  - fragrance-free-cream
+  - face-care
 gallery:
   Image 1: aed1b19697294a71.jpg
   Image 2: a464589f9373b70c.jpg

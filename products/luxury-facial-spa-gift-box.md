@@ -3,9 +3,8 @@ title: Luxury Facial Spa Gift Box
 price: £20
 featured_image: 8a9c7e1f043ce971.jpg
 categories:
-  - natural-skincare
-  - self-care-gift-box
-  - home-spa-gift-set
+  - face-care
+  - gift-sets
 gallery:
   Image 1: 8a9c7e1f043ce971.jpg
   Image 2: cda5945a5bf44465.jpg

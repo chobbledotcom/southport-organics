@@ -3,9 +3,8 @@ title: Mothers Day Gift Rose Bath Salts
 price: £30
 featured_image: 8385ae4e4e61f36c.jpg
 categories:
-  - gift-spa-wife-her
-  - bath-salts-rose-spa
-  - plastic-free-hamper
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: 8385ae4e4e61f36c.jpg
   Image 2: cc1a48d3d56d64b5.jpg

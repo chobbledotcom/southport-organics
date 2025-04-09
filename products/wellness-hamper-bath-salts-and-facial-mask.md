@@ -3,9 +3,10 @@ title: Wellness Hamper Bath Salts and Facial Mask
 price: £20
 featured_image: 8d98b5f9b2c60b43.jpg
 categories:
-  - vegan-bath-set
-  - luxury-bath-salts
-  - organic-spa-gift-set
+  - gift-sets
+  - bath-salts
+  - hand-care
+  - face-care
 gallery:
   Image 1: 8d98b5f9b2c60b43.jpg
   Image 2: cc9a4caad3935a5a.jpg

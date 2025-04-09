@@ -3,9 +3,9 @@ title: Rose Spa Gift Box
 price: £20
 featured_image: 8082b52de7e3789d.jpg
 categories:
-  - natural-spa-box-gift
-  - organic-bath-body
-  - gift-mum-nan-friend
+  - bath-and-body
+  - face-care
+  - gift-sets
 gallery:
   Image 1: 8082b52de7e3789d.jpg
   Image 2: 8385ae4e4e61f36c.jpg

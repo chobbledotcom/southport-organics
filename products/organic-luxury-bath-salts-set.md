@@ -4,8 +4,7 @@ price: £12
 featured_image: 99717102f0de6be8.jpg
 categories:
   - bath-salts
-  - Epsom-salts
-  - Himalayan-pink-salt
+  - gift-sets
 gallery:
   Image 1: 99717102f0de6be8.jpg
   Image 2: aedb15c6869392c6.jpg

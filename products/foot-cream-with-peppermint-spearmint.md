@@ -3,9 +3,7 @@ title: Foot Cream with Peppermint & Spearmint
 price: £10
 featured_image: b0de64c495b4bbb0.jpg
 categories:
-  - foot-spa-gift-box
-  - cooling-leg-cream
-  - cracked-heel-balm
+  - foot-care
 gallery:
   Image 1: b0de64c495b4bbb0.jpg
   Image 2: dfcf60101f333c1c.jpg

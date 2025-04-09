@@ -3,9 +3,9 @@ title: Skincare Spa Kit
 price: £15
 featured_image: c44c4b3b3f351f0a.jpg
 categories:
-  - Xmas-skincare-gift
-  - Christmas-teen-gift
-  - skincare-facial-mask
+  - face-care
+  - lip-care
+  - gift-sets
 gallery:
   Image 1: c44c4b3b3f351f0a.jpg
   Image 2: 9085cb2e3c78d8fc.jpg

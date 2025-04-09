@@ -3,9 +3,8 @@ title: Luxury Handmade Bath Salts Xmas Gift
 price: £30
 featured_image: 87a9baf2c5c8d1c1.jpg
 categories:
-  - pamper-hamper
-  - gift-for-her-nan-mum
-  - sister-self-care-box
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: 87a9baf2c5c8d1c1.jpg
   Image 2: cc1a48d3d56d64b5.jpg

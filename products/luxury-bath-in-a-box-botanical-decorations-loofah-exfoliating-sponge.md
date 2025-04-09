@@ -3,9 +3,8 @@ title: Luxury Bath In A Box Botanical Decorations & Loofah Exfoliating Sponge
 price: £12
 featured_image: c4b39b0c6a49e2db.jpg
 categories:
-  - luxury-spa-gift-set
-  - pamper-hamper-spa
-  - relaxation-hamper
+  - bath-and-body
+  - bath-salts
 gallery:
   Image 1: c4b39b0c6a49e2db.jpg
   Image 2: cc1a48d3d56d64b5.jpg

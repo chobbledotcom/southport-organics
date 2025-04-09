@@ -3,9 +3,9 @@ title: Self Care Hamper with Organic
 price: £20
 featured_image: de856bc3c4c4d89c.jpg
 categories:
-  - get-well-soon-gift
-  - facial-skincare
-  - comfort-package
+  - face-care
+  - hand-care
+  - gift-sets
 gallery:
   Image 1: de856bc3c4c4d89c.jpg
   Image 2: d83f67258a8459cd.jpg

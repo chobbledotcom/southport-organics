@@ -3,9 +3,7 @@ title: Natural Face Moisturiser with Almond
 price: £12
 featured_image: aed1b19697294a71.jpg
 categories:
-  - natural-skincare
-  - vegan-skincare
-  - natural-face-cream
+  - face-care
 gallery:
   Image 1: aed1b19697294a71.jpg
   Image 2: a664148bd3a3b76c.jpg

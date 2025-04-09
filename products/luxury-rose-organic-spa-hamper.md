@@ -3,9 +3,8 @@ title: Luxury Rose Organic Spa Hamper
 price: £45
 featured_image: c0819b7b1e65f2ca.jpg
 categories:
-  - anniversary-gift-her
-  - new-mum-mama-wife
-  - maternity-pregnancy
+  - bath-and-body
+  - gift-sets
 gallery:
   Image 1: c0819b7b1e65f2ca.jpg
   Image 2: cc1a48d3d56d64b5.jpg

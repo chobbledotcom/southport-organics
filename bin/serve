@@ -40,6 +40,7 @@ sync_client_files() {
     --exclude=".git" \
     --exclude="*.nix" \
     --exclude="README.md" \
+    --exclude=".image-cache" \
     "$CLIENT_DIR/" "$COMBINED_DIR/src/"
 }
 
@@ -75,10 +76,10 @@ cleanup_serve() {
   pkill -P $$
   kill $ELEVENTY_PID $SASS_PID $WATCH_PID 2>/dev/null
   pkill -f "inotifywait.*$CLIENT_DIR"
+  exit 0
 }
 
 trap cleanup_serve EXIT INT TERM
 
-wait -n
-cleanup_serve
+wait
 trap - EXIT INT TERM

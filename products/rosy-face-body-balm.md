@@ -3,9 +3,8 @@ title: Rosy Face & Body Balm
 price: £15
 featured_image: 9c0ed0f96accc873.jpg
 categories:
-  - baby-shower-gift
-  - maternity-pamper-spa
-  - pregnancy-bump-balm
+  - bath-and-body
+  - face-care
 gallery:
   Image 1: 9c0ed0f96accc873.jpg
   Image 2: db4360e8a686b2f6.jpg

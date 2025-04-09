@@ -3,9 +3,7 @@ title: Hug in a Box Pamper Gift
 price: £30
 featured_image: 8387b86c1ec75a6c.jpg
 categories:
-  - new-mum-gift-box
-  - wellbeing-box
-  - calming-gift-box
+  - gift-sets
 gallery:
   Image 1: 8387b86c1ec75a6c.jpg
   Image 2: cc1a48d3d56d64b5.jpg

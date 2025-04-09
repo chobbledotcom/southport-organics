@@ -3,9 +3,9 @@ title: Scorpio
 price: £20
 featured_image: 879fae914b5c5521.jpg
 categories:
-  - Libra-birthday-mum
-  - Sagittarius-bday-her
-  - Scorpio-autumn-gift
+  - bath-salts
+  - face-care
+  - gift-sets
 gallery:
   Image 1: 879fae914b5c5521.jpg
   Image 2: bb19c06e95e4cc9c.jpg

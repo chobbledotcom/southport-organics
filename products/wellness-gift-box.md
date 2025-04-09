@@ -3,9 +3,10 @@ title: Wellness Gift Box
 price: £20
 featured_image: 839abce7e3503a52.jpg
 categories:
-  - custom-gift-for-her
-  - beautiful-unique-eco
-  - natural-organic-gift
+  - gift-sets
+  - bath-salts
+  - hand-care
+  - face-care
 gallery:
   Image 1: 839abce7e3503a52.jpg
   Image 2: bb19c06e95e4cc9c.jpg

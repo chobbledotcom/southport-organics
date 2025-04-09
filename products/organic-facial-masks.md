@@ -3,9 +3,7 @@ title: Organic Facial Masks
 price: £5
 featured_image: 955e6ec13d909768.jpg
 categories:
-  - skincare-facial-mask
-  - skin-care-face-mask
-  - clay-powder-mask
+  - face-care
 gallery:
   Image 1: 955e6ec13d909768.jpg
   Image 2: cda5945a5bf44465.jpg

@@ -3,9 +3,8 @@ title: Spa & Relaxation Hamper
 price: £20
 featured_image: c6c67c951b9d1c62.jpg
 categories:
-  - spa-and-relaxation
-  - home-spa-gift-box
-  - vegan-facial-care
+  - gift-sets
+  - bath-sets
 gallery:
   Image 1: c6c67c951b9d1c62.jpg
   Image 2: 8082b52de7e3789d.jpg

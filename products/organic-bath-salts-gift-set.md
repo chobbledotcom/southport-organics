@@ -3,9 +3,8 @@ title: Organic Bath Salts Gift Set
 price: £30
 featured_image: 85b8bae7cc598139.jpg
 categories:
-  - pamper-hamper
-  - aromatherapy-salts
-  - gift-for-her-nan-mum
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: 85b8bae7cc598139.jpg
   Image 2: cc1a48d3d56d64b5.jpg

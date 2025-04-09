@@ -3,9 +3,8 @@ title: Organic Hand & Body Cream with Shea Butter
 price: £10
 featured_image: d83f67258a8459cd.jpg
 categories:
-  - vegan-natural-eco
-  - organic-hand-cream
-  - aromatherapy-relax
+  - hand-care
+  - bath-and-body
 gallery:
   Image 1: d83f67258a8459cd.jpg
   Image 2: d2eb79d290fe0ac0.jpg

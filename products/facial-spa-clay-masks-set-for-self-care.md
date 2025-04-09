@@ -3,9 +3,7 @@ title: Facial Spa Clay Masks Set for Self Care
 price: £20
 featured_image: 9180ed3e770179f8.jpg
 categories:
-  - teen-wellness-hamper
-  - girls-wellbeing-set
-  - care-package-for-her
+  - face-care
 gallery:
   Image 1: 9180ed3e770179f8.jpg
   Image 2: cda5945a5bf44465.jpg

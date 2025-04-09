@@ -3,9 +3,9 @@ title: Natural Beauty Pamper Hamper
 price: £25
 featured_image: 8799f8a663195c87.jpg
 categories:
-  - spa-gift-box-her-mum
-  - Xmas-gift-daughter
-  - Christmas-gift-aunt
+  - bath-salts
+  - face-care
+  - gift-sets
 gallery:
   Image 1: 8799f8a663195c87.jpg
   Image 2: cc1a48d3d56d64b5.jpg

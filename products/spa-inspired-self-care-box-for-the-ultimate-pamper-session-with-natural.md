@@ -3,9 +3,8 @@ title: Spa-Inspired Self Care Box for the Ultimate Pamper Session with Natural
 price: £30
 featured_image: 809dbfc3d8a12ba6.jpg
 categories:
-  - spa-and-relaxation
-  - pamper-hamper
-  - bride-to-be-gift-box
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: 809dbfc3d8a12ba6.jpg
   Image 2: cc1a48d3d56d64b5.jpg

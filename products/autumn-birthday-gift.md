@@ -3,9 +3,9 @@ title: Autumn Birthday Gift
 price: £20
 featured_image: 879fae914b5c5521.jpg
 categories:
-  - spa-gift-for-her
-  - self-care-gift-box
-  - skincare-facial-mask
+  - bath-and-body
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: 879fae914b5c5521.jpg
   Image 2: bb19c06e95e4cc9c.jpg

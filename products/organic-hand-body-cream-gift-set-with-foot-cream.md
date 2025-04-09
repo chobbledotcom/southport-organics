@@ -3,9 +3,8 @@ title: Organic Hand & Body Cream Gift Set with Foot Cream
 price: £30
 featured_image: 86cc39f0b217a69d.jpg
 categories:
-  - grandmother-gift-box
-  - vegan-natural-eco
-  - organic-hand-cream
+  - hand-care
+  - gift-sets
 gallery:
   Image 1: 86cc39f0b217a69d.jpg
   Image 2: d83f67258a8459cd.jpg

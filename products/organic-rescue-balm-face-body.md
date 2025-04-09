@@ -3,9 +3,8 @@ title: Organic Rescue Balm Face & Body
 price: £15
 featured_image: db0160e8aea62ef6.jpg
 categories:
-  - beauty-body-balm
-  - rose-geranium-oil
-  - pampering-bath-gift
+  - bath-and-body
+  - face-care
 gallery:
   Image 1: db0160e8aea62ef6.jpg
   Image 2: cc1954b2b5d2cbca.jpg

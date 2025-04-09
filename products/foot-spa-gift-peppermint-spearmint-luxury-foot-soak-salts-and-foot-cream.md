@@ -3,9 +3,8 @@ title: Foot Spa Gift Peppermint & Spearmint Luxury Foot Soak Salts and Foot Crea
 price: £20
 featured_image: df8339c6ce929a84.jpg
 categories:
-  - peppermint-foot
-  - foot-care-package
-  - get-well-soon-gift
+  - foot-care
+  - gift-sets
 gallery:
   Image 1: df8339c6ce929a84.jpg
   Image 2: cc1a48d3d56d64b5.jpg

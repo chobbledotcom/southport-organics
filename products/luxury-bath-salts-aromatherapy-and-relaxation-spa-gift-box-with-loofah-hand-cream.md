@@ -3,9 +3,8 @@ title: Luxury Bath Salts Aromatherapy and Relaxation Spa Gift Box with Loofah & 
 price: £22
 featured_image: c1a18f9af025d67c.jpg
 categories:
-  - spa-bathing-hamper
-  - pamper-hamper-her
-  - wellness-spa-box
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: c1a18f9af025d67c.jpg
   Image 2: de1aa223949fe598.jpg

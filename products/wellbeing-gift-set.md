@@ -3,9 +3,10 @@ title: Wellbeing Gift Set
 price: £30
 featured_image: 858bbca4e2795d83.jpg
 categories:
-  - thoughtful-gift
-  - hug-in-a-box
-  - home-spa-gift-set
+  - gift-sets
+  - bath-salts
+  - hand-care
+  - face-care
 gallery:
   Image 1: 858bbca4e2795d83.jpg
   Image 2: cc1a48d3d56d64b5.jpg

@@ -1,11 +1,10 @@
 ---
-title: Personalised Hand & Body Cream Eco Friendly Gift Box for Her Pamper Self Care Package Handmade Gift Wrapped for Mum
+title: Personalised Hand & Body Cream Eco Friendly Gift Box for Her
 price: £30
 featured_image: 84dd19f0b225ae3b.jpg
 categories:
-  - gardeners-hand-cream
-  - hard-working-hands
-  - get-well-soon-pamper
+  - hand-care
+  - gift-sets
 gallery:
   Image 1: 84dd19f0b225ae3b.jpg
   Image 2: f2e72cb2e1603969.jpg

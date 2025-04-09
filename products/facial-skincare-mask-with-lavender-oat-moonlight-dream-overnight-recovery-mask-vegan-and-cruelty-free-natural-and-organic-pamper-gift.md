@@ -3,9 +3,7 @@ title: Facial Skincare Mask with Lavender & Oat. Moonlight Dream Overnight Recov
 price: £20
 featured_image: ad2fc242169d9537.jpg
 categories:
-  - pampering-bath-gift
-  - new-mum-spa-gift-set
-  - herbal-rescue-salve
+  - face-care
 gallery:
   Image 1: ad2fc242169d9537.jpg
   Image 2: b49b442bd7461d56.jpg

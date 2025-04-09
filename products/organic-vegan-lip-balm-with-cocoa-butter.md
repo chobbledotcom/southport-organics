@@ -3,9 +3,7 @@ title: Organic Vegan Lip Balm with Cocoa Butter
 price: £5
 featured_image: 95fc28371d903e9c.jpg
 categories:
-  - vegan-natural-eco
-  - womens-self-care-nan
-  - spa-gift-products
+  - lip-care
 gallery:
   Image 1: 95fc28371d903e9c.jpg
   Image 2: 93bfdc6867062343.jpg

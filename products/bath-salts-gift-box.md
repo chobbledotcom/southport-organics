@@ -3,9 +3,9 @@ title: Bath Salts Gift Box
 price: £30
 featured_image: 859bbee6955834c1.jpg
 categories:
-  - gift-for-bath-lovers
-  - bath-salts-handmade
-  - vegan-birthday-gift
+  - bath-and-body
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: 859bbee6955834c1.jpg
   Image 2: cc1a48d3d56d64b5.jpg

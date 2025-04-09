@@ -3,9 +3,9 @@ title: Luxury Lavender Organic Spa Package
 price: £45
 featured_image: 80809a730f65fbe7.jpg
 categories:
-  - luxury-organic-spa
-  - deluxe-care-package
-  - gift-for-grandmother
+  - gift-sets
+  - face-care
+  - bath-salts
 gallery:
   Image 1: 80809a730f65fbe7.jpg
   Image 2: cc1a48d3d56d64b5.jpg

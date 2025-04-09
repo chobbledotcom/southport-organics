@@ -3,9 +3,8 @@ title: Organic Facial Oil & Lip Balm Duo
 price: £20
 featured_image: a563e2999137a599.jpg
 categories:
-  - niece-vegan-natural
-  - eco-friendly-ideas
-  - send-direct-gift-mum
+  - face-care
+  - lip-care
 gallery:
   Image 1: a563e2999137a599.jpg
   Image 2: cd245aabb5d5a84a.jpg

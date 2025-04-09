@@ -1,11 +1,10 @@
 ---
-title: Organic Spa Gift Set Zero Waste Vegan Natural Gift for Her Skincare Bath Pamper Self Care Set Handmade Thoughtful Personalised Gift Wrapped
+title: Organic Spa Gift Set Zero Waste Vegan Natural Gift for Her
 price: £20
 featured_image: ad2ad5ed43b95841.jpg
 categories:
-  - skincare-gift-box
-  - bath-salts-gift-set
-  - self-care-spa-box
+  - bath-salts
+  - gift-sets
 gallery:
   Image 1: ad2ad5ed43b95841.jpg
   Image 2: 8082b52de7e3789d.jpg

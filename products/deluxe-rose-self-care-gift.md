@@ -3,9 +3,8 @@ title: Deluxe Rose Self Care Gift
 price: £30
 featured_image: 8385ae4e4e61f36c.jpg
 categories:
-  - beautiful-rose-gift
-  - romantic-gift-wife
-  - valentines-gift-her
+  - bath-and-body
+  - gift-sets
 gallery:
   Image 1: 8385ae4e4e61f36c.jpg
   Image 2: cc1a48d3d56d64b5.jpg

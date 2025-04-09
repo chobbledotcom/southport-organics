@@ -3,9 +3,7 @@ title: Organic Facial Oil Rosy Glow with Evening Primrose
 price: £15
 featured_image: a66e5d1982a2197f.jpg
 categories:
-  - dry-skin-face-oil
-  - organic-rose-facial
-  - grapeseed-skincare
+  - face-care
 gallery:
   Image 1: a66e5d1982a2197f.jpg
   Image 2: cd245aabb5d5a84a.jpg
