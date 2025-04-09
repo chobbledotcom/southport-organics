@@ -1,4 +1,4 @@
-name: Build and Deploy to Bunny
+name: Build and Deploy to Neocities
 
 on:
   push:
@@ -6,12 +6,6 @@ on:
 
 env:
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-  TEMPLATE_REPO: "https://git.chobble.com/chobble/chobble-template.git"
-  TEMPLATE_PATH: ${{ github.workspace }}/template
-  COMBINED_PATH: ${{ github.workspace }}/combined
-  RESULT_PATH: ${{ github.workspace }}/combined/result-/
-  BUILT_SITE_PATH: ${{ github.workspace }}/built-site
-  CACHE_PATH: ${{ github.workspace }}/.cache
 
 jobs:
   build:
@@ -28,115 +22,128 @@ jobs:
           repository: chobble/chobble-template
           ref: main
           path: template
+          sparse-checkout: |
+            flake.nix
+            flake.lock
+            bin
+            src
 
-      - name: Persist Eleventy .cache
-        uses: actions/cache@v4
+      - name: Get Eleventy .cache
+        uses: actions/cache/restore@v4
         with:
-          path: ${{ github.workspace }}/.cache
+          path: .image-cache
           key: eleventy-img-cache
-          restore-keys: eleventy-img-cache
+          fail-on-cache-miss: false
 
       - name: Make combined dir
-        run: mkdir -p "${{ env.COMBINED_PATH }}"
-
-      - name: Make cache dir
-        run: mkdir -p "${{ env.CACHE_PATH }}"
+        run: mkdir combined
 
       - name: Copy template files to combined dir
         run: |
           rsync \
             --recursive \
+            --verbose \
             --no-perms \
+            --chmod=ugo=rwX \
             --delete \
             --exclude=".git" \
             --exclude="node_modules" \
             --exclude="*.md" \
-            "${{ env.TEMPLATE_PATH }}/" "${{ env.COMBINED_PATH }}/"
+            template/ \
+            combined/
 
-      - name: Overlay our repo files into combined dir
+      - name: Overlay our repo files into combined src
         run: |
           rsync \
             --recursive \
-            --no-perms \
+            --verbose \
             --exclude=".git" \
             --exclude="*.nix" \
             --exclude="README.md" \
             --exclude=".forgejo" \
-            "${{ github.workspace }}/source/" "${{ env.COMBINED_PATH }}/src/"
+            --exclude=".image-cache" \
+            source/ \
+            combined/src/
 
-      - name: Copy cache into combined dir
+      - name: Copy .image-cache folder in separately
         run: |
           rsync \
             --recursive \
-            "${{ env.CACHE_PATH }}" "${{ env.COMBINED_PATH }}/"
+            --verbose \
+            --no-perms \
+            --chmod=ugo=rwX \
+            --include="*.jpeg" \
+            --include="*.webp" \
+            source/.image-cache \
+            combined/
+
+      - name: Make Forgejo cache dir
+        run: mkdir -p .image-cache
+
+      - name: Copy Forgejo cache into combined dir
+        run: |
+          rsync \
+            --recursive \
+            --verbose \
+            --no-perms \
+            --chmod=ugo=rwX \
+            --include="*.jpeg" \
+            --include="*.webp" \
+            .image-cache/ \
+            combined/.image-cache/
 
       - name: Update site.json with secrets
         run: |
           sed -i \
             's/"formspark_id": null/"formspark_id": "${{ secrets.FORMSPARK_ID }}"/g' \
-            "${{ env.COMBINED_PATH }}/src/_data/site.json"
+            "combined/src/_data/site.json"
           sed -i \
             's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' \
-            "${{ env.COMBINED_PATH }}/src/_data/site.json"
+            "combined/src/_data/site.json"
 
       - name: Build with Nix
-        id: build
         run: |
-          cd ${{ env.COMBINED_PATH }}
+          cd combined
           nix-fast-build \
             --skip-cached \
             --flake ".#packages.x86_64-linux.site" \
             --no-nom
 
-      - name: Copy .cache out of result
+      - name: Delete all but result
         run: |
-          CACHE_SRC="${{ env.RESULT_PATH }}/.cache"
+          mv combined/result- result
+          rm -rf combined source template
 
-          # Check that source exists and is not empty
-          if [ ! -d "$CACHE_SRC" ] || [ -z "$(ls -A "$CACHE_SRC")" ]; then
-            echo "Error: .cache directory does not exist or is empty"
-            echo "Path: $CACHE_SRC"
-            exit 1
-          fi
-
+      - name: Copy .image-cache out of result
+        run: |
           rsync -a \
-            "$CACHE_SRC/" \
-            "${{ env.CACHE_PATH }}"
+            --delete \
+            --include="*.jpeg" \
+            --include="*.webp" \
+            result/.image-cache/ \
+            .image-cache/
 
-      - name: Save cache
+      - name: Save .image-cache to Forgejo cache
         uses: actions/cache/save@v4
         with:
-          path: ${{ github.workspace }}/.cache
+          path: ${{ github.workspace }}/.image-cache
           key: eleventy-img-cache
 
       - name: Copy built site out of result
         run: |
-          RESULT_SRC="${{ env.RESULT_PATH }}"
-
-          # Check that source exists and has content (excluding .cache)
-          if [ ! -d "$RESULT_SRC" ]; then
-            echo "Error: Result directory does not exist"
-            echo "Path: $RESULT_SRC"
-            exit 1
-          fi
-
-          if [ -z "$(ls -A "$RESULT_SRC" | grep -v '.cache')" ]; then
-            echo "Error: Result directory is empty (excluding .cache)"
-            echo "Path: $RESULT_SRC"
-            exit 1
-          fi
-
-          mkdir -p "${{ env.BUILT_SITE_PATH }}"
-          rsync -a \
-            --exclude=".cache" \
-            "$RESULT_SRC" \
-            "${{ env.BUILT_SITE_PATH }}/"
+          mkdir built-site
+          rsync \
+            --recursive \
+            --verbose \
+            --exclude=".image-cache" \
+            result/_site/ \
+            built-site/
 
       - name: Deploy to Bunny
         uses: R-J-dev/bunny-deploy@v2.0.6
         with:
           access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
-          directory-to-upload: "${{ env.BUILT_SITE_PATH }}"
+          directory-to-upload: "built-site"
           storage-endpoint: "https://uk.storage.bunnycdn.com"
           storage-zone-name: "southport-organics"
           storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
@@ -145,3 +152,9 @@ jobs:
           enable-purge-pull-zone: true
           pull-zone-id: "3576287"
           replication-timeout: "15000"
+
+      - name: Clean up
+        run: |
+          find . -type d -exec chmod 755 {} \;
+          find . -type f -exec chmod 644 {} \;
+          rm -rf result .image-cache built-site

@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p bash git inotify-tools rsync nodejs yarn sass
+#! nix-shell -i bash -p bash git inotify-tools nix-fast-build rsync nodejs yarn sass
 
 set -e
 
@@ -20,6 +20,7 @@ else
   git reset --hard origin/main
 fi
 
+rm -rf $COMBINED_DIR
 mkdir -p "$COMBINED_DIR"
 
 find "$COMBINED_DIR" -type f -name "*.md" -delete
@@ -27,41 +28,49 @@ find "$COMBINED_DIR" -type f -name "*.md" -delete
 rsync \
   --recursive \
   --delete \
-  --exclude=".git" \
-  --exclude="node_modules" \
   --exclude="*.md" \
-  --exclude=".cache" \
+  --exclude=".direnv" \
+  --exclude=".envrc" \
+  --exclude=".git" \
+  --exclude=".image-cache" \
+  --exclude="node_modules" \
+  --exclude="test" \
+  --exclude="LICENSE" \
+  --exclude="README.md" \
   "$TEMPLATE_DIR/" "$COMBINED_DIR/"
 
-mkdir -p "$COMBINED_DIR/.cache"
+rsync \
+  --recursive \
+  --exclude="*.nix" \
+  --exclude=".direnv" \
+  --exclude=".envrc" \
+  --exclude=".git" \
+  --exclude=".image-cache" \
+  --exclude="bin" \
+  --exclude="test" \
+  --exclude="LICENSE" \
+  --exclude="README.md" \
+  --exclude="result" \
+  "$CLIENT_DIR/" "$COMBINED_DIR/src/"
 
-sync_client_files() {
-  rsync \
-    --recursive \
-    --exclude=".git" \
-    --exclude="*.nix" \
-    --exclude="README.md" \
-    "$CLIENT_DIR/" "$COMBINED_DIR/src/"
-}
-
-sync_client_files
-
-watch_and_sync() {
-  inotifywait -m -r -e modify,create,delete,move -q "$CLIENT_DIR" | while read -r directory event filename; do
-    sync_client_files
-  done
-}
-
-watch_and_sync &
-WATCH_PID=$!
+rsync \
+  --recursive \
+  "$CLIENT_DIR/.image-cache" \
+  "$COMBINED_DIR/"
 
 cd "$COMBINED_DIR"
 
-if [ ! -d "node_modules" ]; then
-  yarn install
-fi
+nix-fast-build \
+  --skip-cached \
+  --flake ".#packages.x86_64-linux.site" \
+  --no-nom
 
-rm -rf _site
-sass --update src/_scss:_site/css --style expanded
-yarn --offline eleventy
-pwd
+# Copy the image cache back to the original directory
+rsync \
+  --recursive \
+  --delete \
+  "result-/.image-cache" \
+  "$CLIENT_DIR/"
+
+rm -rf "$CLIENT_DIR/result"
+mv "result-" "$CLIENT_DIR/result"
