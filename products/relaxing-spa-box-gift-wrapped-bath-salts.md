@@ -1,7 +1,7 @@
 ---
 title: Relaxing Spa Box Gift Wrapped Bath Salts
 price: £25
-featured_image: d787e887cb9892c2.jpg
+header_image: d787e887cb9892c2.jpg
 categories:
   - bath-salts
   - gift-sets

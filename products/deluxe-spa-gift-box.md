@@ -1,7 +1,7 @@
 ---
 title: Deluxe Spa Gift Box
 price: £50
-featured_image: d3b6e98529186cce.jpg
+header_image: d3b6e98529186cce.jpg
 categories:
   - bath-and-body
   - gift-sets

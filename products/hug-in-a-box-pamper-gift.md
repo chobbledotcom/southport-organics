@@ -1,7 +1,7 @@
 ---
 title: Hug in a Box Pamper Gift
 price: £30
-featured_image: 8387b86c1ec75a6c.jpg
+header_image: 8387b86c1ec75a6c.jpg
 categories:
   - gift-sets
 gallery:

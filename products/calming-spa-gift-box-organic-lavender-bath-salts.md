@@ -1,7 +1,7 @@
 ---
 title: Calming Spa Gift Box Organic Lavender Bath Salts
 price: £20
-featured_image: 83b1ac1e1e724bea.jpg
+header_image: 83b1ac1e1e724bea.jpg
 categories:
   - bath-salts
   - gift-sets

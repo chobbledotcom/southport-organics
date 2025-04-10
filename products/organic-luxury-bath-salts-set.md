@@ -1,7 +1,7 @@
 ---
 title: Organic Luxury Bath Salts Set
 price: £12
-featured_image: 99717102f0de6be8.jpg
+header_image: 99717102f0de6be8.jpg
 categories:
   - bath-salts
   - gift-sets

@@ -1,7 +1,7 @@
 ---
 title: Luxury Bath Salts Aromatherapy and Relaxation Spa Gift Box with Loofah & Hand Cream
 price: £22
-featured_image: c1a18f9af025d67c.jpg
+header_image: c1a18f9af025d67c.jpg
 categories:
   - bath-salts
   - gift-sets

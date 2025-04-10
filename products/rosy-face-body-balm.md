@@ -1,7 +1,7 @@
 ---
 title: Rosy Face & Body Balm
 price: £15
-featured_image: 9c0ed0f96accc873.jpg
+header_image: 9c0ed0f96accc873.jpg
 categories:
   - bath-and-body
   - face-care

@@ -1,7 +1,7 @@
 ---
 title: Organic Spa Gift Box for Her with Rosehip Facial Oil
 price: £45
-featured_image: bfe875929082c7c6.jpg
+header_image: bfe875929082c7c6.jpg
 categories:
   - bath-salts
   - face-care

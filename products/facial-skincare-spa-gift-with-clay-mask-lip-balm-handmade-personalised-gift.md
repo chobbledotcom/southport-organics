@@ -1,7 +1,7 @@
 ---
 title: Facial Skincare Spa Gift with Clay Mask & Lip Balm. Handmade Personalised Gift
 price: £15
-featured_image: 9085cb2e3c78d8fc.jpg
+header_image: 9085cb2e3c78d8fc.jpg
 categories:
   - face-care
   - gift-sets

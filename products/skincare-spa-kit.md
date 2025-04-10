@@ -1,7 +1,7 @@
 ---
 title: Skincare Spa Kit
 price: £15
-featured_image: c44c4b3b3f351f0a.jpg
+header_image: c44c4b3b3f351f0a.jpg
 categories:
   - face-care
   - lip-care

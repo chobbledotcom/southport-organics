@@ -1,7 +1,7 @@
 ---
 title: Luxury Lavender Organic Spa Package
 price: £45
-featured_image: 80809a730f65fbe7.jpg
+header_image: 80809a730f65fbe7.jpg
 categories:
   - gift-sets
   - face-care

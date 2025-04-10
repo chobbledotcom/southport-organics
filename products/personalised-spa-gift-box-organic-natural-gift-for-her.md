@@ -1,7 +1,7 @@
 ---
 title: Personalised Spa Gift Box Organic Natural Gift for Her
 price: £20
-featured_image: 84c6447b8b699ff0.jpg
+header_image: 84c6447b8b699ff0.jpg
 categories:
   - bath-salts
   - gift-sets

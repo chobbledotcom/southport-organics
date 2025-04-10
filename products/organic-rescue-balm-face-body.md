@@ -1,7 +1,7 @@
 ---
 title: Organic Rescue Balm Face & Body
 price: £15
-featured_image: db0160e8aea62ef6.jpg
+header_image: db0160e8aea62ef6.jpg
 categories:
   - bath-and-body
   - face-care

@@ -1,7 +1,7 @@
 ---
 title: Organic Hand & Body Cream with Shea Butter
 price: £10
-featured_image: d83f67258a8459cd.jpg
+header_image: d83f67258a8459cd.jpg
 categories:
   - hand-care
   - bath-and-body

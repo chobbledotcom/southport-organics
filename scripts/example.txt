@@ -1,7 +1,7 @@
 ---
 title: Kitchen Installation
 price: From £15,000
-featured_image: placeholder-wide-4.jpg
+header_image: placeholder-wide-4.jpg
 categories:
   - renovations
   - kitchen-fitting

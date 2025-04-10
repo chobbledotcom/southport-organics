@@ -1,7 +1,7 @@
 ---
 title: Foot Cream with Peppermint & Spearmint
 price: £10
-featured_image: b0de64c495b4bbb0.jpg
+header_image: b0de64c495b4bbb0.jpg
 categories:
   - foot-care
 gallery:

@@ -1,7 +1,7 @@
 ---
 title: Rose Spa Gift Box
 price: £20
-featured_image: 8082b52de7e3789d.jpg
+header_image: 8082b52de7e3789d.jpg
 categories:
   - bath-and-body
   - face-care

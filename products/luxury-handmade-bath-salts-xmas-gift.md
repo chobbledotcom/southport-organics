@@ -1,7 +1,7 @@
 ---
 title: Luxury Handmade Bath Salts Xmas Gift
 price: £30
-featured_image: 87a9baf2c5c8d1c1.jpg
+header_image: 87a9baf2c5c8d1c1.jpg
 categories:
   - bath-salts
   - gift-sets

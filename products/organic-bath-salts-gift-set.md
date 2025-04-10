@@ -1,7 +1,7 @@
 ---
 title: Organic Bath Salts Gift Set
 price: £30
-featured_image: 85b8bae7cc598139.jpg
+header_image: 85b8bae7cc598139.jpg
 categories:
   - bath-salts
   - gift-sets

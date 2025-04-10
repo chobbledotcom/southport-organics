@@ -1,7 +1,7 @@
 ---
 title: Organic Facial Masks
 price: £5
-featured_image: 955e6ec13d909768.jpg
+header_image: 955e6ec13d909768.jpg
 categories:
   - face-care
 gallery:

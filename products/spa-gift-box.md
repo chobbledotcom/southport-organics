@@ -1,7 +1,7 @@
 ---
 title: Spa Gift Box
 price: £20
-featured_image: 839abce7e3503a52.jpg
+header_image: 839abce7e3503a52.jpg
 categories:
   - gift-boxes
   - bath-salts

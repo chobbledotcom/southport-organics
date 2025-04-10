@@ -1,7 +1,7 @@
 ---
 title: Bath and Body Gift Box Organic Bath Salts Vegan Zero Waste Spa Box for Self Care Handmade Cosmetics for Self Care
 price: £40
-featured_image: 808db5ffc27b4885.jpg
+header_image: 808db5ffc27b4885.jpg
 categories:
   - bath-and-body
   - bath-salts

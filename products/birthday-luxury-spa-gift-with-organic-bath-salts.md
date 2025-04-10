@@ -1,7 +1,7 @@
 ---
 title: Birthday Luxury Spa Gift with Organic Bath Salts
 price: £35
-featured_image: 82f49cafc23d4a69.jpg
+header_image: 82f49cafc23d4a69.jpg
 categories:
   - bath-salts
   - gift-sets

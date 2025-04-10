@@ -1,7 +1,7 @@
 ---
 title: Natural Beauty Pamper Hamper
 price: £25
-featured_image: 8799f8a663195c87.jpg
+header_image: 8799f8a663195c87.jpg
 categories:
   - bath-salts
   - face-care

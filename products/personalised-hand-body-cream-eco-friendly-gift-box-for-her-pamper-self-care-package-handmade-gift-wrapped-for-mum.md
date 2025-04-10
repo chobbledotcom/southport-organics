@@ -1,7 +1,7 @@
 ---
 title: Personalised Hand & Body Cream Eco Friendly Gift Box for Her
 price: £30
-featured_image: 84dd19f0b225ae3b.jpg
+header_image: 84dd19f0b225ae3b.jpg
 categories:
   - hand-care
   - gift-sets

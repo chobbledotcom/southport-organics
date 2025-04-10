@@ -1,7 +1,7 @@
 ---
 title: Spa-Inspired Self Care Box for the Ultimate Pamper Session with Natural
 price: £30
-featured_image: 809dbfc3d8a12ba6.jpg
+header_image: 809dbfc3d8a12ba6.jpg
 categories:
   - bath-salts
   - gift-sets

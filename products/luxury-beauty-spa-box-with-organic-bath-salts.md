@@ -1,7 +1,7 @@
 ---
 title: Luxury Beauty Spa Box with Organic Bath Salts
 price: £50
-featured_image: b097d5e093a91d72.jpg
+header_image: b097d5e093a91d72.jpg
 categories:
   - bath-salts
   - gift-sets

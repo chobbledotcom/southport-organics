@@ -1,7 +1,7 @@
 ---
 title: Foot Spa Gift Peppermint & Spearmint Luxury Foot Soak Salts and Foot Cream
 price: £20
-featured_image: df8339c6ce929a84.jpg
+header_image: df8339c6ce929a84.jpg
 categories:
   - foot-care
   - gift-sets

@@ -1,7 +1,7 @@
 ---
 title: Luxurious Spa Gift Box for Her with Organic Facial Oil
 price: £45
-featured_image: af01809a9b4fc66f.jpg
+header_image: af01809a9b4fc66f.jpg
 categories:
   - face-care
   - gift-sets

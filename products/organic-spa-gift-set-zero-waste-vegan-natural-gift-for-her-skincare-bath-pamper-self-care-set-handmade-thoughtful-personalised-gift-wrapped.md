@@ -1,7 +1,7 @@
 ---
 title: Organic Spa Gift Set Zero Waste Vegan Natural Gift for Her
 price: £20
-featured_image: ad2ad5ed43b95841.jpg
+header_image: ad2ad5ed43b95841.jpg
 categories:
   - bath-salts
   - gift-sets

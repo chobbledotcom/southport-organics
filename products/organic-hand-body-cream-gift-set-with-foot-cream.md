@@ -1,7 +1,7 @@
 ---
 title: Organic Hand & Body Cream Gift Set with Foot Cream
 price: £30
-featured_image: 86cc39f0b217a69d.jpg
+header_image: 86cc39f0b217a69d.jpg
 categories:
   - hand-care
   - gift-sets

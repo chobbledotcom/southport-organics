@@ -1,7 +1,7 @@
 ---
 title: Spa & Relaxation Hamper
 price: £20
-featured_image: c6c67c951b9d1c62.jpg
+header_image: c6c67c951b9d1c62.jpg
 categories:
   - gift-sets
   - bath-sets

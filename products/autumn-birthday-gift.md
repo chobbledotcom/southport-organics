@@ -1,7 +1,7 @@
 ---
 title: Autumn Birthday Gift
 price: £20
-featured_image: 879fae914b5c5521.jpg
+header_image: 879fae914b5c5521.jpg
 categories:
   - bath-and-body
   - bath-salts

@@ -1,7 +1,7 @@
 ---
 title: Wellbeing Gift Set
 price: £30
-featured_image: 858bbca4e2795d83.jpg
+header_image: 858bbca4e2795d83.jpg
 categories:
   - gift-sets
   - bath-salts

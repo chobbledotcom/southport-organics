@@ -94,9 +94,6 @@ def create_markdown_file(row, output_dir):
     # Process images with full URLs
     gallery = process_images(row)
 
-    # Set featured image to the first image URL in gallery if available
-    featured_image = list(gallery.values())[0] if gallery else "placeholder-wide-4.jpg"
-
     # Extract categories
     categories = extract_categories(row['TAGS']) if pd.notna(row['TAGS']) else ["products"]
 
@@ -111,7 +108,6 @@ def create_markdown_file(row, output_dir):
         "---",
         f"title: {title}",
         f"        f"price: £{row['PRICE']}" if pd.notna(row['PRICE']) else "price: Contact for pricing",
-        f"featured_image: {featured_image}",
     ]
 
     # Add categories
