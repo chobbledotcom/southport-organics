@@ -20,7 +20,7 @@ else
   git reset --hard origin/main
 fi
 
-mkdir -p "$COMBINED_DIR"
+mkdir -p "$COMBINED_DIR/.image-cache"
 
 find "$COMBINED_DIR" -type f -name "*.md" -delete
 
@@ -32,24 +32,40 @@ rsync \
   --exclude="*.md" \
   "$TEMPLATE_DIR/" "$COMBINED_DIR/"
 
-mkdir -p "$COMBINED_DIR/.cache"
-
-sync_client_files() {
-  rsync \
+rsync \
     --recursive \
     --exclude=".git" \
     --exclude="*.nix" \
     --exclude="README.md" \
     --exclude=".image-cache" \
     "$CLIENT_DIR/" "$COMBINED_DIR/src/"
+
+rsync \
+    --recursive \
+    "$CLIENT_DIR/.image-cache/" "$COMBINED_DIR/.image-cache"
+
+sync_client_files() {
+  rsync \
+    --recursive \
+    --update \
+    --include="*/" \
+    --include="**/*.md" \
+    --include="**/*.scss" \
+    --exclude="*" \
+    "$CLIENT_DIR/" "$COMBINED_DIR/src/"
 }
 
 sync_client_files
 
 watch_and_sync() {
-  inotifywait -m -r -e modify,create,delete,move -q "$CLIENT_DIR" | while read -r directory event filename; do
-    sync_client_files
-  done
+  inotifywait \
+    -m -r \
+    -e modify,create,delete,move \
+    -q \
+    --include '.*\.(md|json|scss)$' \
+    "$CLIENT_DIR" | while read -r directory event filename; do
+      sync_client_files
+    done
 }
 
 watch_and_sync &

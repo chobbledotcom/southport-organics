@@ -89,6 +89,7 @@ body.left-nav main {
 header {
   h1 {
     color: white;
+    text-decoration: underline;
   }
 }
 
@@ -120,5 +121,17 @@ a {
   &:active,
   &:focus {
     text-decoration: underline;
+  }
+}
+
+ul.image-gallery li {
+  figcaption {
+    display: none;
+  }
+  a:hover {
+    transform: none;
+    img {
+      transform: none;
+    }
   }
 }

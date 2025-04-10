@@ -1,3 +1,3 @@
 ---
-title: Bath and Body
+title: Bath & Body
 ---
