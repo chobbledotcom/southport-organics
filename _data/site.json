@@ -16,9 +16,9 @@
 	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
 	"products": {
 		"product_thumb_widths": "240,480,640",
-		"category_thumb_widths": "1300,900",
+		"category_thumb_widths": "900,1300",
 		"gallery_thumb_widths": "240,480",
-		"gallery_image_widths": "1300,900",
-		"header_image_widths": "1300,900"
+		"gallery_image_widths": "900,1300",
+		"header_image_widths": "640,900,1300"
 	}
 }
