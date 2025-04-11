@@ -131,6 +131,19 @@ ul.items {
     p {
       text-decoration: none;
     }
+    &.image-link {
+      padding-top: 100%;
+      display: block;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 }
 
