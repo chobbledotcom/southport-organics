@@ -1,7 +1,16 @@
-# Chobble Clients Template
+# Southport Organics
 
-This repository builds a site based on the [Chobble Template](https://git.chobble.com/chobble/chobble-template/)
+**[www.southportorganics.com](https://www.southportorganics.com/)**
 
-It copies that template (except the Markdown files) and then copies the contents of this repo into the `src` folder
+A website built on the [Chobble Client](https://git.chobble.com/chobble/chobble-client) template, built with Forgejo actions and Nix.
 
-This means most of the Eleventy / Liquid / Nix complexity can be hidden from non-technical users who only ever need to edit the Markdown files and images
+## Edit Links:
+
+- [Products](https://git.chobble.com/hosted-by-chobble/southport-organics/src/branch/main/products)
+- [Categories](https://git.chobble.com/hosted-by-chobble/southport-organics/src/branch/main/categories)
+- [Pages](https://git.chobble.com/hosted-by-chobble/southport-organics/src/branch/main/pages)
+- [Images](https://git.chobble.com/hosted-by-chobble/southport-organics/src/branch/main/images)
+
+Page content is written in [Markdown format](https://www.markdownguide.org/cheat-sheet/) - sign in and click the pencil icon on a page to edit it. "Commit" means "Save Changes" - you can add a message describing the change or just leave it blank.
+
+After saving, the website is built in the [Actions](https://git.chobble.com/hosted-by-chobble/southport-organics/actions) tab above.
