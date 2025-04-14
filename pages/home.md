@@ -13,15 +13,13 @@ eleventyNavigation:
 
 ![Southport Organics: Luxury, Organic, Vegan, Cruelty Free](/images/banner.jpg)
 
-## 💫 Luxury, Organic, Handmade Cosmetics
+## Luxury, Organic, Handmade Cosmetics
 
-Hello, my names Jem! 🌙
+Southport Organics is a family business crafting natural, organic, Earth & animal friendly cosmetics here by the Irish Sea & vast pine woods of Southport. Inspired by the magic of nature, and passionate about self care, we believe that we should take good care of our planet too. We use only the highest quality ingredients, organic where possible, from trusted and ethical suppliers.
 
-At Southport Organics I craft Natural, Organic, Earth & Animal Friendly Cosmetics here by the sea in Southport. Inspired by the magic of nature, which isn’t hard here with vast beaches, the Irish sea, pinewoods, dunes and surrounding countryside, I'm passionate about self care and believe that we should take care of Nature too. I use only the highest quality ingredients, organic where possible, from trusted and ethical suppliers.
+We're also passionate about animal rights which is why all products are Vegan & Cruelty Free as well as donating to animal charities each month.
 
-I'm also passionate about animal rights which is why all products are Vegan & Cruelty Free as well as donating to animal charities each month.
-
-Thank you for supporting my small business! 🐰
+Thank you for supporting our small business!
 
 - 📮 All orders are dispatched within 1-3 weekdays via Royal Mail 24hr Tracked.
 - 💚 Handmade, Natural, Earth Friendly, Vegan & Cruelty Free.
