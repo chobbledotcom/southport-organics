@@ -21,6 +21,7 @@
     url(/assets/fonts/playfair-display-latin-800-normal.woff) format("woff");
 }
 
+body,
 nav,
 h1,
 h2,
@@ -36,13 +37,13 @@ h6 {
 }
 
 :root {
-  --color-bg: #000;
-  --color-bg-secondary: #222;
-  --color-bg-main: #000;
-  --color-link: #fff;
-  --color-secondary: #fff;
-  --color-secondary-accent: #fff;
-  --color-text: #eee;
+  --color-bg: #FAEEDE;
+  --color-bg-secondary: #FAEEDE;
+  --color-bg-main: #FAEEDE;
+  --color-link: #3F291E;
+  --color-secondary: #3F291E;
+  --color-secondary-accent: #3F291E;
+  --color-text: #3F291E;
   --outer-border-radius: 0;
   --border: 2px solid rgba(255, 255, 255, 0.2);
   --width-content: 1300px;
