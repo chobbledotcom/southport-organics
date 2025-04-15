@@ -4,9 +4,6 @@ on:
   push:
   workflow_dispatch:
 
-env:
-  NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-
 jobs:
   build:
     runs-on: native
