@@ -80,22 +80,4 @@ fi
 rm -rf _site
 yarn eleventy \
   --serve \
-  --quiet &
-ELEVENTY_PID=$!
-
-sass \
-  --watch "src/_scss:_site/css" \
-  --style compressed &
-SASS_PID=$!
-
-cleanup_serve() {
-  pkill -P $$
-  kill $ELEVENTY_PID $SASS_PID $WATCH_PID 2>/dev/null
-  pkill -f "inotifywait.*$CLIENT_DIR"
-  exit 0
-}
-
-trap cleanup_serve EXIT INT TERM
-
-wait
-trap - EXIT INT TERM
+  --quiet

@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p bash git inotify-tools nix-fast-build rsync nodejs yarn sass
+#! nix-shell -i bash -p bash git inotify-tools nix-fast-build rsync nodejs yarn
 
 set -e
 
