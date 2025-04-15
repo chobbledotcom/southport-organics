@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: native
+    runs-on: chobble
     steps:
       - name: Checkout this repo
         uses: https://git.chobble.com/mirrored/checkout@v4
@@ -28,12 +28,6 @@ jobs:
             flake.lock
             bin
             src
-
-      # - name: Set Eleventy .cache
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ${{ github.workspace }}/.image-cache
-      #     key: eleventy-img-cache
 
       - name: Copy template files to combined dir
         run: |
@@ -69,17 +63,6 @@ jobs:
             source/.image-cache/ \
             combined/.image-cache/
 
-      # - name: Copy Forgejo cache into combined dir
-      #   run: |
-      #     mkdir -p .image-cache
-      #     rsync \
-      #       --recursive \
-      #       --verbose \
-      #       --no-perms \
-      #       --chmod=ugo=rwX \
-      #       .image-cache/ \
-      #       combined/.image-cache/
-
       - name: Update site.json with secrets
         run: |
           sed -i \
@@ -89,34 +72,17 @@ jobs:
             's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' \
             "combined/src/_data/site.json"
 
-      - name: Build with Nix
+      - name: Build with Node
         run: |
           cd combined
-          nix-fast-build \
-            --skip-cached \
-            --flake ".#packages.x86_64-linux.site" \
-            --no-nom
-          mv result- ../result
-
-      # - name: Copy .image-cache out of result
-      #   run: |
-      #     rsync \
-      #       --recursive \
-      #       --delete \
-      #       result/.image-cache/ \
-      #       .image-cache/
-
-      # - name: Save .image-cache to Forgejo cache
-      #   uses: actions/cache/save@v4
-      #   with:
-      #     path: ${{ github.workspace }}/.image-cache
-      #     key: eleventy-img-cache
+          npx @11ty/eleventy
+          mv _site ../
 
       - name: Deploy to Bunny
         uses: https://git.chobble.com/mirrored/bunny-deploy@v2.0.6
         with:
           access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
-          directory-to-upload: "result/_site"
+          directory-to-upload: "_site"
           storage-endpoint: "https://uk.storage.bunnycdn.com"
           storage-zone-name: "southport-organics"
           storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
@@ -130,4 +96,4 @@ jobs:
         run: |
           find . -type d -exec chmod 755 {} \;
           find . -type f -exec chmod 644 {} \;
-          rm -rf combined source template result .image-cache
+          rm -rf combined source template .image-cache
