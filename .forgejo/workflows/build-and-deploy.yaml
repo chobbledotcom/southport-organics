@@ -9,12 +9,12 @@ jobs:
     runs-on: native
     steps:
       - name: Checkout this repo
-        uses: https://code.forgejo.org/actions/checkout@v4
+        uses: https://git.chobble.com/mirrored/checkout@v4
         with:
           path: source
 
       - name: Checkout Chobble Template
-        uses: https://code.forgejo.org/actions/checkout@v4
+        uses: https://git.chobble.com/mirrored/checkout@v4
         with:
           repository: chobble/chobble-template
           ref: main
@@ -113,7 +113,7 @@ jobs:
       #     key: eleventy-img-cache
 
       - name: Deploy to Bunny
-        uses: R-J-dev/bunny-deploy@v2.0.6
+        uses: https://git.chobble.com/mirrored/bunny-deploy@v2.0.6
         with:
           access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
           directory-to-upload: "result/_site"
