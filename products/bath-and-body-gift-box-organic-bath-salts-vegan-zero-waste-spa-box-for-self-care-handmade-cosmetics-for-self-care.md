@@ -1,5 +1,5 @@
 ---
-title: Bath and Body Gift Box Organic Bath Salts Vegan Zero Waste Spa Box for Self Care Handmade Cosmetics for Self Care
+title: Bath Salts & Body Creams Gift Box
 price: £40
 header_image: 808db5ffc27b4885.jpg
 categories:
@@ -26,7 +26,7 @@ specs:
     value: Yes
 ---
 
-What better a way to feel relaxed and pampered than with two big jars of luxurious Organic Handmade Bath Salts and Rich Organic Hand or Foot Creams bursting with nourishing plant based ingredients and scented with beautiful natural essential oils! 🛁
+What better a way to feel relaxed and pampered than with two big jars of luxurious Organic Handmade Bath Salts and Rich Organic Hand and Foot Creams bursting with nourishing plant based ingredients and scented with beautiful natural essential oils! 🛁
 
 ## This gorgeously wrapped gift box contains
 
@@ -42,7 +42,6 @@ Southport Organics Bath Salts are made with a mineral rich fusion of Sea Salts, 
 - 😴 Deep Calm
 - 🌊 Refresh
 - 🍊 Citrus & Rose
-- 🌱 Muscle Ease
 - 🌺 Wild Rose
 - ❄️ Cooling Peppermint Foot Soak
 
