@@ -1,5 +1,5 @@
 ---
-title: Luxury Lavender Organic Spa Package
+title: Luxury Lavender & Rose Gift Box
 price: £45
 header_image: 80809a730f65fbe7.jpg
 categories:
