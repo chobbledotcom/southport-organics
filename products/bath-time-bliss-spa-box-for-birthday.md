@@ -1,5 +1,5 @@
 ---
-title: Bath Time Bliss Gift
+title: Bath Time Bliss Gift Box
 price: £12
 header_image: aedb15c6869392c6.jpg
 categories:
