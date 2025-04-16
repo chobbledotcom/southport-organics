@@ -1,5 +1,5 @@
 ---
-title: Luxury Organic Skincare & Bathing Hamper for Her
+title: Luxury Organic Skincare & Bathing Hamper
 price: £50
 header_image: d3b6e98529186cce.jpg
 categories:
