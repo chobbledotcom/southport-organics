@@ -1,5 +1,5 @@
 ---
-title: Citrus & Mint Bath and Body Hamper
+title: Citrus & Mint Gift Box
 price: £35
 header_image: 8389bcf6e358156a.jpg
 categories:
