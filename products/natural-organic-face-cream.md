@@ -1,5 +1,5 @@
 ---
-title: Natural Organic Face Cream
+title: Calm Cream Organic Moisturiser
 price: £12
 header_image: aed1b19697294a71.jpg
 categories:
