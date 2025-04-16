@@ -1,5 +1,5 @@
 ---
-title: Natural Beauty Pamper Hamper
+title: Refresh Gift Box
 price: £25
 header_image: 8799f8a663195c87.jpg
 categories:
