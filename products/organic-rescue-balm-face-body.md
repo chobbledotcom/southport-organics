@@ -1,5 +1,5 @@
 ---
-title: Organic Rescue Balm Face & Body
+title: Rosy Balm Organic Face & Body Balm
 price: £15
 header_image: db0160e8aea62ef6.jpg
 categories:
