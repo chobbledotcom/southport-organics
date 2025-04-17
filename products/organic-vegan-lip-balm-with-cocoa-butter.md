@@ -1,5 +1,5 @@
 ---
-title: Organic Vegan Lip Balm with Cocoa Butter
+title: Organic Cocoa Butter & Peppermint Lip Balm
 price: £5
 header_image: 95fc28371d903e9c.jpg
 categories:
