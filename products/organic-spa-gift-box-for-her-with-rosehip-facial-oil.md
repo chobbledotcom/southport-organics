@@ -1,5 +1,5 @@
 ---
-title: Organic Spa Gift Box for Her with Rosehip Facial Oil
+title: Organic Citrus & Rose Spa Gift Box
 price: £45
 header_image: bfe875929082c7c6.jpg
 categories:
