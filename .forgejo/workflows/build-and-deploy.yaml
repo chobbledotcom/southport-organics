@@ -75,6 +75,7 @@ jobs:
       - name: Build with Node
         run: |
           cd combined
+          npm install
           npx @11ty/eleventy
           mv _site ../
 
