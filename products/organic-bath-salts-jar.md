@@ -1,5 +1,5 @@
 ---
-title: Organic Bath Salts Jar
+title: Organic Bath Salts
 price: £10
 header_image: 99717102f0de6be8.jpg
 categories:

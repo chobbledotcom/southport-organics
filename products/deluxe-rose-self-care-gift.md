@@ -1,5 +1,5 @@
 ---
-title: Deluxe Rose Self Care Gift
+title: Wild Rose & Lavender Gift Box
 price: £30
 header_image: 8385ae4e4e61f36c.jpg
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Relaxing Spa Box Gift Wrapped Bath Salts
+title: Lavender & Mint Gift Box
 price: £25
 header_image: d787e887cb9892c2.jpg
 categories:

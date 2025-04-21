@@ -1,5 +1,5 @@
 ---
-title: Organic Spa Gift Set Zero Waste Vegan Natural Gift for Her
+title: Wild Rose Bath & Facial Gift Box
 price: £20
 header_image: ad2ad5ed43b95841.jpg
 categories:

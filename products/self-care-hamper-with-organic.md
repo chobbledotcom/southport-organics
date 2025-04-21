@@ -1,5 +1,5 @@
 ---
-title: Self Care Hamper with Organic
+title: Facial Mask & Body Cream Gift
 price: £20
 header_image: de856bc3c4c4d89c.jpg
 categories:

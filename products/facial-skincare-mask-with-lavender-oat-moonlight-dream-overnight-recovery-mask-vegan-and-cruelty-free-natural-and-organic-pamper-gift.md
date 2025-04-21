@@ -1,5 +1,5 @@
 ---
-title: Facial Skincare Mask with Lavender & Oat. Moonlight Dream Overnight Recovery Mask. Vegan and Cruelty Free. Natural and Organic. Pamper Gift
+title: Lavender & Oat Moonlight Dream Overnight Recovery Mask
 price: £20
 header_image: ad2fc242169d9537.jpg
 categories:

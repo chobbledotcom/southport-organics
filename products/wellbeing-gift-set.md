@@ -1,5 +1,5 @@
 ---
-title: Wellbeing Gift Set
+title: Refresh Organic Gift Set
 price: £30
 header_image: 858bbca4e2795d83.jpg
 categories:

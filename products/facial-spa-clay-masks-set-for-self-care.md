@@ -1,5 +1,5 @@
 ---
-title: Facial Spa Clay Masks Set for Self Care
+title: Clay Facial Mask Collection
 price: £20
 header_image: 9180ed3e770179f8.jpg
 categories:
