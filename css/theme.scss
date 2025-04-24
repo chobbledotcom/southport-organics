@@ -98,8 +98,10 @@ header {
 form.contact-form {
   background: #000;
   box-shadow: none;
-  color: var(--color-link);
-  label,
+  color: var(--color-bg);
+  label {
+    color: var(--color-bg);
+  }
   button {
     color: var(--color-link);
   }
