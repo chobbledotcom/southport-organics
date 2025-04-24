@@ -37,13 +37,13 @@ h6 {
 }
 
 :root {
-  --color-bg: #FAEEDE;
-  --color-bg-secondary: #FAEEDE;
-  --color-bg-main: #FAEEDE;
-  --color-link: #3F291E;
-  --color-secondary: #3F291E;
-  --color-secondary-accent: #3F291E;
-  --color-text: #3F291E;
+  --color-bg: #faeede;
+  --color-bg-secondary: #faeede;
+  --color-bg-main: #faeede;
+  --color-link: #3f291e;
+  --color-secondary: #3f291e;
+  --color-secondary-accent: #3f291e;
+  --color-text: #3f291e;
   --outer-border-radius: 0;
   --border: 2px solid rgba(255, 255, 255, 0.2);
   --width-content: 1300px;
@@ -53,10 +53,6 @@ h6 {
 nav,
 article {
   background: var(--color-bg-secondary);
-}
-
-header,
-footer {
 }
 
 nav {
@@ -145,4 +141,14 @@ ul.image-gallery li {
       transform: none;
     }
   }
+}
+
+body.sticky-mobile-nav nav .toggle-label span,
+body.sticky-mobile-nav nav .toggle-label span::before,
+body.sticky-mobile-nav nav .toggle-label span::after {
+  background: var(--color-link);
+}
+
+body > footer {
+  background: var(--color-link);
 }
