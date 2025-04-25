@@ -21,4 +21,4 @@ content:
         label: Subtitle
       - name: body
         label: Body
-        type: rich-text
+        type: text
