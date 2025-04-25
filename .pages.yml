@@ -25,3 +25,28 @@ content:
         type: code
         options:
           language: markdown
+  - name: categories
+    label: Categories
+    path: categories
+    type: collection
+    fields:
+      - name: header_image
+        type: image
+        label: Header Image
+      - name: header_text
+        type: string
+        label: Header Text
+      - name: meta_description
+        type: string
+        label: Meta Description
+      - name: meta_title
+        type: string
+        label: Meta Title
+      - name: subtitle
+        type: string
+        label: Subtitle
+      - name: body
+        label: Body
+        type: code
+        options:
+          language: markdown
