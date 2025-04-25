@@ -33,6 +33,9 @@ content:
       - name: header_image
         type: image
         label: Header Image
+      - name: title
+        type: string
+        label: Title
       - name: header_text
         type: string
         label: Header Text
