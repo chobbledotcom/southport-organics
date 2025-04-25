@@ -1,7 +1,38 @@
 media:
   input: images
-  output: images
+  output: /images
 content:
+  - name: pages
+    label: Pages
+    path: pages
+    type: collection
+    fields:
+      - name: header_image
+        type: image
+        label: Header Image
+        options:
+          input: images
+          output: /images
+      - name: title
+        type: string
+        label: Title
+      - name: header_text
+        type: string
+        label: Header Text
+      - name: meta_description
+        type: string
+        label: Meta Description
+      - name: meta_title
+        type: string
+        label: Meta Title
+      - name: subtitle
+        type: string
+        label: Subtitle
+      - name: body
+        label: Body
+        type: code
+        options:
+          language: markdown
   - name: news
     label: News
     path: news
@@ -11,7 +42,8 @@ content:
         type: image
         label: Header Image
         options:
-          path: images
+          input: images
+          output: /images
       - name: header_text
         type: string
         label: Header Text
@@ -38,7 +70,8 @@ content:
         type: image
         label: Header Image
         options:
-          path: images
+          input: images
+          output: /images
       - name: title
         type: string
         label: Title
@@ -68,7 +101,8 @@ content:
         type: image
         label: Header Image
         options:
-          path: images
+          input: images
+          output: /images
       - name: title
         type: string
         label: Title
