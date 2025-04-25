@@ -1,4 +1,6 @@
-media: images
+media:
+  input: images
+  output: /images
 content:
   - name: news
     label: News
