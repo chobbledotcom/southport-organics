@@ -5,7 +5,7 @@ content:
     type: collection
     fields:
       - name: header_image
-        type: string
+        type: image
         label: Header Image
       - name: header_text
         type: string
