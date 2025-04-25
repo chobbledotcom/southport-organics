@@ -39,6 +39,7 @@ jobs:
         with:
           path: |
             combined/node_modules
+            combined/.image-cache
           key: ${{ runner.os }}-node-${{ hashFiles('combined/package.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
@@ -70,7 +71,7 @@ jobs:
 
       - name: Copy .image-cache folder in separately
         run: |
-          mkdir combined/.image-cache
+          mkdir -p combined/.image-cache
           rsync \
             --recursive \
             --verbose \
