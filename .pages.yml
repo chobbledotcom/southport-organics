@@ -1,0 +1,14 @@
+content:
+  - name: news
+    label: News
+    path: news
+    type: collection
+    fields:
+      - name: header_text
+        type: string
+      - name: meta_description
+        type: string
+      - name: meta_title
+        type: string
+      - name: subtitle
+        type: string
