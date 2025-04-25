@@ -19,3 +19,6 @@ content:
       - name: subtitle
         type: string
         label: Subtitle
+      - name: body
+        label: Body
+        type: rich-text
