@@ -6,15 +6,15 @@ on:
 
 jobs:
   build:
-    runs-on: chobble
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
-        uses: https://git.chobble.com/mirrored/checkout@v4 # actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           path: source
 
       - name: Checkout Chobble Template
-        uses: https://git.chobble.com/mirrored/checkout@v4 # actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           repository: chobble/chobble-template
           ref: main
@@ -28,6 +28,20 @@ jobs:
             flake.lock
             bin
             src
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            combined/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('combined/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Copy template files to combined dir
         run: |
@@ -80,7 +94,7 @@ jobs:
           mv _site ../
 
       - name: Deploy to Bunny
-        uses: https://git.chobble.com/mirrored/bunny-deploy@v2.0.6 # R-J-dev/checkout@v4
+        uses: R-J-dev/bunny-deploy@v2.0.6
         with:
           access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
           directory-to-upload: "_site"
@@ -97,4 +111,6 @@ jobs:
         run: |
           find . -type d -exec chmod 755 {} \;
           find . -type f -exec chmod 644 {} \;
-          rm -rf _site combined source template .image-cache
+          rm -rf _site source template .image-cache
+          # Keep combined/node_modules for cache but remove other combined files
+          find combined -mindepth 1 -maxdepth 1 -not -name "node_modules" -exec rm -rf {} \;
