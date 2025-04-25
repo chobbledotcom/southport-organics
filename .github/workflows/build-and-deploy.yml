@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Chobble Template
         uses: actions/checkout@v4
         with:
-          repository: chobble/chobble-template
+          repository: chobble-mirror/chobble-template
           ref: main
           path: template
           sparse-checkout-cone-mode: false
