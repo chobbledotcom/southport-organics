@@ -85,7 +85,7 @@ content:
           collection: categories
           multiple: true
           search: "title"
-          value: "{title}"
+          value: "{filename}"
           label: "{title}"
       - name: header_text
         type: string
