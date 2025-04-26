@@ -4,7 +4,7 @@
 
 Temporary site: [southport-organics.b-cdn.net](https://southport-organics.b-cdn.net/)
 
-A website built on the [Chobble Client](https://git.chobble.com/chobble/chobble-client) template, written in Eleventy with MVP.css, and built with Forgejo actions on NixOS.
+A website based on the [Chobble Client](https://git.chobble.com/chobble/chobble-client) template, written in Eleventy with MVP.css, built with Node on Github actions, and hosted on Bunny.net.
 
 ## Edit Links:
 
