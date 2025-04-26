@@ -46,7 +46,7 @@ jobs:
 
       - name: Copy template files to combined dir
         run: |
-          mkdir combined
+          mkdir -p combined
           rsync \
             --recursive \
             --verbose \
