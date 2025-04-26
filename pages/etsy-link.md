@@ -1,7 +1,7 @@
 ---
+header_text: Etsy Shop Link
 eleventyNavigation:
   key: Etsy Shop
-  url: https://www.etsy.com/shop/southportorganics/
   order: 1
-permalink: false
+  url: https://www.etsy.com/shop/southportorganics/
 ---
