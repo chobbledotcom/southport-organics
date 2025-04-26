@@ -5,6 +5,7 @@ eleventyNavigation:
   key: News
   order: 3
 permalink: /news/
+layout: news-archive.html
 ---
 ## Congue Ipsum
 
