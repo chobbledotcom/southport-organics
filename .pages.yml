@@ -7,7 +7,7 @@ content:
     path: pages
     type: collection
     view:
-      fields: [ name, header_text ]
+      fields: [ filename, header_text ]
       primary: name
       sort: [ order, name ]
     fields:
