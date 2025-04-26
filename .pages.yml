@@ -95,7 +95,7 @@ content:
         type: code
         options:
           language: markdown
-      - name: image_gallery
+      - name: gallery
         type: image
         label: Gallery
         options:
