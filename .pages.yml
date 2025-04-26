@@ -6,8 +6,9 @@ content:
     label: Pages
     path: pages
     type: collection
+    subfolders: false
     view:
-      fields: [ filename, header_text ]
+      fields: [ name, meta_title, header_text ]
       primary: name
       sort: [ order, name ]
     fields:
