@@ -87,6 +87,11 @@ content:
           search: "title"
           value: "{name}"
           label: "{title}"
+      - name: price
+        label: Price
+        type: number
+        options:
+          min: 1
       - name: header_text
         type: string
         label: Header Text
