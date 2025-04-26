@@ -42,7 +42,7 @@ jobs:
 
       - id: get-cache-key
         name: Set cache key
-        run: echo "key=${{ runner.os }}-node-${{ hashFiles('template/package-lock.json') }}" >> $GITHUB_OUTPUT
+        run: echo "key=${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
