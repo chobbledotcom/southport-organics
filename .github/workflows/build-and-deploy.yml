@@ -46,17 +46,23 @@ jobs:
             --exclude="images" \
             template/ \
             combined/
+          ls -lah combined/
+
+      - name: Copy eleventy config to combined dir
+        run: |
+          cp template/.eleventy.js combined/
+          ls -lah combined/
 
       - name: Overlay our repo files into combined src
         run: |
           rsync \
             --recursive \
             --verbose \
-            --exclude=".git" \
-            --exclude="bin/build" \
+            --exclude=".*" \
             --exclude="README.md" \
             source/ \
             combined/src/
+          ls -lah combined/
 
       - name: Update site.json with secrets
         run: |
