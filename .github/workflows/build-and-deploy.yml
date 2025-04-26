@@ -4,9 +4,17 @@ on:
   push:
   workflow_dispatch:
 
+# Limit concurrent runs of the same workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  build:
+  setup:
+    name: Setup
     runs-on: ubuntu-latest
+    outputs:
+      cache-key: ${{ steps.get-cache-key.outputs.key }}
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4
@@ -29,6 +37,13 @@ jobs:
             bin
             src
 
+      - name: Create combined directory
+        run: mkdir -p combined
+
+      - id: get-cache-key
+        name: Set cache key
+        run: echo "key=${{ runner.os }}-node-${{ hashFiles('template/package-lock.json') }}" >> $GITHUB_OUTPUT
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -40,9 +55,35 @@ jobs:
           path: |
             combined/node_modules
             combined/.image-cache
-          key: ${{ runner.os }}-node-${{ hashFiles('combined/package.json') }}
+          key: ${{ steps.get-cache-key.outputs.key }}
           restore-keys: |
             ${{ runner.os }}-node-
+
+  prepare:
+    name: Prepare Files
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout Chobble Template
+        uses: actions/checkout@v4
+        with:
+          repository: chobble-mirror/chobble-template
+          ref: main
+          path: template
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .eleventy.js
+            package.json
+            package-lock.json
+            flake.nix
+            flake.lock
+            bin
+            src
 
       - name: Copy template files to combined dir
         run: |
@@ -77,12 +118,64 @@ jobs:
             's/"botpoison_public_key": null/"botpoison_public_key": "${{ secrets.BOTPOISON_PUBLIC_KEY }}"/g' \
             "combined/src/_data/site.json"
 
+      - name: Upload combined directory
+        uses: actions/upload-artifact@v4
+        with:
+          name: combined-files
+          path: combined/
+          retention-days: 1
+
+  build:
+    name: Build Site
+    needs: prepare
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download combined directory
+        uses: actions/download-artifact@v4
+        with:
+          name: combined-files
+          path: combined
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            combined/node_modules
+            combined/.image-cache
+          key: ${{ needs.setup.outputs.cache-key }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Build with Node
         run: |
           cd combined
           npm install
           npx @11ty/eleventy
-          mv _site ../
+          mkdir -p ../_site
+          mv _site/* ../_site/
+
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-site
+          path: _site/
+          retention-days: 1
+
+  deploy:
+    name: Deploy
+    needs: [setup, build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: built-site
+          path: _site
 
       - name: Deploy to Bunny
         uses: R-J-dev/bunny-deploy@v2.0.6
