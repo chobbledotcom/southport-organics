@@ -55,6 +55,7 @@ content:
     label: News
     path: news
     type: collection
+    subfolders: false
     fields:
       - name: header_image
         type: image
@@ -84,6 +85,7 @@ content:
     label: Products
     path: products
     type: collection
+    subfolders: false
     fields:
       - name: header_image
         type: image
@@ -143,6 +145,7 @@ content:
     label: Categories
     path: categories
     type: collection
+    subfolders: false
     fields:
       - name: header_image
         type: image
