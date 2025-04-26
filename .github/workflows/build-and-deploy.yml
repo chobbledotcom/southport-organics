@@ -103,7 +103,7 @@ jobs:
       - name: Build with Node
         run: |
           cd combined
-          npm install
+          npm ci
           npx @11ty/eleventy
           mkdir -p ../_site
           mv _site/* ../_site/
