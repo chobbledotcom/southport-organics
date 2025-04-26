@@ -6,6 +6,15 @@ categories:
   - bath-and-body.md
   - face-care.md
   - hand-care.md
+features:
+  - A deeply moisturising and uplifting Orange & Bergamot Rich Organic Hand
+    Cream 50ml
+  - A Matcha Green Tea Facial Mask to lift and boost the complexion 20g
+  - "  A gorgeously fragrant Refresh Organic Bath Soak made with zesty Pink
+    Grapefruit & cooling Peppermint to complete the perfect combination of
+    pampering and rejuvenation 300g"
+  - Spa facial accessories including a bamboo spoon, mixing bowl & organic
+    muslin cloth to add an extra touch of spa inspired luxury
 gallery:
   - /images/858bbca4e2795d83.jpg
   - /images/cc1a48d3d56d64b5.jpg
