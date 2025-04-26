@@ -42,6 +42,12 @@ content:
           type: string
         - name: order
           type: number
+      - name: layout
+        type: string
+        hidden: true
+      - name: permalink
+        type: string
+        hidden: true
   - name: news
     label: News
     path: news
