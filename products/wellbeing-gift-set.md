@@ -2,7 +2,16 @@
 header_image: /images/858bbca4e2795d83.jpg
 title: Refresh Organic Gift Set
 gallery:
-  - /images/487098629_10163140996308735_613164024176203637_n.jpg
+  - /images/858bbca4e2795d83.jpg
+  - /images/cc1a48d3d56d64b5.jpg
+  - /images/ce69cca8b14bfa50.jpg
+  - /images/948872233bff7a88.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/d5aae6a0d78045d7.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/975de8cada889e30.jpg
 ---
 
 A thoughtful and luxurious gift box carefully curated for those in need of a pick me up ☔️ Give yourself or a loved one a well-being boost with natural, organic, vegan, handmade products perfect for pampering and self-care ☀️
