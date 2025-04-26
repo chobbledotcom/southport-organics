@@ -1,7 +1,7 @@
 ---
 title: Refresh Organic Gift Set
 price: £30
-header_image: 858bbca4e2795d83.jpg
+header_image: /images/858bbca4e2795d83.jpg
 categories:
   - gift-sets
   - bath-salts
