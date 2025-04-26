@@ -55,7 +55,7 @@ jobs:
           path: |
             combined/node_modules
             combined/.image-cache
-          key: ${{ needs.get-cache-key.outputs.key }}
+          key: ${{ steps.get-cache-key.outputs.key }}
           restore-keys: |
             ${{ runner.os }}-node-
 
