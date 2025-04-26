@@ -14,9 +14,6 @@ content:
           input: images
           output: /images
           extensions: [jpg]
-      - name: title
-        type: string
-        label: Title
       - name: header_text
         type: string
         label: Header Text
