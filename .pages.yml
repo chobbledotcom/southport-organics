@@ -34,6 +34,14 @@ content:
         type: code
         options:
           language: markdown
+      - name: eleventyNavigation
+        label: Navigation
+        type: object
+        fields:
+        - name: name
+          type: string
+        - name: order
+          type: number
   - name: news
     label: News
     path: news
