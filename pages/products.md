@@ -5,6 +5,7 @@ meta_title: Our Products
 eleventyNavigation:
   key: Products
   order: 2
+layout: products.html
 permalink: /products/
 ---
 # Products
