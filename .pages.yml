@@ -13,6 +13,7 @@ content:
         options:
           input: images
           output: /images
+          extensions: [jpg]
       - name: title
         type: string
         label: Title
@@ -44,6 +45,7 @@ content:
         options:
           input: images
           output: /images
+          extensions: [jpg]
       - name: header_text
         type: string
         label: Header Text
@@ -72,6 +74,7 @@ content:
         options:
           input: images
           output: /images
+          extensions: [jpg]
       - name: title
         type: string
         label: Title
@@ -92,6 +95,14 @@ content:
         type: code
         options:
           language: markdown
+      - name: gallery
+        type: image
+        label: Header Image
+        options:
+          input: images
+          output: /images
+          multiple: true
+          extensions: [jpg]
   - name: categories
     label: Categories
     path: categories
@@ -103,6 +114,7 @@ content:
         options:
           input: images
           output: /images
+          extensions: [jpg]
       - name: title
         type: string
         label: Title
