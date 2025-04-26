@@ -5,7 +5,17 @@ header_image: ad2ad5ed43b95841.jpg
 categories:
   - bath-salts
   - gift-sets
-gallery: []
+gallery:
+  Image 1: ad2ad5ed43b95841.jpg
+  Image 2: 8082b52de7e3789d.jpg
+  Image 3: cc1a48d3d56d64b5.jpg
+  Image 4: ce69cca8b14bfa50.jpg
+  Image 5: bb19c06e95e4cc9c.jpg
+  Image 6: d5aa6e80569045ff.jpg
+  Image 7: 9fe869944e814c9f.jpg
+  Image 8: eb4acc70b10f899e.jpg
+  Image 9: b49b442bd7461d56.jpg
+  Image 10: 975de8cada889e30.jpg
 specs:
   - name: Price
     value: £20
