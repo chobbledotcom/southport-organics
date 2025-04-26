@@ -97,7 +97,7 @@ content:
           language: markdown
       - name: gallery
         type: image
-        label: Header Image
+        label: Gallery
         options:
           input: images
           output: /images
