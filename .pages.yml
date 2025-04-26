@@ -51,7 +51,6 @@ content:
         hidden: true
       - name: permalink
         type: string
-        hidden: true
   - name: news
     label: News
     path: news
