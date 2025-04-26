@@ -10,41 +10,7 @@ concurrency:
 
 jobs:
   setup:
-    name: Setup
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout this repo
-        uses: actions/checkout@v4
-        with:
-          path: source
-
-      - name: Checkout Chobble Template
-        uses: actions/checkout@v4
-        with:
-          repository: chobble-mirror/chobble-template
-          ref: main
-          path: template
-          sparse-checkout-cone-mode: false
-          sparse-checkout: |
-            .eleventy.js
-            package.json
-            package-lock.json
-            flake.nix
-            flake.lock
-            bin
-            src
-
-      - name: Create combined directory
-        run: mkdir -p combined
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 23
-
-  prepare:
     name: Prepare Files
-    needs: setup
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
