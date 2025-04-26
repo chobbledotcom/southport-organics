@@ -96,9 +96,9 @@ jobs:
           path: |
             combined/node_modules
             combined/.image-cache
-          key: ${{ runner.os }}-node-${{ hashFiles('template/package-lock.json') }}
+          key: ${{ runner.os }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}
 
       - name: Build with Node
         run: |
