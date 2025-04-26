@@ -1,7 +1,7 @@
 ---
 title: Wild Rose Bath & Facial Gift Box
 price: £20
-header_image: ad2ad5ed43b95841.jpg
+header_image: /images/ad2ad5ed43b95841.jpg
 categories:
   - bath-salts
   - gift-sets

@@ -1,7 +1,7 @@
 ---
 title: Facial Mask & Body Cream Gift
 price: £20
-header_image: de856bc3c4c4d89c.jpg
+header_image: /images/de856bc3c4c4d89c.jpg
 categories:
   - face-care
   - hand-care

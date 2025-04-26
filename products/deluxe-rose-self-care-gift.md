@@ -1,7 +1,7 @@
 ---
 title: Wild Rose & Lavender Gift Box
 price: £30
-header_image: 8385ae4e4e61f36c.jpg
+header_image: /images/8385ae4e4e61f36c.jpg
 categories:
   - bath-and-body
   - gift-sets

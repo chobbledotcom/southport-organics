@@ -1,5 +1,5 @@
 ---
-header_image: header.jpg
+header_image: /images/header.jpg
 header_text: Our Products
 meta_description:
 meta_title: Our Products

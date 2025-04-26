@@ -1,7 +1,7 @@
 ---
 title: Organic Hand & Body Cream
 price: £10
-header_image: d83f67258a8459cd.jpg
+header_image: /images/d83f67258a8459cd.jpg
 categories:
   - hand-care
   - bath-and-body

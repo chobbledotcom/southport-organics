@@ -1,7 +1,7 @@
 ---
 title: Citrus & Mint Gift Box
 price: £35
-header_image: 8389bcf6e358156a.jpg
+header_image: /images/8389bcf6e358156a.jpg
 categories:
   - bath-and-body
   - gift-sets

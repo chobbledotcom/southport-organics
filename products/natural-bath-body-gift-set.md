@@ -1,7 +1,7 @@
 ---
 title: Natural Bath & Body Gift Set
 price: £35
-header_image: c3f8dcc3c514aa96.jpg
+header_image: /images/c3f8dcc3c514aa96.jpg
 categories:
   - bath-and-body
   - bath-salts

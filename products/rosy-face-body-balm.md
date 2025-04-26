@@ -1,7 +1,7 @@
 ---
 title: Rosy Glow Organic Face & Body Balm
 price: £15
-header_image: 9c0ed0f96accc873.jpg
+header_image: /images/9c0ed0f96accc873.jpg
 categories:
   - bath-and-body
   - face-care

@@ -1,7 +1,7 @@
 ---
 title: Facial Mask & Lip Balm Gift Box
 price: £15
-header_image: 9085cb2e3c78d8fc.jpg
+header_image: /images/9085cb2e3c78d8fc.jpg
 categories:
   - face-care
   - gift-sets

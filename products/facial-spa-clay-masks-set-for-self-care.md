@@ -1,7 +1,7 @@
 ---
 title: Clay Facial Mask Collection
 price: £20
-header_image: 9180ed3e770179f8.jpg
+header_image: /images/9180ed3e770179f8.jpg
 categories:
   - face-care
 gallery:

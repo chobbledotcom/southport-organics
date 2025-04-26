@@ -1,7 +1,7 @@
 ---
 title: Bath Salts Trio Gift Box
 price: £30
-header_image: 859bbee6955834c1.jpg
+header_image: /images/859bbee6955834c1.jpg
 categories:
   - bath-and-body
   - bath-salts

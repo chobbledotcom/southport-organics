@@ -1,7 +1,7 @@
 ---
 title: Lavender & Mint Gift Box
 price: £25
-header_image: d787e887cb9892c2.jpg
+header_image: /images/d787e887cb9892c2.jpg
 categories:
   - bath-salts
   - gift-sets

@@ -1,7 +1,7 @@
 ---
 title: Lavender & Oat Moonlight Dream Overnight Recovery Mask
 price: £20
-header_image: ad2fc242169d9537.jpg
+header_image: /images/ad2fc242169d9537.jpg
 categories:
   - face-care
 gallery:

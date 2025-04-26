@@ -1,7 +1,7 @@
 ---
 title: Organic Citrus & Rose Spa Gift Box
 price: £45
-header_image: bfe875929082c7c6.jpg
+header_image: /images/bfe875929082c7c6.jpg
 categories:
   - bath-salts
   - face-care

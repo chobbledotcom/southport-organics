@@ -1,7 +1,7 @@
 ---
 title: Luxury Lavender & Rose Gift Box
 price: £45
-header_image: 80809a730f65fbe7.jpg
+header_image: /images/80809a730f65fbe7.jpg
 categories:
   - gift-sets
   - face-care

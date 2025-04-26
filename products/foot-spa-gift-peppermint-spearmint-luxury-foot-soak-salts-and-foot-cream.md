@@ -1,7 +1,7 @@
 ---
 title: Foot Spa Gift Box with Peppermint & Spearmint
 price: £20
-header_image: df8339c6ce929a84.jpg
+header_image: /images/df8339c6ce929a84.jpg
 categories:
   - foot-care
   - gift-sets

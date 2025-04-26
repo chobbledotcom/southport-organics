@@ -1,5 +1,5 @@
 ---
-header_image: header.jpg
+header_image: /images/header.jpg
 header_text: Southport Organics
 meta_description: Luxury Organic Self Care & Gifts - Planet & Animal Friendly
 meta_title: Home
@@ -18,5 +18,3 @@ Southport Organics is a family-run business creating natural, organic cosmetics 
 We use only the highest quality ingredients - organic wherever possible - and all of our beautiful gift wrapping and postal packaging is 100% plastic-free. We also donate to a different animal charity each month!
 
 Whether you're looking for luxurious natural skincare or a beautifully wrapped gift complete with a handwritten note, our collection offers luxury skincare, bath, and body hand crafted with care. Welcome!
-
-

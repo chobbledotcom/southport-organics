@@ -1,7 +1,7 @@
 ---
 title: Rosy Glow Organic Facial Oil
 price: £15
-header_image: a66e5d1982a2197f.jpg
+header_image: /images/a66e5d1982a2197f.jpg
 categories:
   - face-care
 gallery:

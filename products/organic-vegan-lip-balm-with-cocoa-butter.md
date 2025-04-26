@@ -1,7 +1,7 @@
 ---
 title: Organic Cocoa Butter & Peppermint Lip Balm
 price: £5
-header_image: 95fc28371d903e9c.jpg
+header_image: /images/95fc28371d903e9c.jpg
 categories:
   - lip-care
 gallery:

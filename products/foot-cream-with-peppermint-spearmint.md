@@ -1,7 +1,7 @@
 ---
 title: Spearmint & Peppermint Herbal Foot Cream
 price: £10
-header_image: b0de64c495b4bbb0.jpg
+header_image: /images/b0de64c495b4bbb0.jpg
 categories:
   - foot-care
 gallery:
