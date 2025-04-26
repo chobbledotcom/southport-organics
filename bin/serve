@@ -20,8 +20,6 @@ else
   git reset --hard origin/main
 fi
 
-mkdir -p "$COMBINED_DIR/.image-cache"
-
 find "$COMBINED_DIR" -type f -name "*.md" -delete
 
 rsync \
@@ -37,12 +35,7 @@ rsync \
     --exclude=".git" \
     --exclude="*.nix" \
     --exclude="README.md" \
-    --exclude=".image-cache" \
     "$CLIENT_DIR/" "$COMBINED_DIR/src/"
-
-rsync \
-    --recursive \
-    "$CLIENT_DIR/.image-cache/" "$COMBINED_DIR/.image-cache"
 
 sync_client_files() {
   rsync \

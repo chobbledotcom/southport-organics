@@ -32,7 +32,6 @@ rsync \
   --exclude=".direnv" \
   --exclude=".envrc" \
   --exclude=".git" \
-  --exclude=".image-cache" \
   --exclude="node_modules" \
   --exclude="test" \
   --exclude="LICENSE" \
@@ -45,7 +44,6 @@ rsync \
   --exclude=".direnv" \
   --exclude=".envrc" \
   --exclude=".git" \
-  --exclude=".image-cache" \
   --exclude="bin" \
   --exclude="test" \
   --exclude="LICENSE" \
@@ -53,24 +51,12 @@ rsync \
   --exclude="result" \
   "$CLIENT_DIR/" "$COMBINED_DIR/src/"
 
-rsync \
-  --recursive \
-  "$CLIENT_DIR/.image-cache" \
-  "$COMBINED_DIR/"
-
 cd "$COMBINED_DIR"
 
 nix-fast-build \
   --skip-cached \
   --flake ".#packages.x86_64-linux.site" \
   --no-nom
-
-# Copy the image cache back to the original directory
-rsync \
-  --recursive \
-  --delete \
-  "result-/.image-cache" \
-  "$CLIENT_DIR/"
 
 rm -rf "$CLIENT_DIR/result"
 mv "result-" "$CLIENT_DIR/result"
