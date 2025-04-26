@@ -42,7 +42,7 @@ jobs:
 
       - id: get-cache-key
         name: Set cache key
-        run: echo "key=${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}" >> $GITHUB_OUTPUT
+        run: echo "key=${{ runner.os }}-node-${{ hashFiles('template/package-lock.json') }}" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -55,7 +55,7 @@ jobs:
           path: |
             combined/node_modules
             combined/.image-cache
-          key: ${{ steps.get-cache-key.outputs.key }}
+          key: ${{ needs.get-cache-key.outputs.key }}
           restore-keys: |
             ${{ runner.os }}-node-
 
