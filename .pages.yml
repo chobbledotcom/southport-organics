@@ -58,7 +58,7 @@ content:
           collection: categories
           multiple: true
           search: "title"
-          value: "{name}"
+          value: "{path}"
           label: "{title}"
       - { name: price, label: Price, type: number, options: { min: 1 } }
       - { name: body, label: Body, type: code, options: { language: markdown } }
