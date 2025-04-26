@@ -1,6 +1,11 @@
 ---
 header_image: /images/858bbca4e2795d83.jpg
 title: Refresh Organic Gift Set
+categories:
+  - gift-sets.md
+  - bath-and-body.md
+  - face-care.md
+  - hand-care.md
 gallery:
   - /images/858bbca4e2795d83.jpg
   - /images/cc1a48d3d56d64b5.jpg
@@ -13,7 +18,6 @@ gallery:
   - /images/eb4acc70b10f899e.jpg
   - /images/975de8cada889e30.jpg
 ---
-
 A thoughtful and luxurious gift box carefully curated for those in need of a pick me up ☔️ Give yourself or a loved one a well-being boost with natural, organic, vegan, handmade products perfect for pampering and self-care ☀️
 
 Southport Organics products are gentle enough for all skin types including dry and sensitive, they are free from artificial fragrance, alcohol, SLS, parabens or petroleum derivatives.
