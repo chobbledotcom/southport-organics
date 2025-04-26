@@ -104,6 +104,11 @@ content:
         type: code
         options:
           language: markdown
+      - name: features
+        type: select
+        options:
+          creatable: true
+          multiple: true
       - name: gallery
         type: image
         label: Gallery
