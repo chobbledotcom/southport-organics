@@ -63,20 +63,10 @@ jobs:
             --recursive \
             --verbose \
             --exclude=".git" \
-            --exclude=".image-cache" \
             --exclude="bin/build" \
             --exclude="README.md" \
             source/ \
             combined/src/
-
-      - name: Copy .image-cache folder in separately
-        run: |
-          mkdir -p combined/.image-cache
-          rsync \
-            --recursive \
-            --verbose \
-            source/.image-cache/ \
-            combined/.image-cache/
 
       - name: Update site.json with secrets
         run: |
@@ -107,11 +97,3 @@ jobs:
           enable-purge-pull-zone: true
           pull-zone-id: "3576287"
           replication-timeout: "15000"
-
-      - name: Clean up
-        run: |
-          find . -type d -exec chmod 755 {} \;
-          find . -type f -exec chmod 644 {} \;
-          rm -rf _site source template .image-cache
-          # Keep combined/node_modules for cache but remove other combined files
-          find combined -mindepth 1 -maxdepth 1 -not -name "node_modules" -exec rm -rf {} \;
