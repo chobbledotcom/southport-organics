@@ -8,7 +8,7 @@ content:
     type: collection
     subfolders: false
     view:
-      fields: [ path, name, meta_title, header_text ]
+      fields: [ file_name, name, meta_title, header_text ]
       primary: name
       sort: [ order, name ]
     fields:
