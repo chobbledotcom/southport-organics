@@ -48,7 +48,6 @@ content:
           type: string
       - name: layout
         type: string
-        hidden: false
       - name: permalink
         type: string
   - name: news
