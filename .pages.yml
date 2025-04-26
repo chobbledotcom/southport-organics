@@ -84,6 +84,9 @@ content:
         options:
           collection: categories
           multiple: true
+          search: "title"
+          value: "{id}"
+          label: "{title}"
       - name: header_text
         type: string
         label: Header Text
