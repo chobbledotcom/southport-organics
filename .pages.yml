@@ -6,6 +6,14 @@ content:
     label: Pages
     path: pages
     type: collection
+    view:
+      fields: [ title ]
+      primary: title
+      sort: [ date, title ]
+      default:
+        search: ''
+        sort: title
+        order: desc
     fields:
       - name: header_image
         type: image
