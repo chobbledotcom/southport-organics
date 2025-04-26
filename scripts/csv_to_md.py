@@ -118,7 +118,7 @@ def create_markdown_file(row, output_dir):
     # Add gallery with full URLs
     content.append("gallery:")
     for name, image_url in gallery.items():
-        content.append(f"  {name}: {image_url}")
+        content.append(f"  - /images/{image_url}")
 
     # Add specs
     content.append("specs:")

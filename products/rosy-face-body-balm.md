@@ -6,16 +6,16 @@ categories:
   - bath-and-body
   - face-care
 gallery:
-  Image 1: 9c0ed0f96accc873.jpg
-  Image 2: db4360e8a686b2f6.jpg
-  Image 3: cc1954b2b5d2cbca.jpg
-  Image 4: fb42ceb931819e58.jpg
-  Image 5: 90d777143b047b87.jpg
-  Image 6: b49b442bd7461d56.jpg
-  Image 7: 9fe869944e814c9f.jpg
-  Image 8: eb4acc70b10f899e.jpg
-  Image 9: bb19c06e95e4cc9c.jpg
-  Image 10: 975de8cada889e30.jpg
+  - /images/9c0ed0f96accc873.jpg
+  - /images/db4360e8a686b2f6.jpg
+  - /images/cc1954b2b5d2cbca.jpg
+  - /images/fb42ceb931819e58.jpg
+  - /images/90d777143b047b87.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/975de8cada889e30.jpg
 specs:
   - name: Price
     value: £15

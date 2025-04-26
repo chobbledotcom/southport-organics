@@ -6,16 +6,16 @@ categories:
   - hand-care
   - bath-and-body
 gallery:
-  Image 1: d83f67258a8459cd.jpg
-  Image 2: d2eb79d290fe0ac0.jpg
-  Image 3: b49b442bd7461d56.jpg
-  Image 4: 948872233bff7a88.jpg
-  Image 5: 9fe869944e814c9f.jpg
-  Image 6: eb4acc70b10f899e.jpg
-  Image 7: d5aae6a0d78045d7.jpg
-  Image 8: 84dd19f0b225ae3b.jpg
-  Image 9: 975de8cada889e30.jpg
-  Image 10: f2e52cb5653899c2.jpg
+  - /images/d83f67258a8459cd.jpg
+  - /images/d2eb79d290fe0ac0.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/948872233bff7a88.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/d5aae6a0d78045d7.jpg
+  - /images/84dd19f0b225ae3b.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/f2e52cb5653899c2.jpg
 specs:
   - name: Price
     value: £10

@@ -7,16 +7,16 @@ categories:
   - bath-salts
   - face-care
 gallery:
-  Image 1: 839abce7e3503a52.jpg
-  Image 2: bb19c06e95e4cc9c.jpg
-  Image 3: cc1a48d3d56d64b5.jpg
-  Image 4: ce69cca8b14bfa50.jpg
-  Image 5: d5aa6e80569045ff.jpg
-  Image 6: 9fe869944e814c9f.jpg
-  Image 7: eb4acc70b10f899e.jpg
-  Image 8: b49b442bd7461d56.jpg
-  Image 9: 975de8cada889e30.jpg
-  Image 10: 8d98b5f9b2c60b43.jpg
+  - /images/839abce7e3503a52.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/cc1a48d3d56d64b5.jpg
+  - /images/ce69cca8b14bfa50.jpg
+  - /images/d5aa6e80569045ff.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/8d98b5f9b2c60b43.jpg
 specs:
   - name: Price
     value: £20

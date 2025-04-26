@@ -6,16 +6,16 @@ categories:
   - face-care
   - gift-sets
 gallery:
-  Image 1: 9085cb2e3c78d8fc.jpg
-  Image 2: cda5945a5bf44465.jpg
-  Image 3: ce69cca8b14bfa50.jpg
-  Image 4: bb19c06e95e4cc9c.jpg
-  Image 5: d5aa6e80569045ff.jpg
-  Image 6: c44c4b3b3f351f0a.jpg
-  Image 7: 9fe868944e81cc9f.jpg
-  Image 8: eb4acc70b10f899e.jpg
-  Image 9: b48b462bd7461d56.jpg
-  Image 10: 975de8cada889e30.jpg
+  - /images/9085cb2e3c78d8fc.jpg
+  - /images/cda5945a5bf44465.jpg
+  - /images/ce69cca8b14bfa50.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/d5aa6e80569045ff.jpg
+  - /images/c44c4b3b3f351f0a.jpg
+  - /images/9fe868944e81cc9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b48b462bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
 specs:
   - name: Price
     value: £15

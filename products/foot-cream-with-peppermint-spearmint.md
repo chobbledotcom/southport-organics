@@ -5,15 +5,15 @@ header_image: b0de64c495b4bbb0.jpg
 categories:
   - foot-care
 gallery:
-  Image 1: b0de64c495b4bbb0.jpg
-  Image 2: dfcf60101f333c1c.jpg
-  Image 3: bb19c06e95e4cc9c.jpg
-  Image 4: 9fe868944e81cc9f.jpg
-  Image 5: d5aae6a0d78045d7.jpg
-  Image 6: eb4acc70b10f899e.jpg
-  Image 7: b48b462bd7461d56.jpg
-  Image 8: 975de8cada889e30.jpg
-  Image 9: 8a8b2d2be5618377.jpg
+  - /images/b0de64c495b4bbb0.jpg
+  - /images/dfcf60101f333c1c.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/9fe868944e81cc9f.jpg
+  - /images/d5aae6a0d78045d7.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b48b462bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/8a8b2d2be5618377.jpg
 specs:
   - name: Price
     value: £10

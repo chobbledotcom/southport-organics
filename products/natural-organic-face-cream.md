@@ -5,16 +5,16 @@ header_image: aed1b19697294a71.jpg
 categories:
   - face-care
 gallery:
-  Image 1: aed1b19697294a71.jpg
-  Image 2: a464589f9373b70c.jpg
-  Image 3: a664148bd3a3b76c.jpg
-  Image 4: a56404df93f3278c.jpg
-  Image 5: a664049bd3b3b66c.jpg
-  Image 6: a664148bd3b7724d.jpg
-  Image 7: bb19c06e95e4cc9c.jpg
-  Image 8: b48b462bd7461d56.jpg
-  Image 9: 975de8cada889e30.jpg
-  Image 10: 8fed39c2021cf47a.jpg
+  - /images/aed1b19697294a71.jpg
+  - /images/a464589f9373b70c.jpg
+  - /images/a664148bd3a3b76c.jpg
+  - /images/a56404df93f3278c.jpg
+  - /images/a664049bd3b3b66c.jpg
+  - /images/a664148bd3b7724d.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/b48b462bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/8fed39c2021cf47a.jpg
 specs:
   - name: Price
     value: £12

@@ -6,16 +6,16 @@ categories:
   - bath-and-body
   - gift-sets
 gallery:
-  Image 1: c0819b7b1e65f2ca.jpg
-  Image 2: cc1a48d3d56d64b5.jpg
-  Image 3: ce69cca8b14bfa50.jpg
-  Image 4: bb19c06e95e4cc9c.jpg
-  Image 5: d5aa6e80569045ff.jpg
-  Image 6: 9fe869944e814c9f.jpg
-  Image 7: eb4acc70b10f899e.jpg
-  Image 8: b49b442bd7461d56.jpg
-  Image 9: 975de8cada889e30.jpg
-  Image 10: 8283ad1b17dcb16d.jpg
+  - /images/c0819b7b1e65f2ca.jpg
+  - /images/cc1a48d3d56d64b5.jpg
+  - /images/ce69cca8b14bfa50.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/d5aa6e80569045ff.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/8283ad1b17dcb16d.jpg
 specs:
   - name: Price
     value: £45

@@ -5,16 +5,16 @@ header_image: 95fc28371d903e9c.jpg
 categories:
   - lip-care
 gallery:
-  Image 1: 95fc28371d903e9c.jpg
-  Image 2: 93bfdc6867062343.jpg
-  Image 3: 9a7a69dd25c6868a.jpg
-  Image 4: b5a332f073a05b95.jpg
-  Image 5: a6968d8d72e09b59.jpg
-  Image 6: b49b442bd7461d56.jpg
-  Image 7: 9fe869944e814c9f.jpg
-  Image 8: eb4acc70b10f899e.jpg
-  Image 9: d5aae6a0d78045d7.jpg
-  Image 10: 975de8cada889e30.jpg
+  - /images/95fc28371d903e9c.jpg
+  - /images/93bfdc6867062343.jpg
+  - /images/9a7a69dd25c6868a.jpg
+  - /images/b5a332f073a05b95.jpg
+  - /images/a6968d8d72e09b59.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/d5aae6a0d78045d7.jpg
+  - /images/975de8cada889e30.jpg
 specs:
   - name: Price
     value: £5

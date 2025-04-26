@@ -5,16 +5,16 @@ header_image: a66e5d1982a2197f.jpg
 categories:
   - face-care
 gallery:
-  Image 1: a66e5d1982a2197f.jpg
-  Image 2: cd245aabb5d5a84a.jpg
-  Image 3: ce4666c999999197.jpg
-  Image 4: 95d534003f993fd4.jpg
-  Image 5: bb19c06e95e4cc9c.jpg
-  Image 6: 9fe868944e81cc9f.jpg
-  Image 7: eb4acc70b10f899e.jpg
-  Image 8: b48b462bd7461d56.jpg
-  Image 9: 975de8cada889e30.jpg
-  Image 10: 83b58e578942758f.jpg
+  - /images/a66e5d1982a2197f.jpg
+  - /images/cd245aabb5d5a84a.jpg
+  - /images/ce4666c999999197.jpg
+  - /images/95d534003f993fd4.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/9fe868944e81cc9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b48b462bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/83b58e578942758f.jpg
 specs:
   - name: Price
     value: £15

@@ -7,16 +7,16 @@ categories:
   - hand-care
   - gift-sets
 gallery:
-  Image 1: de856bc3c4c4d89c.jpg
-  Image 2: d83f67258a8459cd.jpg
-  Image 3: cda5945a5bf44465.jpg
-  Image 4: ce69cca8b14bfa50.jpg
-  Image 5: bb19c06e95e4cc9c.jpg
-  Image 6: d5aa6e80569045ff.jpg
-  Image 7: 9fe868944e81cc9f.jpg
-  Image 8: eb4acc70b10f899e.jpg
-  Image 9: b48b462bd7461d56.jpg
-  Image 10: 975de8cada889e30.jpg
+  - /images/de856bc3c4c4d89c.jpg
+  - /images/d83f67258a8459cd.jpg
+  - /images/cda5945a5bf44465.jpg
+  - /images/ce69cca8b14bfa50.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/d5aa6e80569045ff.jpg
+  - /images/9fe868944e81cc9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b48b462bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
 specs:
   - name: Price
     value: £20

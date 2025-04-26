@@ -7,16 +7,16 @@ categories:
   - bath-salts
   - gift-sets
 gallery:
-  Image 1: c3f8dcc3c514aa96.jpg
-  Image 2: cc1a48d3d56d64b5.jpg
-  Image 3: 948872233bff7a88.jpg
-  Image 4: bb19c06e95e4cc9c.jpg
-  Image 5: e148b96d1565c6b6.jpg
-  Image 6: 9fe869944e814c9f.jpg
-  Image 7: eb4acc70b10f899e.jpg
-  Image 8: b49b442bd7461d56.jpg
-  Image 9: 975de8cada889e30.jpg
-  Image 10: d5aa6e80569045ff.jpg
+  - /images/c3f8dcc3c514aa96.jpg
+  - /images/cc1a48d3d56d64b5.jpg
+  - /images/948872233bff7a88.jpg
+  - /images/bb19c06e95e4cc9c.jpg
+  - /images/e148b96d1565c6b6.jpg
+  - /images/9fe869944e814c9f.jpg
+  - /images/eb4acc70b10f899e.jpg
+  - /images/b49b442bd7461d56.jpg
+  - /images/975de8cada889e30.jpg
+  - /images/d5aa6e80569045ff.jpg
 specs:
   - name: Price
     value: £35
