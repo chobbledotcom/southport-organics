@@ -4,6 +4,7 @@ meta_title: News
 eleventyNavigation:
   key: News
   order: 3
+layout: news-archive.html
 permalink: /news/
 ---
 ## Congue Ipsum
