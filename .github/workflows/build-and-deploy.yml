@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   setup:
-    name: Prepare Files
+    name: Merge Repos
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
@@ -76,7 +76,7 @@ jobs:
 
   build:
     name: Build Site
-    needs: prepare
+    needs: setup
     runs-on: ubuntu-latest
     steps:
       - name: Download combined directory
