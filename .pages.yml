@@ -13,12 +13,13 @@ content:
       primary: name
       sort: [order, name]
     fields:
+      - { name: title, type: string, label: Title }
       - { name: header_image, type: image, label: Header Image }
       - { name: header_text, type: string, label: Header Text }
-      - { name: meta_description, type: string, label: Meta Description }
-      - { name: meta_title, type: string, label: Meta Title }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: meta_description, type: string, label: Meta Description }
+      - { name: meta_title, type: string, label: Meta Title }
       - name: eleventyNavigation
         label: Navigation
         type: object
@@ -34,21 +35,22 @@ content:
     type: collection
     subfolders: false
     fields:
-      - { name: header_image, type: image, label: Header Image }
       - { name: title, type: string, label: Title }
+      - { name: header_image, type: image, label: Header Image }
       - { name: date, label: Date, type: date }
-      - { name: meta_description, type: string, label: Meta Description }
-      - { name: meta_title, type: string, label: Meta Title }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: header_text, type: string, label: Header Text }
+      - { name: meta_description, type: string, label: Meta Description }
+      - { name: meta_title, type: string, label: Meta Title }
   - name: products
     label: Products
     path: products
     type: collection
     subfolders: false
     fields:
-      - { name: header_image, type: image, label: Header Image }
       - { name: title, type: string, label: Title }
+      - { name: header_image, type: image, label: Header Image }
       - { name: date, label: Date, type: date }
       - name: categories
         label: Categories
@@ -62,7 +64,7 @@ content:
       - { name: price, label: Price, type: number, options: { min: 1 } }
       - { name: body, label: Body, type: code, options: { language: markdown } }
       - { name: features, type: string, label: Features, list: true }
-      - name: gallery,
+      - name: gallery
         type: image
         label: Gallery
         options: { multiple: true }
