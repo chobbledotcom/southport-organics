@@ -1,16 +1,13 @@
 ---
-header_image: /images/header.jpg
-header_text: Southport Organics
+header_image: /images/Welcome to southport organics.jpeg
 meta_description: Luxury Organic Self Care & Gifts - Planet & Animal Friendly
 meta_title: Home
-
-layout: home.html
-permalink: /
 eleventyNavigation:
   key: Home
   order: 1
+layout: home.html
+permalink: /
 ---
-
 # Luxury, Organic, Handmade Cosmetics
 
 Southport Organics is a family-run business creating natural, organic cosmetics by the Irish Sea and the sandy beaches and vast pine woods of Southport. Inspired by the magic of nature and a passion for self-care, we believe in caring for our planet and its animals too. That's why all of our products are vegan, cruelty-free, and Earth-conscious!
