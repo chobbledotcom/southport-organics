@@ -1,5 +1,5 @@
 ---
-title: Rosy Balm for face & body
+title: Rosy Balm Face & Body Rescue Balm
 header_image: /images/9c0ed0f96accc873.jpg
 categories:
   - bath-and-body
