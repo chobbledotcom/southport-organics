@@ -1,9 +1,9 @@
 ---
 title: Clay Facial Mask Collection
-price: £20
 header_image: /images/9180ed3e770179f8.jpg
 categories:
   - face-care
+price: 22
 gallery:
   - /images/9180ed3e770179f8.jpg
   - /images/cda5945a5bf44465.jpg
@@ -15,15 +15,7 @@ gallery:
   - /images/b49b442bd7461d56.jpg
   - /images/f7d2193574210f3a.jpg
   - /images/955e6ec13d909768.jpg
-specs:
-  - name: Price
-    value: £20
-  - name: Vegan
-    value: Yes
-  - name: Cruelty Free
-    value: Yes
 ---
-
 Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set of three facial masks complete with facial spa accessories 🧖🏼‍♀️
 
 Each individual sachet contains at least four applications meaning this long lasting set contains at least twelve freshly made facials!
