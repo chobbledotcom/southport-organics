@@ -1,5 +1,6 @@
 ---
-header_image: /images/Welcome to southport organics.jpeg
+title: Southport Organics
+header_image: /images/80809a730f65fbe7.jpg
 meta_description: Luxury Organic Self Care & Gifts - Planet & Animal Friendly
 meta_title: Home
 eleventyNavigation:
