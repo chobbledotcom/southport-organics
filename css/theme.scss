@@ -144,6 +144,9 @@ ul.image-gallery li {
       transform: none;
     }
   }
+  .image-wrapper {
+    aspect-ratio: 1 !important;
+  }
 }
 
 body.sticky-mobile-nav nav .toggle-label span,
