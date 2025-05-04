@@ -134,8 +134,9 @@ ul.items {
 }
 
 ul.image-gallery li {
-  figcaption {
-    display: none;
+  img {
+    aspect-ratio: 1;
+    object-fit: cover;
   }
   a:hover {
     transform: none;
