@@ -1,30 +1,14 @@
 ---
-title: Foot Spa Gift Box with Peppermint & Spearmint
-price: £20
+title: Peppermint & Spearmint Foot Spa Gift Box
 header_image: /images/df8339c6ce929a84.jpg
 categories:
   - foot-care
   - gift-sets
+price: 20
 gallery:
   - /images/df8339c6ce929a84.jpg
   - /images/cc1a48d3d56d64b5.jpg
-  - /images/b0de64c495b4bbb0.jpg
-  - /images/bb19c06e95e4cc9c.jpg
-  - /images/d5aa6e80569045ff.jpg
-  - /images/9fe868944e81cc9f.jpg
-  - /images/eb4acc70b10f899e.jpg
-  - /images/b48b462bd7461d56.jpg
-  - /images/975de8cada889e30.jpg
-  - /images/d2cd3d92643891de.jpg
-specs:
-  - name: Price
-    value: £20
-  - name: Vegan
-    value: Yes
-  - name: Cruelty Free
-    value: Yes
 ---
-
 Indulge yourself or someone you love to a beautifully pampering experience with a Southport Organics Foot Spa Gift Box 🌱🎁 This luxurious set is thoughtfully curated to provide cool fresh rejuvenation for tired feet!
 
 ## Inside, you'll discover
