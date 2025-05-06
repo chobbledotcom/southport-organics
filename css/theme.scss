@@ -35,6 +35,29 @@ h6 {
     font-weight: 800;
   }
 }
+:root {
+  --active-brightness: 0.85;
+  --border-radius: 5px;
+  --border-radius-small: 0;
+  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  --color-accent: #118bee15;
+  --color-scrollbar: #cacae8;
+  --color-shadow: #f4f4f4;
+  --color-table: #118bee;
+  --hover-brightness: 1.2;
+  --justify-important: center;
+  --justify-normal: left;
+  --line-height: 1.8;
+  --width-card-medium: 460px;
+  --width-card-wide: 800px;
+  --width-card: 285px;
+  --width-content: 1080px;
+  --width-content: 1300px;
+
+  --font-family-body:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
 :root {
   --color-bg: #faeede;
@@ -131,6 +154,10 @@ ul.items {
       text-decoration: none;
     }
   }
+}
+
+a {
+  color: var(--color-link);
 }
 
 ul.image-gallery li {
