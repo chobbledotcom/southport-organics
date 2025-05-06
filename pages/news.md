@@ -1,4 +1,5 @@
 ---
+header_image: /images/8d8b3706dcbc847c.jpg
 header_text: News
 meta_title: News
 eleventyNavigation:
