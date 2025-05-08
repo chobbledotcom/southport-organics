@@ -1,7 +1,7 @@
 media:
   input: images
   output: /images
-  extensions: [jpg, jpeg]
+  extensions: [jpg, jpeg, heic]
 content:
   - name: pages
     label: Pages
