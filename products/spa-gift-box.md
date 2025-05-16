@@ -5,7 +5,7 @@ categories:
   - gift-boxes
   - bath-salts
   - face-care
-price: 22
+price: £22
 gallery:
   - /images/839abce7e3503a52.jpg
   - /images/cc1a48d3d56d64b5.jpg
