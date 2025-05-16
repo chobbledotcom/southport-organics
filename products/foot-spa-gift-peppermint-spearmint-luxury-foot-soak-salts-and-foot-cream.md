@@ -1,5 +1,6 @@
 ---
 title: Peppermint & Spearmint Foot Spa Gift Box
+header_image: /images/Untitled design-1.jpeg
 categories:
   - foot-care
   - gift-sets
