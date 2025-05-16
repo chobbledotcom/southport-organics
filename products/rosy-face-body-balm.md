@@ -4,7 +4,7 @@ header_image: /images/9c0ed0f96accc873.jpg
 categories:
   - bath-and-body
   - face-care
-price: 15
+price: £15
 features:
   - Deeply hydrates and nourishes dry, rough patches on the face and body.
   - Smooths skin and adds a healthy sheen.
