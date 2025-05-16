@@ -4,7 +4,7 @@ header_image: /images/809dbfc3d8a12ba6.jpg
 categories:
   - bath-salts
   - gift-sets
-price: 32
+price: £32
 gallery:
   - /images/809dbfc3d8a12ba6.jpg
   - /images/cc1a48d3d56d64b5.jpg
