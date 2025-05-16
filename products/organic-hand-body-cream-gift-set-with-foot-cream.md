@@ -4,7 +4,7 @@ header_image: /images/86cc39f0b217a69d.jpg
 categories:
   - hand-care
   - gift-sets
-price: 30
+price: £30
 gallery:
   - /images/86cc39f0b217a69d.jpg
   - /images/d83f67258a8459cd.jpg
