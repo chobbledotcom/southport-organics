@@ -3,7 +3,7 @@ title: Peppermint Lip Balm
 header_image: /images/95fc28371d903e9c.jpg
 categories:
   - lip-care
-price: 5
+price: £5
 gallery:
   - /images/95fc28371d903e9c.jpg
   - /images/93bfdc6867062343.jpg
