@@ -4,7 +4,7 @@ header_image: /images/9085cb2e3c78d8fc.jpg
 categories:
   - face-care
   - gift-sets
-price: 17
+price: £17
 gallery:
   - /images/9085cb2e3c78d8fc.jpg
   - /images/cda5945a5bf44465.jpg
