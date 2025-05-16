@@ -3,7 +3,7 @@ title: Clay Facial Mask Collection
 header_image: /images/9180ed3e770179f8.jpg
 categories:
   - face-care
-price: 22
+price: £22
 gallery:
   - /images/9180ed3e770179f8.jpg
   - /images/cda5945a5bf44465.jpg
