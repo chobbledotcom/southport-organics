@@ -3,7 +3,7 @@ title: Exfoliating Rosehip Facial Mask
 header_image: /images/955e6ec13d909768.jpg
 categories:
   - face-care
-price: 5
+price: £5
 gallery:
   - /images/955e6ec13d909768.jpg
   - /images/cda5945a5bf44465.jpg
