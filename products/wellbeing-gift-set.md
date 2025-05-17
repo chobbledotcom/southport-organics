@@ -26,6 +26,8 @@ gallery:
   - /images/d5aae6a0d78045d7.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/975de8cada889e30.jpg
+meta_title: Refresh Organic Wellbeing Gift Set | Citrus & Mint | Southport Organics
+meta_description: Revitalise with our handcrafted wellbeing gift set featuring grapefruit bath salts, orange hand cream and matcha mask. 100% vegan and environmentally friendly.
 ---
 A thoughtful and luxurious gift box carefully curated for those in need of a pick me up ☔️ Give yourself or a loved one a well-being boost with natural, organic, vegan, handmade products perfect for pampering and self-care ☀️
 

@@ -10,6 +10,8 @@ gallery:
   - /images/ce69cca8b14bfa50.jpg
   - /images/ff5fc168d83024c6.jpg
   - /images/f7d2193574210f3a.jpg
+meta_title: Exfoliating Rosehip & Pink Clay Facial Mask | Organic | Southport Organics
+meta_description: Revitalise your skin with our exfoliating facial mask featuring French pink clay and organic rosehip powder. Vegan, cruelty-free and eco-friendly packaging.
 ---
 Deeply cleanse & exfoliate skin with French Pink Clay and Organic Rosehip. Scrubby Rosehip powder is bursting with antioxidants while Pink Clay revitalises skin with minerals.
 

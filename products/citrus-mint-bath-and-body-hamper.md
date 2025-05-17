@@ -26,6 +26,8 @@ gallery:
   - /images/d5aae6a0d78045d7.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/975de8cada889e30.jpg
+meta_title: Citrus & Mint Luxury Gift Box | Organic Skincare Collection | Southport Organics
+meta_description: Refresh and rejuvenate with our citrus and mint gift box featuring bath salts, hand cream, facial mask and lip balm. 100% vegan and environmentally friendly.
 ---
 Feel clean and refreshed with fruity sweet orange, zesty pink grapefruit, matcha green tea and uplifting peppermint!
 

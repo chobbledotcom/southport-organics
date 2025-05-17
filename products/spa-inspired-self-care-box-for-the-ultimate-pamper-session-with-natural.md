@@ -9,6 +9,8 @@ gallery:
   - /images/809dbfc3d8a12ba6.jpg
   - /images/cc1a48d3d56d64b5.jpg
   - /images/ce69cca8b14bfa50.jpg
+meta_title: Luxury Orange, Rose & Matcha Spa Gift Set | Natural & Organic | Southport Organics
+meta_description: Indulge in our handcrafted spa gift set with organic bath salts, matcha clay mask and sweet orange hand cream. 100% vegan, cruelty-free and plastic-free.
 ---
 What better a way to feel relaxed, renewed, pampered and smelling gorgeous from head to toe than with a luxurious Organic Salt Soak, a revitalising Clay Facial Mask and beautifully fragrant Organic Hand Cream. This gorgeously wrapped gift box contains:
 

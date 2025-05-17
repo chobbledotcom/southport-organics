@@ -21,6 +21,8 @@ specs:
     value: Yes
   - name: Cruelty Free
     value: Yes
+meta_title: Organic Bath Salts | Natural Mineral Soak | Southport Organics
+meta_description: Relax with our luxury bath salts blended with sea salt, Himalayan pink salt and essential oils. 100% vegan, cruelty-free and eco-friendly packaging.
 ---
 
 What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious fragrant Salt Soak! The perfect treat for skin and senses 🛁 Indulge in a blissful bathing experience with a blend of Sea Salt, Himalayan Pink Salt, and Epsom Salts, boasting over 80 essential minerals to soothe and nourish skin.

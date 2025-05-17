@@ -9,6 +9,8 @@ gallery:
   - /images/9085cb2e3c78d8fc.jpg
   - /images/cda5945a5bf44465.jpg
   - /images/ce69cca8b14bfa50.jpg
+meta_title: Luxury Lava Clay & Mint Facial Gift Set | Vegan & Plastic-Free | Southport Organics
+meta_description: Indulge in our handcrafted Lava Clay & Mint Facial Gift Box with organic clay mask and peppermint lip balm. 100% vegan, cruelty-free and eco-friendly.
 ---
 Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set containing a Calming Lava Clay & Organic Oatmeal Facial Mask complete with facial spa accessories, and an indulgent creamy Lip Balm made with organic Cocoa Butter, Jojoba Oil & natural Peppermint Essential Oil!
 

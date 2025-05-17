@@ -29,6 +29,8 @@ features:
   - Facial Spa Accessories
   - 50ml Lavender & Rose Organic Hand Cream
   - 100ml 'Everything's Rosy' Multi-purpose Face & Body Balm:** Made with Organic Shea Butter, Almond Oil, and Vitamin E, this versatile balm nourishes and revitalizes both face and body, leaving skin feeling super soft and pampered.
+meta_title: Luxury Rose Organic Spa Hamper | Complete Pampering Set | Southport Organics
+meta_description: Indulge in our luxurious rose-scented spa collection with bath salts, facial mask, hand cream and body balm. 100% vegan, cruelty-free and handcrafted.
 ---
 
 🌸 Relax. Unwind. Renew

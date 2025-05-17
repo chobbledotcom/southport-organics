@@ -9,6 +9,8 @@ gallery:
   - /images/86cc39f0b217a69d.jpg
   - /images/d83f67258a8459cd.jpg
   - /images/948872233bff7a88.jpg
+meta_title: Organic Hand & Body Cream Trio | Gift Set | Southport Organics
+meta_description: Pamper yourself with our trio of organic hand, body and foot creams with shea butter and essential oils. 100% vegan, cruelty-free and plastic-free.
 ---
 Treat yourself or someone special to a beautifully gift wrapped set of three luxurious natural Hand & Body Creams made with Organic Shea Butter, Cocoa Butter, Aloe Vera, Sunflower Oil, Almond Oil, Macadamia Nut Oil, Avocado, Chamomile and Natural Essential Oils.
 

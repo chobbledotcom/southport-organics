@@ -12,6 +12,8 @@ gallery:
   - /images/bb19c06e95e4cc9c.jpg
   - /images/be22e493272359d9.jpg
   - /images/975de8cada889e30.jpg
+meta_title: Lavender & Oat Overnight Recovery Mask | Hyaluronic Acid | Southport Organics
+meta_description: Replenish your skin while you sleep with our soothing lavender and oat overnight mask with hyaluronic acid. 100% vegan, natural and organic skincare.
 ---
 Moonlight Dream Overnight Mask with Lavender, Oat & Hyaluronic Acid
 

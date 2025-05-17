@@ -22,6 +22,8 @@ specs:
     value: Yes
   - name: Cruelty Free
     value: Yes
+meta_title: Calm Cream Organic Face Moisturiser | For Sensitive Skin | Southport Organics
+meta_description: Soothe sensitive skin with our fragrance-free organic face cream blended with hemp seed oil, rosehip and oat. 100% vegan and cruelty-free skincare.
 ---
 
 Introducing Calm Cream 😌 A deeply nourishing and calming facial cream particularly suitable for dry & sensitive skin. This fragrance free formula is made using natural ingredients best known for their soothing & repairing properties:

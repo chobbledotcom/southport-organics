@@ -1,24 +1,24 @@
 {
-	"name": "Southport Organics",
-	"formspark_id": null,
-	"botpoison_public_key": null,
-	"url": "https://southport-organics.b-cdn.net",
-	"socials": {
-		"Facebook": "https://www.facebook.com/southportorganicsuk",
-		"Instagram": "https://www.instagram.com/southport_organics",
-		"TikTok": null,
-		"Google": null,
-		"WhatsApp": null,
-		"RSS": "/feed.xml"
-	},
-	"sticky_mobile_nav": true,
-	"horizontal_nav": false,
-	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
-	"products": {
-		"product_thumb_widths": "240,480,640",
-		"category_thumb_widths": "900,1300",
-		"gallery_thumb_widths": "240,480",
-		"gallery_image_widths": "900,1300",
-		"header_image_widths": "640,900,1300"
-	}
+  "name": "Southport Organics",
+  "formspark_id": null,
+  "botpoison_public_key": null,
+  "url": "https://www.southportorganics.co.uk",
+  "socials": {
+    "Facebook": "https://www.facebook.com/southportorganicsuk",
+    "Instagram": "https://www.instagram.com/southport_organics",
+    "TikTok": null,
+    "Google": null,
+    "WhatsApp": null,
+    "RSS": "/feed.xml"
+  },
+  "sticky_mobile_nav": true,
+  "horizontal_nav": false,
+  "template_repo_url": "https://git.chobble.com/chobble/chobble-client",
+  "products": {
+    "product_thumb_widths": "240,480,640",
+    "category_thumb_widths": "900,1300",
+    "gallery_thumb_widths": "240,480",
+    "gallery_image_widths": "900,1300",
+    "header_image_widths": "640,900,1300"
+  }
 }

@@ -24,6 +24,8 @@ specs:
     value: Yes
   - name: Cruelty Free
     value: Yes
+meta_title: Organic Citrus & Rose Luxury Spa Gift Box | Vegan & Plastic-Free | Southport Organics
+meta_description: Indulge in our complete organic spa experience with bath salts, rosehip clay mask, facial oil and mandarin lip balm. 100% vegan, plastic-free and handcrafted.
 ---
 
 Beautiful scents of Rose, Sweet Orange & Mandarin soothe & uplift.

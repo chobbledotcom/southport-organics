@@ -23,6 +23,8 @@ specs:
     value: Yes
   - name: Cruelty Free
     value: Yes
+meta_title: Organic Hand & Body Cream | Shea & Cocoa Butter | Southport Organics
+meta_description: Nourish your skin with our fast-absorbing organic hand and body cream with shea butter, aloe vera and essential oils. 100% vegan and cruelty-free.
 ---
 
 Southport Organic's luxurious natural Hand & Body Creams are made with Organic Shea Butter, Cocoa Butter, Aloe Vera, Sunflower Oil, Almond Oil, Macadamia Nut Oil, Avocado, Chamomile and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Fast absorbing, non greasy yet beautifully moisturising, my customers keep coming back for more!

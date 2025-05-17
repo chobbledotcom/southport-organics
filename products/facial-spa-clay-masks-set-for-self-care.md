@@ -15,6 +15,8 @@ gallery:
   - /images/b49b442bd7461d56.jpg
   - /images/f7d2193574210f3a.jpg
   - /images/955e6ec13d909768.jpg
+meta_title: Luxury Clay Facial Mask Collection | Organic & Natural | Southport Organics
+meta_description: Experience our set of three natural clay masks with spa accessories. Handcrafted with organic ingredients for a rejuvenating, plastic-free skincare ritual.
 ---
 Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set of three facial masks complete with facial spa accessories 🧖🏼‍♀️
 

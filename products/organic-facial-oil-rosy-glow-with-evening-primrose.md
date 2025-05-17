@@ -20,6 +20,8 @@ specs:
     value: £15
   - name: Vegan
     value: Yes
+meta_title: Rosy Glow Organic Facial Oil | Evening Primrose & Rosehip | Southport Organics
+meta_description: Nourish your skin with our lightweight organic facial oil blended with evening primrose, rosehip and jojoba. 100% vegan, cruelty-free and natural skincare.
 ---
 
 🌹✨ Rosy Glow is a luxurious blend of nutrient-rich oils that deeply nourish and rejuvenate your skin. This lightweight, fast-absorbing formula delivers deep hydration while supporting collagen production and skin elasticity.

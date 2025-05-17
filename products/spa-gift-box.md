@@ -10,6 +10,8 @@ gallery:
   - /images/839abce7e3503a52.jpg
   - /images/cc1a48d3d56d64b5.jpg
   - /images/ce69cca8b14bfa50.jpg
+meta_title: Lavender & Rosehip Spa Gift Box | Bath & Face Care | Southport Organics
+meta_description: Unwind with our spa gift set featuring organic lavender bath salts and rosehip clay facial mask with accessories. Vegan, cruelty-free and eco-friendly.
 ---
 What better way to feel relaxed, renewed and pampered from head to toe than with a luxurious Organic Lavender Salt Soak and a revitalising Rosehip Clay Facial Mask! The perfect treat for skin and senses, this beautiful set comes beautifully packaged making it a gorgeous gift or self-care treat!
 

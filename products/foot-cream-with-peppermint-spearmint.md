@@ -21,6 +21,8 @@ specs:
     value: Yes
   - name: Cruelty Free
     value: Yes
+meta_title: Spearmint & Peppermint Herbal Foot Cream | Organic | Southport Organics
+meta_description: Revitalise tired feet with our cooling organic foot cream blended with spearmint, peppermint and shea butter. Vegan, cruelty-free and palm oil-free.
 ---
 
 Bring the twinkle back to your toes with an intensively comforting blend of vitamin E rich Almond, nourishing Avocado, deeply moisturising Shea Butter, fatty acid packed Macadamia Nut Oil and vitamin rich Rosehip to leave feet smoothed, softened and restored. Organic Spearmint & Peppermint essential oils cool and refresh leaving feet feeling like new again!

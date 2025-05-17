@@ -8,6 +8,8 @@ price: £22
 gallery:
   - /images/df8339c6ce929a84.jpg
   - /images/cc1a48d3d56d64b5.jpg
+meta_title: Peppermint & Spearmint Foot Spa Gift Box | Organic | Southport Organics
+meta_description: Pamper tired feet with our organic foot spa gift set featuring peppermint salt soak and spearmint foot cream. Vegan, cruelty-free and handmade in the UK.
 ---
 Indulge yourself or someone you love to a beautifully pampering experience with a Southport Organics Foot Spa Gift Box 🌱🎁 This luxurious set is thoughtfully curated to provide cool fresh rejuvenation for tired feet!
 

@@ -21,6 +21,8 @@ gallery:
   - /images/cc1954b2b5d2cbca.jpg
   - /images/fb42ceb931819e58.jpg
   - /images/90d777143b047b87.jpg
+meta_title: Rosy Balm Multi-Purpose Rescue Balm | Face & Body | Southport Organics
+meta_description: Our versatile vegan rescue balm hydrates face, body, hair and nails with a beautiful rose scent. Eco-friendly packaging and cruelty-free ingredients.
 ---
 Rosy Balm is an all-in-one hero product for nourished, radiant, smoothed & protected skin from top to toe! Hand crafted with care using a blend of high quality ingredients, this rosy scented balm is light, easily absorbed, and has a velvety finish - no greasy residue!
 
