@@ -181,5 +181,6 @@ body.sticky-mobile-nav nav .toggle-label span::after {
 }
 
 body > footer {
-  background: var(--color-link);
+  background: var(--color-bg);
+  color: var(--color-text);
 }
