@@ -15,3 +15,31 @@ Southport Organics is a family-run business creating natural, organic cosmetics 
 We use high quality ingredients - organic wherever possible - and our beautiful gift wrapping and postal packaging is 100% plastic-free. We also donate to a different animal charity each month!
 
 Whether you're looking for luxurious natural skincare or a beautifully wrapped gift complete with a handwritten note, our collection offers luxury skincare, bath, and body care hand crafted with love. Welcome!
+
+<div class="homepage-images">
+  <img
+    src="/images/homepage-1.jpg"
+    alt=""
+    eleventy:widths="204,306"
+    sizes="220px" />
+  <img
+    src="/images/homepage-2.jpg"
+    alt=""
+    eleventy:widths="204,306"
+    sizes="220px" />
+  <img
+    src="/images/homepage-3.jpg"
+    alt=""
+    eleventy:widths="204,306"
+    sizes="220px" />
+  <img
+    src="/images/homepage-4.jpg"
+    alt=""
+    eleventy:widths="204,306"
+    sizes="220px" />
+  <img
+    src="/images/homepage-5.jpg"
+    alt=""
+    eleventy:widths="204,306"
+    sizes="220px" />
+</div>
