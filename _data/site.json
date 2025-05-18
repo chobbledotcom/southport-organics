@@ -15,6 +15,7 @@
 	"horizontal_nav": false,
 	"homepage_products": false,
 	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
+	"chobble_link": "https://chobble.com/services/chobble-template/",
 	"products": {
 		"product_thumb_widths": "240,480,640",
 		"category_thumb_widths": "900,1300",
