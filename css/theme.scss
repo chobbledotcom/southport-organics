@@ -54,9 +54,9 @@ h6 {
   --width-content: 1080px;
   --width-content: 1300px;
 
-  --font-family-body:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 
   --color-bg: #111;
   --color-bg-secondary: #000;
@@ -183,6 +183,10 @@ body.sticky-mobile-nav nav .toggle-label span::after {
 body > footer {
   background: var(--color-bg);
   color: var(--color-text);
+  p a {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
 }
 
 .homepage-images {
