@@ -33,11 +33,6 @@ Whether you're looking for luxurious natural skincare or a beautifully wrapped g
     eleventy:widths="204,306"
     sizes="220px" />
   <img
-    src="/images/homepage-4.jpg"
-    alt=""
-    eleventy:widths="204,306"
-    sizes="220px" />
-  <img
     src="/images/homepage-5.jpg"
     alt=""
     eleventy:widths="204,306"
