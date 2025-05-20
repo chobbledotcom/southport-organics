@@ -20,7 +20,12 @@ print_status "👻 summoning @11ty/import"
 git clone --depth=1 --quiet https://github.com/11ty/eleventy-import/ "$TEMP_DIR" > "$LOG_FILE" 2>&1
 
 print_status "🔮 patching rss parser"
+# Fix media:description null issue
 sed -i 's/source\["media:description"\]\["#text"\]/source["media:description"]?.["#text"] || ""/g' \
+  "$TEMP_DIR/src/DataSource/Rss.js" >> "$LOG_FILE" 2>&1
+
+# Set contentType to html for RSS feeds so markdown conversion works
+sed -i 's/\/\/ contentType: "", \/\/ unknown/contentType: "html", \/\/ Set to html for markdown conversion/g' \
   "$TEMP_DIR/src/DataSource/Rss.js" >> "$LOG_FILE" 2>&1
 
 # Install dependencies quietly
@@ -31,15 +36,15 @@ npm install --quiet >> "$LOG_FILE" 2>&1
 # Run import
 print_status "🧟 transplanting blog posts"
 IMPORT_OUTPUT=$(node cli.js rss https://news.southportorganics.co.uk/rss/ \
-  --assetrefs=absolute \
+  --assetrefs=relative \
   --output=../../news \
   --format=markdown \
   --cacheduration=0 \
   --overwrite)
 echo "$IMPORT_OUTPUT"
 
-cd "$SCRIPT_DIR"
 print_status "🦇 disappearing"
+cd - > /dev/null 2>&1
 rm -rf "$TEMP_DIR"
 
 print_status "👻 ghosts captured successfully"
