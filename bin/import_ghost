@@ -36,7 +36,7 @@ npm install --quiet >> "$LOG_FILE" 2>&1
 # Run import
 print_status "🧟 transplanting blog posts"
 IMPORT_OUTPUT=$(node cli.js rss https://news.southportorganics.co.uk/rss/ \
-  --assetrefs=relative \
+  --assetrefs=absolute \
   --output=../../news \
   --format=markdown \
   --cacheduration=0 \

@@ -8,8 +8,8 @@ metadata:
   type: rss
   url: https://news.southportorganics.co.uk/rosy-glow-fans-this-one-is-for-you/
 ---
-![Rosy Glow Fans this one is for you!](assets/IMG_7068_jpg-bebDd2CBKjJW.jpeg)
+![Rosy Glow Fans this one is for you!](/assets/IMG_7068_jpg-bebDd2CBKjJW.jpeg)
 
 All your favourite Rosy Glow products together in one box!
 
-![](assets/IMG_7068_jpg-bebDd2CBKjJW.jpeg)
+![](/assets/IMG_7068_jpg-bebDd2CBKjJW.jpeg)
