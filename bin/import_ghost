@@ -1,52 +1,7 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p bash nodejs_23 git
-
-print_status() {
-  echo -e "\033[1A\033[K$1"
-}
+#! nix-shell -i bash -p bash nodejs_23 git node-glob
 
 SCRIPT_DIR="$(dirname "$0")"
-TEMP_DIR="$SCRIPT_DIR/temp-eleventy-import"
-LOG_FILE="/tmp/eleventy-import-$$.log"
-OUTPUT_DIR="$SCRIPT_DIR/../../news"
 
-echo "~~ spooky ghost importer 👻 ~~"
-echo ""
-
-rm -rf "$TEMP_DIR" 2>/dev/null
-mkdir -p "$TEMP_DIR"
-
-print_status "👻 summoning @11ty/import"
-git clone --depth=1 --quiet https://github.com/11ty/eleventy-import/ "$TEMP_DIR" > "$LOG_FILE" 2>&1
-
-print_status "🔮 patching rss parser"
-# Fix media:description null issue
-sed -i 's/source\["media:description"\]\["#text"\]/source["media:description"]?.["#text"] || ""/g' \
-  "$TEMP_DIR/src/DataSource/Rss.js" >> "$LOG_FILE" 2>&1
-
-# Set contentType to html for RSS feeds so markdown conversion works
-sed -i 's/\/\/ contentType: "", \/\/ unknown/contentType: "html", \/\/ Set to html for markdown conversion/g' \
-  "$TEMP_DIR/src/DataSource/Rss.js" >> "$LOG_FILE" 2>&1
-
-# Install dependencies quietly
-print_status "⚰️  gathering dependencies"
-cd "$TEMP_DIR"
-npm install --quiet >> "$LOG_FILE" 2>&1
-
-# Run import
-print_status "🧟 transplanting blog posts"
-IMPORT_OUTPUT=$(node cli.js rss https://news.southportorganics.co.uk/rss/ \
-  --assetrefs=absolute \
-  --output=../../news \
-  --format=markdown \
-  --cacheduration=0 \
-  --overwrite)
-echo "$IMPORT_OUTPUT"
-
-print_status "🦇 disappearing"
-cd - > /dev/null 2>&1
-rm -rf "$TEMP_DIR"
-
-print_status "👻 ghosts captured successfully"
-echo ""
-echo "🎃 yay"
+# Run the JavaScript implementation
+node "$SCRIPT_DIR/import_ghost.js"
