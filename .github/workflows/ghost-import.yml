@@ -1,0 +1,37 @@
+name: Import Ghost Posts
+
+on:
+  schedule:
+    # Run every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  import-ghost:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Nix
+        uses: cachix/install-nix-action@v26
+        
+      - name: Run Ghost Import
+        run: |
+          nix-shell -p bash nodejs_23 git node-glob --run "bin/import_ghost"
+          
+      - name: Check for changes
+        id: git-check
+        run: |
+          git status --porcelain
+          echo "changes=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+          
+      - name: Commit changes
+        if: steps.git-check.outputs.changes > 0
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add news/
+          git commit -m "Auto-import Ghost posts [skip ci]"
+          git push
