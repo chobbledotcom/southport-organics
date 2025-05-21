@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p bash nodejs_23 git node-glob
+#! nix-shell -i bash -p bash nodePackages_latest.nodejs git node-glob
 
 SCRIPT_DIR="$(dirname "$0")"
 
