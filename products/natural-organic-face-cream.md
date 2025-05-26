@@ -1,9 +1,9 @@
 ---
 title: Calm Cream Organic Moisturiser
-price: £12
 header_image: /images/aed1b19697294a71.jpg
 categories:
   - face-care
+price: £12.50
 gallery:
   - /images/aed1b19697294a71.jpg
   - /images/a464589f9373b70c.jpg
@@ -14,19 +14,12 @@ gallery:
   - /images/bb19c06e95e4cc9c.jpg
   - /images/b48b462bd7461d56.jpg
   - /images/975de8cada889e30.jpg
-  - /images/8fed39c2021cf47a.jpg
-specs:
-  - name: Price
-    value: £12
-  - name: Vegan
-    value: Yes
-  - name: Cruelty Free
-    value: Yes
+meta_description: Soothe sensitive skin with our fragrance-free organic face
+  cream blended with hemp seed oil, rosehip and oat. 100% vegan and cruelty-free
+  skincare.
 meta_title: Calm Cream Organic Face Moisturiser | For Sensitive Skin | Southport Organics
-meta_description: Soothe sensitive skin with our fragrance-free organic face cream blended with hemp seed oil, rosehip and oat. 100% vegan and cruelty-free skincare.
 ---
-
-Introducing Calm Cream 😌 A deeply nourishing and calming facial cream particularly suitable for dry & sensitive skin. This fragrance free formula is made using natural ingredients best known for their soothing & repairing properties:
+Introducing Calm Cream. A deeply nourishing and calming facial cream particularly suitable for dry & sensitive skin. This fragrance free formula is made using natural ingredients best known for their soothing & repairing properties:
 
 ## Key Ingredients
 
@@ -46,9 +39,9 @@ Suitable for all skin types
 
 Calm Cream is rich yet non-greasy and very fast absorbing. Skin is left feeling pampered, hydrated and velvety smooth. It has a delicate almond scent which comes naturally from almond oil.
 
-Packaged in eco-friendly glass, Calm Cream is the perfect natural face cream that's gentle on skin and on the planet! 🌎
+Packaged in eco-friendly glass, Calm Cream is the perfect natural face cream that's gentle on skin and on the planet!
 
-Vegan, Cruelty Free & Palm Oil Free 🦧
+Vegan, Cruelty Free & Palm Oil Free.
 
 ## How to use
 
@@ -66,11 +59,11 @@ Southport Organics products are made using only the purest, highest quality, fre
 
 ## Product details
 
-- ✍🏼 Gift messages are free with every order!
-- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-- 📮 Fast despatch + Royal Mail 24hr Tracked
-- 🐰 Vegan, Cruelty Free & Palm Free
-- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- Gift messages are free with every order!
+- All Southport Organics orders are beautifully packaged using eco friendly materials
+- Fast despatch + Royal Mail 24hr Tracked
+- Vegan, Cruelty Free & Palm Free
+- With your support, Southport Organics donates £50 to a different animal charity each month
 
 ## Ingredients
 
