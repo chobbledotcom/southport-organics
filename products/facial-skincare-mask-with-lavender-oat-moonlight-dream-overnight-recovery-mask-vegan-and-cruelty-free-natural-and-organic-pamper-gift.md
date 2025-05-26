@@ -12,12 +12,14 @@ gallery:
   - /images/bb19c06e95e4cc9c.jpg
   - /images/be22e493272359d9.jpg
   - /images/975de8cada889e30.jpg
+meta_description: Replenish your skin while you sleep with our soothing lavender
+  and oat overnight mask with hyaluronic acid. 100% vegan, natural and organic
+  skincare.
 meta_title: Lavender & Oat Overnight Recovery Mask | Hyaluronic Acid | Southport Organics
-meta_description: Replenish your skin while you sleep with our soothing lavender and oat overnight mask with hyaluronic acid. 100% vegan, natural and organic skincare.
 ---
-Moonlight Dream Overnight Mask with Lavender, Oat & Hyaluronic Acid
+Moonlight Dream is our dreamy Overnight Mask with Lavender, Oat & Hyaluronic Acid!
 
-Let Moonlight Dream hug your skin & soul with soothing hydration and calming aromatherapy as you sleep. Infused with Organic Oat Glycerin, Organic Shea Butter, Hyaluronic Acid, and dreamy Lavender, this ultra-nourishing mask comforts, repairs, and deeply moisturises, leaving skin soft, smooth, and replenished by morning.
+Let Moonlight Dream hug your skin & soul with soothing hydration and calming aromatherapy. Infused with Organic Oat Glycerin, Organic Shea Butter, Hyaluronic Acid, and dreamy Lavender, this ultra-nourishing mask comforts, repairs, and deeply moisturises, leaving skin soft, smooth, and replenished by morning.
 
 This gorgeously creamy yet fast-absorbing formula is enriched with a powerful blend of antioxidant rich botanical extracts, including Sea Buckthorn, Pomegranate, and Aloe Vera, to protect, restore, and revitalise.
 
@@ -40,7 +42,7 @@ Perfect for all skin types, especially those in need of deep hydration, soothing
 
 ## How to Use
 
-Massage a generous amount into cleansed skin. Leave on overnight. Use as often as you wish.
+Massage a generous amount into cleansed skin. Leave on overnight. No need to rinse off. Use as often as you wish.
 
 ## Ingredients
 
@@ -54,9 +56,9 @@ Suitable for use during pregnancy.
 
 ## Product details
 
-- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-- ✍🏼 Gift messages are free with every order!
-- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-- 📮 Fast despatch + Royal Mail 24hr Tracked
-- 🐰 Vegan, Cruelty Free & Palm Free
-- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- Gift messages are free with every order!
+- All Southport Organics orders are beautifully packaged using eco friendly materials
+- Fast despatch + Royal Mail 24hr Tracked
+- Vegan, Cruelty Free & Palm Free
+- With your support, Southport Organics donates £50 to a different animal charity each month
