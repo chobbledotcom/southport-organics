@@ -8,12 +8,11 @@ gallery:
   - /images/99717102f0de6be8.jpg
   - /images/cc1a48d3d56d64b5.jpg
   - /images/bb19c06e95e4cc9c.jpg
-  - /images/aedb15c6869392c6.jpg
   - /images/d5aa6e80569045ff.jpg
-  - /images/9fe869944e814c9f.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/b49b442bd7461d56.jpg
   - /images/975de8cada889e30.jpg
+  - /images/85b8bae7cc598139.jpg
 meta_description: Relax with our luxury bath salts blended with sea salt,
   Himalayan pink salt and essential oils. 100% vegan, cruelty-free and
   eco-friendly packaging.
