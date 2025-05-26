@@ -9,8 +9,17 @@ gallery:
   - /images/9085cb2e3c78d8fc.jpg
   - /images/cda5945a5bf44465.jpg
   - /images/ce69cca8b14bfa50.jpg
-meta_title: Luxury Lava Clay & Mint Facial Gift Set | Vegan & Plastic-Free | Southport Organics
-meta_description: Indulge in our handcrafted Lava Clay & Mint Facial Gift Box with organic clay mask and peppermint lip balm. 100% vegan, cruelty-free and eco-friendly.
+  - /images/95fc28371d903e9c.jpg
+  - /images/a6968d8d72e09b59.jpg
+  - /images/9fe868944e81cc9f.jpg
+  - /images/b48b462bd7461d56.jpg
+  - /images/b5a332f073a05b95.jpg
+  - /images/eb4acc70b10f899e.jpg
+meta_description: Indulge in our handcrafted Lava Clay & Mint Facial Gift Box
+  with organic clay mask and peppermint lip balm. 100% vegan, cruelty-free and
+  eco-friendly.
+meta_title: Luxury Lava Clay & Mint Facial Gift Set | Vegan & Plastic-Free |
+  Southport Organics
 ---
 Deeply cleanse, tone & revitalise skin with this gorgeously gift wrapped set containing a Calming Lava Clay & Organic Oatmeal Facial Mask complete with facial spa accessories, and an indulgent creamy Lip Balm made with organic Cocoa Butter, Jojoba Oil & natural Peppermint Essential Oil!
 
@@ -24,7 +33,7 @@ Bursting with vitamins and minerals, these diy powder masks are fully customisab
 - Organic Lip Balm 10g
 - Bamboo spoon, mixing bowl and muslin cotton facial cloth
 
-The sachets are made from Earth friendly, biodegradable glassine, and all other accessories and materials including gift wrapping and outer postal packaging are plastic free making this a beautiful eco friendly and zero waste gift.
+The sachets are made from Earth friendly, biodegradable glassine, and all other accessories and materials including gift wrapping and outer postal packaging are plastic free making this a beautiful eco friendly and zero waste gift!
 
 Treat yourself or someone you love today!
 
