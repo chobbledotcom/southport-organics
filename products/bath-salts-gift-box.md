@@ -15,10 +15,12 @@ gallery:
   - /images/b48b462bd7461d56.jpg
   - /images/975de8cada889e30.jpg
   - /images/85b8bae7cc598139.jpg
+meta_description: Indulge in our collection of three organic bath salts with
+  lavender, rose geranium and peppermint essential oils. Vegan, cruelty-free and
+  beautifully packaged.
 meta_title: Luxury Bath Salts Trio Gift Set | Organic Essential Oils | Southport Organics
-meta_description: Indulge in our collection of three organic bath salts with lavender, rose geranium and peppermint essential oils. Vegan, cruelty-free and beautifully packaged.
 ---
-Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts...
+Treat yourself or a loved one to a luxurious trio of handmade Organic Bath Salts!
 
 Each 300g glass jar is filled with a revitalising combination of Sea Salt, Himalayan Pink Salt, and Epsom Salts, bursting with over 80 essential minerals to nourish body & mind!
 
