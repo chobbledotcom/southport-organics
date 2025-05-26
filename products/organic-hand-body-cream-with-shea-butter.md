@@ -1,10 +1,10 @@
 ---
 title: Organic Hand & Body Cream
-price: £10
 header_image: /images/d83f67258a8459cd.jpg
 categories:
   - hand-care
   - bath-and-body
+price: £10
 gallery:
   - /images/d83f67258a8459cd.jpg
   - /images/d2eb79d290fe0ac0.jpg
@@ -15,18 +15,11 @@ gallery:
   - /images/d5aae6a0d78045d7.jpg
   - /images/84dd19f0b225ae3b.jpg
   - /images/975de8cada889e30.jpg
-  - /images/f2e52cb5653899c2.jpg
-specs:
-  - name: Price
-    value: £10
-  - name: Vegan
-    value: Yes
-  - name: Cruelty Free
-    value: Yes
+meta_description: Nourish your skin with our fast-absorbing organic hand and
+  body cream with shea butter, aloe vera and essential oils. 100% vegan and
+  cruelty-free.
 meta_title: Organic Hand & Body Cream | Shea & Cocoa Butter | Southport Organics
-meta_description: Nourish your skin with our fast-absorbing organic hand and body cream with shea butter, aloe vera and essential oils. 100% vegan and cruelty-free.
 ---
-
 Southport Organic's luxurious natural Hand & Body Creams are made with Organic Shea Butter, Cocoa Butter, Aloe Vera, Sunflower Oil, Almond Oil, Macadamia Nut Oil, Avocado, Chamomile and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Fast absorbing, non greasy yet beautifully moisturising, my customers keep coming back for more!
 
 ## Choose from
@@ -47,9 +40,9 @@ Ingredients: Aqua, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyros
 
 ## Product details
 
-- 🍊 Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-- ✍🏼 Gift messages are free with every order!
-- 🌿 All Southport Organics orders are beautifully packaged using eco friendly materials
-- 📮 Fast despatch + Royal Mail 24hr Tracked
-- 🐰 Vegan & Cruelty Free
-- 🐾 With your support, Southport Organics donates £50 to a different animal charity each month
+- Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+- Gift messages are free with every order!
+- All Southport Organics orders are beautifully packaged using eco friendly materials
+- Fast despatch + Royal Mail 24hr Tracked
+- Vegan & Cruelty Free
+- With your support, Southport Organics donates £50 to a different animal charity each month
