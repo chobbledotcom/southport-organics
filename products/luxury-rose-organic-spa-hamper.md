@@ -24,7 +24,6 @@ gallery:
   - /images/eb4acc70b10f899e.jpg
   - /images/b49b442bd7461d56.jpg
   - /images/975de8cada889e30.jpg
-  - /images/8283ad1b17dcb16d.jpg
 meta_description: Indulge in our luxurious rose-scented spa collection with bath
   salts, facial mask, hand cream and body balm. 100% vegan, cruelty-free and
   handcrafted.
