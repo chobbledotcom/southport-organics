@@ -2,7 +2,7 @@ media:
   input: images
   output: /images
   path: images
-  categories: [ image ]
+  categories: [image]
 content:
   - name: pages
     label: Pages
@@ -62,6 +62,7 @@ content:
           value: "{path}"
           label: "{title}"
       - { name: price, label: Price, type: string }
+      - { name: etsy_url, label: Etsy URL, type: string }
       - { name: body, label: Body, type: code, options: { language: markdown } }
       - { name: features, type: string, label: Features, list: true }
       - name: gallery
