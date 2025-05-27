@@ -23,20 +23,20 @@ Whether you're looking for luxurious natural skincare or a beautifully wrapped g
     src="/images/homepage-1.jpg"
     alt=""
     eleventy:widths="204,306"
-    sizes="220px" />
+    sizes="auto" />
   <img
     src="/images/homepage-2.jpg"
     alt=""
     eleventy:widths="204,306"
-    sizes="220px" />
+    sizes="auto" />
   <img
     src="/images/homepage-3.jpg"
     alt=""
     eleventy:widths="204,306"
-    sizes="220px" />
+    sizes="auto" />
   <img
     src="/images/homepage-5.jpg"
     alt=""
     eleventy:widths="204,306"
-    sizes="220px" />
+    sizes="auto" />
 </div>
