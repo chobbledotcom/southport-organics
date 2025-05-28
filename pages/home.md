@@ -13,7 +13,7 @@ Welcome to Southport Organics! We create natural, organic cosmetics by the sea, 
 
 We use high quality ingredients - organic wherever possible - and our beautiful gift wrapping and postal packaging is 100% plastic-free. Every order supports our monthly donations to animal charities.
 
-Whether you're looking for natural skincare or a beautifully wrapped gift complete with handwritten note, our collection offers luxurious skincare, bath, and body care hand crafted with love.
+Whether you're looking for natural skincare or a beautifully wrapped gift complete with handwritten note, our collection offers luxurious skincare, bath & body handcrafted with care.
 
 <div style="min-height: 58px;max-width: 440px;margin: 2rem auto;width: 100%"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#000000" data-button-text-color="#FFFFFF" data-site="https://news.southportorganics.co.uk/" data-locale="en" async></script></div>
 
