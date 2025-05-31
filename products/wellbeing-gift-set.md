@@ -7,6 +7,7 @@ categories:
   - face-care.md
   - hand-care.md
 price: £32
+etsy_url: https://southportorganics.etsy.com/
 features:
   - A deeply moisturising and uplifting Orange & Bergamot Rich Organic Hand
     Cream 50ml
