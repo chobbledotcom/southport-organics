@@ -5,6 +5,7 @@ categories:
   - bath-and-body
   - gift-sets
 price: £35
+etsy_url: https://southportorganics.etsy.com/
 features:
   - A deeply moisturising and uplifting Orange & Bergamot Rich Organic Hand
     Cream 50ml
