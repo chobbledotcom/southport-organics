@@ -5,6 +5,7 @@ categories:
   - hand-care
   - gift-sets
 price: £30
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/86cc39f0b217a69d.jpg
   - /images/d83f67258a8459cd.jpg
