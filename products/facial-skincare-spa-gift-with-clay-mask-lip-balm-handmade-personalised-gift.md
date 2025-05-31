@@ -5,6 +5,7 @@ categories:
   - face-care
   - gift-sets
 price: £17
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/9085cb2e3c78d8fc.jpg
   - /images/cda5945a5bf44465.jpg
