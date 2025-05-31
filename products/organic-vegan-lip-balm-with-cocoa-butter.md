@@ -4,6 +4,7 @@ header_image: /images/95fc28371d903e9c.jpg
 categories:
   - lip-care
 price: £5
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/95fc28371d903e9c.jpg
   - /images/93bfdc6867062343.jpg
