@@ -6,6 +6,7 @@ categories:
   - bath-salts
   - face-care
 price: £22
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/839abce7e3503a52.jpg
   - /images/cc1a48d3d56d64b5.jpg
