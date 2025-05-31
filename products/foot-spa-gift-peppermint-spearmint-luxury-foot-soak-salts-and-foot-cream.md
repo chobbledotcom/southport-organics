@@ -5,6 +5,7 @@ categories:
   - foot-care
   - gift-sets
 price: £22
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/df8339c6ce929a84.jpg
   - /images/cc1a48d3d56d64b5.jpg
