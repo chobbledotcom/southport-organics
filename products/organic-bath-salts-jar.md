@@ -4,6 +4,7 @@ header_image: /images/99717102f0de6be8.jpg
 categories:
   - bath-salts
 price: £10
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/99717102f0de6be8.jpg
   - /images/cc1a48d3d56d64b5.jpg
