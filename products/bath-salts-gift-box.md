@@ -5,6 +5,7 @@ categories:
   - bath-salts
   - gift-sets
 price: £30
+etsy_url: https://southportorganics.etsy.com/
 gallery:
   - /images/859bbee6955834c1.jpg
   - /images/cc1a48d3d56d64b5.jpg
