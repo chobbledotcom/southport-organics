@@ -5,6 +5,7 @@ categories:
   - bath-and-body
   - gift-sets
 price: £47
+etsy_url: https://southportorganics.etsy.com/
 features:
   - 300g Jar of Wild Rose Bath Salts
   - 20g Rosy Glow Facial Mask
