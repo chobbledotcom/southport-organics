@@ -5,6 +5,7 @@ categories:
   - bath-and-body
   - face-care
 price: £15
+etsy_url: https://southportorganics.etsy.com/
 features:
   - Deeply hydrates and nourishes dry, rough patches on the face and body.
   - Smooths skin and adds a healthy sheen.
