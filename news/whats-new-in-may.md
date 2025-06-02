@@ -1,9 +1,16 @@
 ---
-title: What’s new in May!
-header_image: /news/images/whats-new-in-may-1.jpeg
-subtitle: "It’s been a busy month! "
+title: What’s new in May?!
+authors: 
+- name: Southport Organics
+date: 2025-05-26T17:22:26.000Z
+metadata: 
+uuid: 11ty/import::rss::6834a10ce432920001216d08
+type: rss
+url: https://news.southportorganics.co.uk/whats-new-in-may/
+subtitle: What’s new in May?!
 header_text: What’s new in May?!
 meta_title: What’s new in May?!
+header_image: /news/images/whats-new-in-may-1.jpeg
 ---
 ![What’s new in May?!](/news/images/whats-new-in-may-1.jpeg)
 
