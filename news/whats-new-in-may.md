@@ -1,5 +1,5 @@
 ---
-title: What’s new in May?
+title: What’s new in May!
 header_image: /news/images/whats-new-in-may-1.jpeg
 subtitle: "It’s been a busy month! "
 header_text: What’s new in May?!
