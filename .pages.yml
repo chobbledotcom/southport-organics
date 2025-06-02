@@ -109,3 +109,13 @@ content:
           search: "title"
           value: "{path}"
           label: "{title}"
+
+  - name: snippets
+    label: Snippets
+    path: snippets
+    type: collection
+    subfolders: false
+    filename: '{primary}.md'
+    fields:
+      - { name: name, type: string, label: Name }
+      - { name: body, label: Body, type: code, options: { language: markdown } }⏎
