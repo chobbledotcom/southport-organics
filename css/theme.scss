@@ -48,12 +48,14 @@ h6 {
   --justify-important: center;
   --justify-normal: left;
   --line-height: 1.8;
+  --border-radius: 0;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
   --width-card: 285px;
   --width-content: 1080px;
   --width-content: 1300px;
 
+  --font-family-heading: "Playfair Display", system;
   --font-family-body:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -69,11 +71,6 @@ h6 {
   --border: 2px solid rgba(255, 255, 255, 0.2);
   --width-content: 1300px;
   --line-height: 2;
-}
-
-nav,
-article {
-  background: var(--color-bg-secondary);
 }
 
 nav {
@@ -152,10 +149,6 @@ ul.items {
       text-decoration: none;
     }
   }
-}
-
-a {
-  color: var(--color-link);
 }
 
 ul.image-gallery li {
