@@ -94,7 +94,7 @@ nav {
 }
 
 body.left-nav main {
-  @media (min-width: 769px) {
+  @media (min-width: 789px) {
     grid-template-columns: 10rem 1fr !important;
     grid-template-rows: 1fr min-content !important;
     grid-template-areas: "nav content" !important;
@@ -113,22 +113,10 @@ header {
   }
 }
 
-form.contact-form {
-  background: #000;
-  box-shadow: none;
-  color: var(--color-text);
-  label {
-    color: var(--color-text);
-  }
-  button {
-    color: var(--color-text);
-  }
-}
-
 ul.items {
   & > * {
     width: 100%;
-    @media (min-width: 798px) {
+    @media (min-width: 789px) {
       width: calc((100% - 2rem) / 3);
     }
     @media (min-width: 900px) {
@@ -180,15 +168,21 @@ body > footer {
     color: var(--color-text);
     text-decoration: underline;
   }
+  .socials li a img {
+    filter: invert(100%);
+  }
 }
 
 .homepage-images {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem;
   margin: 2rem 0 0;
-  & > .image-wrapper {
-    flex: 0 0 calc(50% - 0.5rem);
+  @media (min-width: 789px) {
+    flex-direction: row;
+    & > .image-wrapper {
+      flex: 0 0 calc(50% - 0.5rem);
+    }
   }
 }
