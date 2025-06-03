@@ -2,7 +2,7 @@
 name: Tess, Etsy Customer
 url: https://southportorganics.etsy.com/listing/1325831780
 products:
-  - products/facial-skincare-spa-gift-with-clay-mask-lip-balm-handmade-personalised-gift.md
+  - products/lava-clay-mint-facial-gift.md
 ---
 ⭐️⭐️⭐️⭐️⭐️
 
