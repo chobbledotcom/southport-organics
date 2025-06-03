@@ -61,7 +61,7 @@ content:
           collection: categories
           multiple: true
           search: "title"
-          value: "{path}"
+          value: "{slug}"
           label: "{title}"
       - { name: price, label: Price, type: string }
       - { name: etsy_url, label: Etsy URL, type: string }
