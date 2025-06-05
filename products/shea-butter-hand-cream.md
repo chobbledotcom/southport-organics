@@ -5,7 +5,7 @@ categories:
   - hand-care
   - bath-and-body
 price: £10
-etsy_url: https://southportorganics.etsy.com/
+etsy_url: https://southportorganics.etsy.com/listing/1864141287
 gallery:
   - /images/d83f67258a8459cd.jpg
   - /images/d2eb79d290fe0ac0.jpg
