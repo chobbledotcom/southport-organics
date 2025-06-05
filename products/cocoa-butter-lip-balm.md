@@ -1,5 +1,6 @@
 ---
 title: Organic Lip Balm
+header_image: /images/IMG_7077_jpg.jpeg
 categories:
   - lip-care
 price: £5
@@ -15,17 +16,15 @@ meta_description: Nourish your lips with our organic peppermint lip balm made
   packaging.
 meta_title: Organic Peppermint Lip Balm | Cocoa Butter & Jojoba | Southport Organics
 ---
-Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oil and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Beautifully balmy, long lasting and deeply conditioning you'll want to take these everywhere with you!
+Southport Organic's luxurious Lip Balms are made with Organic Cocoa Butter, Jojoba Oil, Castor Oil and Natural Essential Oils. Free from artificial fragrance, parabens, pegs, petroleum and other nasties. Beautifully balmy, long lasting and deeply conditioning you'll want to take these everywhere with you! Choose from Juicy Mandarin & Peppermint!
 
 ## Ingredients
-
-### Peppermint
 
 - Organic Raw Cocoa Butter
 - Organic Jojoba Oil
 - Organic Castor Oil
 - Candelilla Wax (Plant-based)
-- Peppermint Essential oil
+- Natural Essential oil
 
 ## Product details
 
