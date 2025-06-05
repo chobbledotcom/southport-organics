@@ -1,10 +1,9 @@
 ---
-title: Peppermint Lip Balm
-header_image: /images/95fc28371d903e9c.jpg
+title: Organic Lip Balm
 categories:
   - lip-care
 price: £5
-etsy_url: https://southportorganics.etsy.com/
+etsy_url: https://southportorganics.etsy.com/listing/1868286947
 gallery:
   - /images/95fc28371d903e9c.jpg
   - /images/93bfdc6867062343.jpg
