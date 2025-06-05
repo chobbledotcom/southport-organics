@@ -4,7 +4,7 @@ header_image: /images/b0de64c495b4bbb0.jpg
 categories:
   - foot-care
 price: £10
-etsy_url: https://southportorganics.etsy.com/
+etsy_url: https://southportorganics.etsy.com/listing/1303920510
 gallery:
   - /images/b0de64c495b4bbb0.jpg
   - /images/dfcf60101f333c1c.jpg
