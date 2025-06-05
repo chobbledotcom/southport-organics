@@ -4,7 +4,7 @@ header_image: /images/aed1b19697294a71.jpg
 categories:
   - face-care
 price: £12.50
-etsy_url: https://southportorganics.etsy.com/
+etsy_url: https://southportorganics.etsy.com/listing/1486842151
 gallery:
   - /images/aed1b19697294a71.jpg
   - /images/a464589f9373b70c.jpg
