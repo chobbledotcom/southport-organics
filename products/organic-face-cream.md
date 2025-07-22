@@ -3,7 +3,7 @@ title: Calm Cream Organic Moisturiser
 header_image: /images/aed1b19697294a71.jpg
 categories:
   - face-care
-price: £12.50
+price: £20
 etsy_url: https://southportorganics.etsy.com/listing/1486842151
 gallery:
   - /images/aed1b19697294a71.jpg
@@ -14,7 +14,6 @@ gallery:
   - /images/a664148bd3b7724d.jpg
   - /images/bb19c06e95e4cc9c.jpg
   - /images/b48b462bd7461d56.jpg
-  - /images/975de8cada889e30.jpg
 meta_description: Soothe sensitive skin with our fragrance-free organic face
   cream blended with hemp seed oil, rosehip and oat. 100% vegan and cruelty-free
   skincare.
@@ -50,7 +49,7 @@ Gently massage into clean skin as often as required.
 
 ## Product information
 
-Volume: 50ml or 100ml
+Volume: 100ml
 
 Packaging: Earth friendly Glass
 
@@ -64,7 +63,6 @@ Southport Organics products are made using only the purest, highest quality, fre
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
 
 ## Ingredients
 
