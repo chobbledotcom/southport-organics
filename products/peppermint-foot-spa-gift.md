@@ -54,4 +54,3 @@ Sea Salt, Himalayan Salts, Epsom Salts, Organic Peppermint Oil.
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
