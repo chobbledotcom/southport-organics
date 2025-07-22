@@ -8,12 +8,10 @@ etsy_url: https://southportorganics.etsy.com/listing/1303920510
 gallery:
   - /images/b0de64c495b4bbb0.jpg
   - /images/dfcf60101f333c1c.jpg
-  - /images/bb19c06e95e4cc9c.jpg
   - /images/9fe868944e81cc9f.jpg
   - /images/d5aae6a0d78045d7.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/b48b462bd7461d56.jpg
-  - /images/975de8cada889e30.jpg
   - /images/8a8b2d2be5618377.jpg
 meta_description: Revitalise tired feet with our cooling organic foot cream
   blended with spearmint, peppermint and shea butter. Vegan, cruelty-free and
@@ -45,4 +43,3 @@ Contains Almond & Macadamia Nut Oils.
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
