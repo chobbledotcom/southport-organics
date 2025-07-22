@@ -4,7 +4,7 @@ header_image: /images/8389bcf6e358156a.jpg
 categories:
   - bath-and-body
   - gift-sets
-price: £35
+price: £37
 etsy_url: https://southportorganics.etsy.com/listing/1783509538
 features:
   - A deeply moisturising and uplifting Orange & Bergamot Rich Organic Hand
@@ -26,14 +26,13 @@ gallery:
   - /images/b49b442bd7461d56.jpg
   - /images/d5aae6a0d78045d7.jpg
   - /images/eb4acc70b10f899e.jpg
-  - /images/975de8cada889e30.jpg
 meta_description: Refresh and rejuvenate with our citrus and mint gift box
   featuring bath salts, hand cream, facial mask and lip balm. 100% vegan and
   environmentally friendly.
 meta_title: Citrus & Mint Luxury Gift Box | Organic Skincare Collection |
   Southport Organics
 ---
-Feel clean and refreshed with fruity sweet orange, zesty pink grapefruit, matcha green tea and uplifting peppermint!
+Feel clean and refreshed with fruity sweet orange, zesty pink grapefruit, matcha green tea and uplifting peppermint.
 
 ## This beautifully wrapped care package includes:
 
@@ -47,7 +46,7 @@ Feel clean and refreshed with fruity sweet orange, zesty pink grapefruit, matcha
 
 A freshly handmade blend of mineral rich salts and organic essential oils chosen for their reviving & uplifting properties. Layers of Himalayan Pink Salts, Epsom Salts and Sea Salts soothe, cleanse and refresh bringing a feeling of general well-being.
 
-## Orange & Bergamot Rich Organic Hand Cream
+## Orange & Bergamot Organic Hand & Body Cream
 
 Made with Organic Shea Butter, Cocoa Butter and Aloe Vera this deeply moisturising yet fast absorbing cream pampers hands while boosting your mood.
 
@@ -61,9 +60,10 @@ Made with organic Cocoa Butter, Jojoba Oil & refreshing tingly Peppermint this l
 
 ## Product details
 
-- Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
-- Gift messages are free with every order!
-- All Southport Organics orders are beautifully packaged using eco friendly materials
-- Fast despatch + Royal Mail 24hr Tracked
-- Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
+• Free handwritten gift message with every order
+• Thoughtfully packaged with eco-conscious materials & beautiful dried botanicals
+• 100% Vegan | Cruelty-Free | Palm-Free
+• Safe for sensitive skin
+• CPSR Compliant
+• Free from artificial fragrance, colour, parabens, sillicones, petroleum derivatives or sulphates.
+• Fast dispatch with Royal Mail 24hr Tracked
