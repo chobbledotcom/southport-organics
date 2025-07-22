@@ -13,7 +13,6 @@ gallery:
   - /images/bb19c06e95e4cc9c.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/b48b462bd7461d56.jpg
-  - /images/975de8cada889e30.jpg
 meta_description: Nourish your skin with our lightweight organic facial oil
   blended with evening primrose, rosehip and jojoba. 100% vegan, cruelty-free
   and natural skincare.
@@ -49,6 +48,6 @@ Organic Evening Primrose Oil, Organic Rosehip Oil, Organic Thistle Oil, Organic 
 - Beautifully packaged with eco-friendly materials.
 - Fast dispatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty-Free & Palm-Free.
-- With your support, Southport Organics donates £50 to a different animal charity each month.
+
 
 Indulge your skin with Rosy Glow today!
