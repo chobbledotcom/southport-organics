@@ -26,7 +26,6 @@ gallery:
   - /images/b49b442bd7461d56.jpg
   - /images/d5aae6a0d78045d7.jpg
   - /images/eb4acc70b10f899e.jpg
-  - /images/975de8cada889e30.jpg
 meta_description: Revitalise with our handcrafted wellbeing gift set featuring
   grapefruit bath salts, orange hand cream and matcha mask. 100% vegan and
   environmentally friendly.
@@ -62,4 +61,3 @@ Gently exfoliating, moisturising and soothing botanicals and mineral rich clay s
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
