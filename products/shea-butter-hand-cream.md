@@ -9,13 +9,12 @@ etsy_url: https://southportorganics.etsy.com/listing/1864141287
 gallery:
   - /images/d83f67258a8459cd.jpg
   - /images/d2eb79d290fe0ac0.jpg
-  - /images/b49b442bd7461d56.jpg
   - /images/948872233bff7a88.jpg
   - /images/9fe869944e814c9f.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/d5aae6a0d78045d7.jpg
   - /images/84dd19f0b225ae3b.jpg
-  - /images/975de8cada889e30.jpg
+  - /images/b49b442bd7461d56.jpg
 meta_description: Nourish your skin with our fast-absorbing organic hand and
   body cream with shea butter, aloe vera and essential oils. 100% vegan and
   cruelty-free.
@@ -46,4 +45,3 @@ Ingredients: Aqua, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyros
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan & Cruelty Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
