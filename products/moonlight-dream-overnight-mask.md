@@ -3,7 +3,7 @@ title: Lavender & Oat Moonlight Dream Overnight Recovery Mask
 header_image: /images/ad2fc242169d9537.jpg
 categories:
   - face-care
-price: £20
+price: £22
 etsy_url: https://southportorganics.etsy.com/listing/1884779467
 gallery:
   - /images/ad2fc242169d9537.jpg
@@ -12,13 +12,12 @@ gallery:
   - /images/eb4acc70b10f899e.jpg
   - /images/bb19c06e95e4cc9c.jpg
   - /images/be22e493272359d9.jpg
-  - /images/975de8cada889e30.jpg
 meta_description: Replenish your skin while you sleep with our soothing lavender
   and oat overnight mask with hyaluronic acid. 100% vegan, natural and organic
   skincare.
 meta_title: Lavender & Oat Overnight Recovery Mask | Hyaluronic Acid | Southport Organics
 ---
-Moonlight Dream is our dreamy Overnight Mask with Lavender, Oat & Hyaluronic Acid!
+A dreamy Overnight Mask with Lavender, Oat & Hyaluronic Acid.
 
 Let Moonlight Dream hug your skin & soul with soothing hydration and calming aromatherapy. Infused with Organic Oat Glycerin, Organic Shea Butter, Hyaluronic Acid, and dreamy Lavender, this ultra-nourishing mask comforts, repairs, and deeply moisturises, leaving skin soft, smooth, and replenished by morning.
 
@@ -62,4 +61,3 @@ Suitable for use during pregnancy.
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
