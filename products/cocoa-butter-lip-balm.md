@@ -3,7 +3,7 @@ title: Organic Lip Balm
 header_image: /images/IMG_7077_jpg.jpeg
 categories:
   - lip-care
-price: £5
+price: £6
 etsy_url: https://southportorganics.etsy.com/listing/1868286947
 gallery:
   - /images/95fc28371d903e9c.jpg
