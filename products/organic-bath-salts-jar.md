@@ -12,7 +12,6 @@ gallery:
   - /images/d5aa6e80569045ff.jpg
   - /images/eb4acc70b10f899e.jpg
   - /images/b49b442bd7461d56.jpg
-  - /images/975de8cada889e30.jpg
   - /images/85b8bae7cc598139.jpg
 meta_description: Relax with our luxury bath salts blended with sea salt,
   Himalayan pink salt and essential oils. 100% vegan, cruelty-free and
@@ -32,7 +31,6 @@ Choose from a variety of beautiful fragrances, each thoughtfully handcrafted wit
 - Deep Calm (Lavender)
 - Wild Rose (Rose Geranium)
 - Refresh (Pink Grapefruit & Mint)
-- Citrus & Rose (Sweet Orange & Rose)
 - Cooling Peppermint Foot Soak
 
 Treat yourself or let someone know that you care! Embrace the soothing power of nature and let your worries drift away with every aromatic bath.
@@ -44,4 +42,3 @@ Treat yourself or let someone know that you care! Embrace the soothing power of 
 - All Southport Organics orders are beautifully packaged using eco friendly materials
 - Fast despatch + Royal Mail 24hr Tracked
 - Vegan, Cruelty Free & Palm Free
-- With your support, Southport Organics donates £50 to a different animal charity each month
