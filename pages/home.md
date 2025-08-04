@@ -9,7 +9,10 @@ eleventyNavigation:
 layout: home.html
 permalink: /
 ---
-Welcome to Southport Organics! Home of natural, organic, vegan and eco friendly skincare, bath, body and gifts. We offer beautiful gift wrapping made from earth friendly materials and all postal packaging is 100% plastic-free too!
+Welcome to Southport Organics! We're a family business creating natural, organic cosmetics by the sea, sandy beaches and vast pine woods of Southport! Inspired by natural ingredients and with a passion for self-care, we care for the planet and its animals too, which is why all products are vegan, cruelty-free, and Earth-conscious!
+We use high quality ingredients - organic wherever possible - and our beautiful gift wrapping and postal packaging is 100% plastic-free!
+
+Whether you're looking for some self care treats or a beautifully wrapped gift our collection offers luxurious skincare, bath and body products handcrafted with care.
 
 Subscribe to our email list for news, discounts and giveaways!
 
