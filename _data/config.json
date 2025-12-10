@@ -18,9 +18,9 @@
 	"chobble_link": "https://chobble.com/examples/southport-organics/",
 	"products": {
 		"product_thumb_widths": "240,480,640",
-		"category_thumb_widths": "900,1300",
+		"category_thumb_widths": "450,900,1300",
 		"gallery_thumb_widths": "240,480",
-		"gallery_image_widths": "900,1300",
+		"gallery_image_widths": "450,900,1300",
 		"header_image_widths": "640,900,1300"
 	}
 }
