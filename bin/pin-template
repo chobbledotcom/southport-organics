@@ -5,21 +5,56 @@ set -euo pipefail
 
 REPO="chobbledotcom/chobble-template"
 BRANCH="main"
-WORKFLOW_FILE=".github/workflows/build-and-deploy.yml"
 
-# Get the latest commit SHA from the GitHub API
-echo "Fetching latest commit SHA for $REPO..."
-LATEST_SHA=$(curl -sL "https://api.github.com/repos/$REPO/commits/$BRANCH" | grep -m1 '"sha":' | cut -d'"' -f4)
+# Get the directory where this script lives, then find repo root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+WORKFLOW_FILE="$REPO_ROOT/.github/workflows/build-and-deploy.yml"
 
-if [[ -z "$LATEST_SHA" ]]; then
-  echo "Error: Failed to fetch latest commit SHA"
+if [[ ! -f "$WORKFLOW_FILE" ]]; then
+  echo "Error: Workflow file not found: $WORKFLOW_FILE"
   exit 1
 fi
 
-echo "Latest commit: $LATEST_SHA"
+# Get the latest commit SHA from the GitHub API
+echo "Fetching latest commit SHA for $REPO..."
+API_URL="https://api.github.com/repos/$REPO/commits/$BRANCH"
 
-# Update the workflow file - replace the ref line for chobble-template
-# Matches both 'ref: main' and 'ref: <sha>' patterns
-sed -i "s/ref: .*/ref: $LATEST_SHA/" "$WORKFLOW_FILE"
+if ! API_RESPONSE=$(curl -sfL "$API_URL" 2>&1); then
+  echo "Error: Failed to fetch from GitHub API"
+  echo "curl exit code: $?"
+  echo "$API_RESPONSE"
+  exit 1
+fi
 
-echo "Updated $WORKFLOW_FILE to pin chobble-template at $LATEST_SHA"
+LATEST_SHA=$(printf '%s' "$API_RESPONSE" | grep -m1 '"sha"' | sed 's/.*"sha": *"\([a-f0-9]*\)".*/\1/')
+
+if [[ -z "$LATEST_SHA" || ${#LATEST_SHA} -ne 40 ]]; then
+  echo "Error: Failed to parse commit SHA (got: '$LATEST_SHA')"
+  echo "API response:"
+  printf '%s' "$API_RESPONSE" | head -10
+  exit 1
+fi
+
+# Get current SHA from workflow file
+CURRENT_SHA=$(grep -o 'ref: [a-f0-9]\{40\}' "$WORKFLOW_FILE" | sed 's/ref: //' || echo "")
+
+if [[ "$CURRENT_SHA" == "$LATEST_SHA" ]]; then
+  echo "Already at latest commit: $LATEST_SHA"
+  exit 0
+fi
+
+echo "Current: ${CURRENT_SHA:-not found}"
+echo "Latest:  $LATEST_SHA"
+
+# Update the workflow file - match only the ref line with a SHA or branch name
+# Use a more specific pattern that targets the chobble-template checkout block
+sed -i "s/\(ref: \)[a-f0-9]\{40\}/\1$LATEST_SHA/" "$WORKFLOW_FILE"
+
+# Verify the change was made
+if grep -q "ref: $LATEST_SHA" "$WORKFLOW_FILE"; then
+  echo "Updated $WORKFLOW_FILE to pin chobble-template at $LATEST_SHA"
+else
+  echo "Error: Failed to update workflow file"
+  exit 1
+fi

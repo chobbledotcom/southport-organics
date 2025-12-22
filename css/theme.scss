@@ -36,41 +36,30 @@ h6 {
   }
 }
 :root {
-  --active-brightness: 0.85;
-  --border-radius: 5px;
-  --border-radius-small: 0;
-  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  --color-accent: #118bee15;
-  --color-scrollbar: #cacae8;
-  --color-shadow: #f4f4f4;
-  --color-table: #118bee;
-  --hover-brightness: 1.2;
-  --justify-important: center;
-  --justify-normal: left;
-  --line-height: 1.8;
+  // Base 5-color model
+  --color-bg: #000;
+  --color-text: #eee;
+  --color-link: #fff;
+  --color-link-hover: #fff;
+  --border: 2px solid rgba(255, 255, 255, 0.2);
+
+  // Non-color variables
   --border-radius: 0;
+  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  --line-height: 2;
+  --width-content: 1300px;
+  --width-card: 285px;
   --width-card-medium: 460px;
   --width-card-wide: 800px;
-  --width-card: 285px;
-  --width-content: 1080px;
-  --width-content: 1300px;
 
   --font-family-heading: "Playfair Display", system;
   --font-family-body:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
-  --color-bg: #111;
-  --color-bg-secondary: #000;
-  --color-bg-main: #000;
-  --color-link: #fff;
-  --color-secondary: #eee;
-  --color-secondary-accent: #eee;
-  --color-text: #eee;
-  --outer-border-radius: 0;
-  --border: 2px solid rgba(255, 255, 255, 0.2);
-  --width-content: 1300px;
-  --line-height: 2;
+body {
+  background: #111;
 }
 
 nav {
@@ -103,8 +92,10 @@ body.left-nav main {
 
 header {
   h1 {
-    color: white;
-    background: rgba(49, 21, 7, 0.6);
+    --color-text: white;
+    --color-bg: rgba(49, 21, 7, 0.6);
+    color: var(--color-text);
+    background: var(--color-bg);
     border: 2px solid #c8aea5;
     width: fit-content;
     margin: 0 auto;
