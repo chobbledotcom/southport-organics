@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Pin the chobble-template reference in GitHub workflow to the latest commit SHA
+
+REPO="chobbledotcom/chobble-template"
+BRANCH="main"
+WORKFLOW_FILE=".github/workflows/build-and-deploy.yml"
+
+# Get the latest commit SHA from the GitHub API
+echo "Fetching latest commit SHA for $REPO..."
+LATEST_SHA=$(curl -sL "https://api.github.com/repos/$REPO/commits/$BRANCH" | grep -m1 '"sha":' | cut -d'"' -f4)
+
+if [[ -z "$LATEST_SHA" ]]; then
+  echo "Error: Failed to fetch latest commit SHA"
+  exit 1
+fi
+
+echo "Latest commit: $LATEST_SHA"
+
+# Update the workflow file - replace the ref line for chobble-template
+# Matches both 'ref: main' and 'ref: <sha>' patterns
+sed -i "s/ref: .*/ref: $LATEST_SHA/" "$WORKFLOW_FILE"
+
+echo "Updated $WORKFLOW_FILE to pin chobble-template at $LATEST_SHA"
