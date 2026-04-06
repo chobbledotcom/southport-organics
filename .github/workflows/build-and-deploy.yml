@@ -11,7 +11,7 @@ concurrency:
 jobs:
   setup:
     name: Merge, Build, Publish
-    runs-on: ubicloud-16
+    runs-on: ubicloud-standard-16
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4
