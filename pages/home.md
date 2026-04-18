@@ -9,15 +9,13 @@ eleventyNavigation:
 layout: home.html
 permalink: /
 ---
-Welcome to Southport Organics! We create natural handcrafted cosmetics by the sea, sandy beaches and vast pine woods of Southport.
+Step into nature.
 
-Inspired by natural ingredients and with a passion for self-care, we care for the planet and its animals too, which is why all products are vegan, cruelty-free, and sustainable.
+From the sea, sandy beaches and vast pine woods of Southport, our family business is inspired by nature and a passion for self-care.
 
-We use high quality ingredients - organic wherever possible - and our beautiful gift wrapping and postal packaging is 100% plastic-free too.
+We care for the planet and its animals too, which is why all our of our products are natural, organic where possible, vegan & cruelty-free. Our stunning gift wrapping and postal packaging is 100% plastic-free too!
 
-Whether looking for self-care treats or a beautifully wrapped gift, our collection offers luxurious products handcrafted with care.
-
-Subscribe to our email list to be the first to hear about news, discounts and giveaways!
+Welcome.
 
 <div style="min-height: 58px;max-width: 440px;margin: 2rem auto;width: 100%"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#000000" data-button-text-color="#FFFFFF" data-site="https://news.southportorganics.co.uk/" data-locale="en" async></script></div>
 
