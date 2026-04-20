@@ -1,7 +1,6 @@
 ---
-name: Janine, Etsy Customer
+name: Janine
 url: https://southportorganics.etsy.com/listing/1482938091
-products: []
 ---
 ⭐️⭐️⭐️⭐️⭐️
 
