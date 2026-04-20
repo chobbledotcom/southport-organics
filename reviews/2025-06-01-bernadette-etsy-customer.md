@@ -1,5 +1,5 @@
 ---
-name: Bernadette, Etsy Customer
+name: Bernadette
 url: https://southportorganics.etsy.com/listing/1718943204
 products:
   - products/rosy-face-body-balm.md
