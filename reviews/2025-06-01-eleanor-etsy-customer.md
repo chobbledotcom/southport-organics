@@ -1,5 +1,5 @@
 ---
-name: Eleanor, Etsy Customer
+name: Eleanor
 url: https://southportorganics.etsy.com/listing/1863883220
 products:
   - products/organic-bath-salts-jar.md
