@@ -1,7 +1,6 @@
 ---
-name: Tess, Etsy Customer
+name: Tess
 url: https://southportorganics.etsy.com/listing/1325831780
-products: []
 ---
 ⭐️⭐️⭐️⭐️⭐️
 
