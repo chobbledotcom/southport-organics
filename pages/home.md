@@ -1,6 +1,5 @@
 ---
 header_text: Southport Botanicals
-subtitle: Botanical self-care, inspired by nature.
 meta_description: Luxury Organic Self Care & Gifts - Planet & Animal Friendly
 meta_title: Southport Organics | Luxury Organic Self Care & Gifts
 eleventyNavigation:
@@ -9,15 +8,15 @@ eleventyNavigation:
 layout: home.html
 permalink: /
 ---
+A new chapter...
+
 Southport Organics is now Southport Botanicals.
 
 We’ve grown and evolved, but our love of nature, beautiful botanical products and thoughtful self-care remains at the heart of everything we do.
 
-Inspired by the natural beauty of Southport, we create beautiful bath, body and skincare products, alongside thoughtful gifts designed to bring a little more calm and connection with nature to everyday life.
+Inspired by the natural beauty of Southport, we create beautiful bath, body, skincare and gifts designed to bring a little more calm and connection with nature to everyday life.
 
-Our products are vegan and cruelty-free, with natural ingredients, organic wherever possible. We also care deeply about reducing our impact on the planet, which is why our gift wrapping and postal packaging is all plastic-free.
-
-Discover the Southport Botanicals collection over on Etsy now.
+Our products are vegan and cruelty-free, made with high quality natural ingredients, organic wherever possible. We also care deeply about reducing our impact on the planet, which is why our gift wrapping and postal packaging is all plastic-free.
 
 <a href="https://southportbotanicals.etsy.com" target="_blank" style="display:inline-block; padding:14px 28px; background:#000000; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:600;">Explore Southport Botanicals on Etsy →</a>
 
