@@ -1,8 +1,7 @@
 ---
 name: Aleksandra
 url: https://southportorganics.etsy.com/
-products:
-  - products/rose-spa-hamper.md
+products: []
 ---
 ⭐️⭐️⭐️⭐️⭐️
 
