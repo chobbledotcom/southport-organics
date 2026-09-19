@@ -4,14 +4,6 @@ header_image: /images/a66e5d1982a2197f.jpg
 categories:
   - categories/face-care.md
 etsy_url: https://southportbotanicals.etsy.com/
-gallery:
-  - /images/a66e5d1982a2197f.jpg
-  - /images/cd245aabb5d5a84a.jpg
-  - /images/ce4666c999999197.jpg
-  - /images/95d534003f993fd4.jpg
-  - /images/bb19c06e95e4cc9c.jpg
-  - /images/eb4acc70b10f899e.jpg
-  - /images/b48b462bd7461d56.jpg
 meta_description: Nourish your skin with our lightweight organic facial oil
   blended with evening primrose, rosehip and jojoba. 100% vegan, cruelty-free
   and natural skincare.
