@@ -1,11 +1,10 @@
 ---
-title: Rosy Balm Face & Body Rescue Balm
+title: Bath & Body
 header_image: /images/9c0ed0f96accc873.jpg
 categories:
   - bath-and-body
   - face-care
-price: £15
-etsy_url: https://southportorganics.etsy.com/listing/1804969873
+etsy_url: https://southportbotanicals.etsy.com/
 features:
   - Deeply hydrates and nourishes dry, rough patches on the face and body.
   - Smooths skin and adds a healthy sheen.
