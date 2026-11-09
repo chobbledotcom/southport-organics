@@ -135,6 +135,24 @@ ul.items {
   }
 }
 
+// The template's reviews-list.html include emits design-system classes
+// (ul.grid.reviews-grid), but the reviews layouts (reviews.html and
+// item-reviews.html) render through the legacy base layout, which has no
+// .design-system ancestor. So the grid layout never applies and the cards
+// fall back to the design system's light --color-accent behind our light text.
+ul.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  gap: 2rem;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+
+  & > li {
+    background: var(--color-card-bg);
+  }
+}
+
 ul.image-gallery li {
   img {
     aspect-ratio: 1;
